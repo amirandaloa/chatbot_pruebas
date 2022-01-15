@@ -1,0 +1,4714 @@
+﻿# ReturningMenuAdaptiveCard
+[Activity
+    Attachments = ${json(MenuAdaptiveCard())}
+]
+
+# MenuAdaptiveCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Disculpa sigo sin entender, pero pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias",
+        "id": "Menu"
+      }}
+      ,
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu factura",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }},
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revision periodica",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Información general",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+
+# ReturningMenuQuaviiAdaptiveCard
+[Activity
+    Attachments = ${json(MenuQuaviiAdaptiveCard())}
+]
+
+# MenuQuaviiAdaptiveCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Disculpa sigo sin entender, pero pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias",
+        "id": "Menu"
+      }}
+      ,
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu factura",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }},
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revision periodica",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Información general",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+# ReturningMenuPrincipalAdaptiveCard
+[Activity
+    Attachments = ${json(MenuPrincipalAdaptiveCard())}
+]
+
+# MenuPrincipalAdaptiveCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias",
+        "id": "Menu"
+      }}
+      ,
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu factura",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }},
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revision periodica",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Otras solicitudes",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+# ReturningMenuPrincipalAdaptiveCardSTG
+[Activity
+    Attachments = ${json(MenuPrincipalAdaptiveCardSTG())}
+]
+
+# MenuPrincipalAdaptiveCardSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias",
+        "id": "Menu"
+      }}
+      ,
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu factura",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }},
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revision periodica",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Otras solicitudes",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+
+# ReturningMenuPrincipalAdaptiveCardCEO
+[Activity
+    Attachments = ${json(MenuPrincipalAdaptiveCardCEO())}
+]
+
+# MenuPrincipalAdaptiveCardCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [    
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu factura",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Otras solicitudes",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+
+# ReturningMenuPrincipalAdaptiveCardGDO
+[Activity
+    Attachments = ${json(MenuPrincipalAdaptiveCardGDO())}
+]
+
+# MenuPrincipalAdaptiveCardGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias",
+        "id": "Menu"
+      }}
+      ,
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu factura",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }},
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revision periodica",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Otras solicitudes",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+
+# ReturningMenuPrincipalAdaptiveCardQUAVII
+[Activity
+    Attachments = ${json(MenuPrincipalAdaptiveCardQUAVII())}
+]
+
+# MenuPrincipalAdaptiveCardQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias",
+        "id": "Menu"
+      }}
+      ,
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu recibo",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }},
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revision periodica",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Otras solicitudes",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+
+# ReturningMenuPrincipalQuaviiAdaptiveCard
+[Activity
+    Attachments = ${json(MenuPrincipalQuaviiAdaptiveCard())}
+]
+
+# MenuPrincipalQuaviiAdaptiveCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias",
+        "id": "Menu"
+      }}
+      ,
+    {
+      "type": "Action.Submit",
+      "title": "Conectate al servicio",
+      "data": {
+        "boton": "Conectate al servicio",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tu recibo",
+      "data": {
+        "boton": "Facturacion y pagos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pagos",
+      "data": {
+        "boton": "Pagos",
+        "id": "Menu"
+      }},
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revision periodica",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Gestión deuda",
+      "data": {
+        "boton": "Gestion deuda",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios técnicos",
+      "data": {
+        "boton": "Servicios técnicos",
+        "id": "Menu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Otras solicitudes",
+      "data": {
+        "boton": "Informacion general",
+        "id": "Menu"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningEmergencias
+[Activity
+    Attachments = ${json(Emergencias())}
+]
+
+# Emergencias
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Emergencias",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Incendio en el hogar",
+      "data": {
+        "boton": "Incendio en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Explosión en el hogar",
+      "data": {
+        "boton": "Explosion en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Ausencia de gas en el hogar",
+      "data": {
+        "boton": "Ausencia de gas en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Daño en la red",
+      "data": {
+        "boton": "Daño en la red"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningEmergenciasCEO
+[Activity
+    Attachments = ${json(EmergenciasCEO())}
+]
+
+# EmergenciasCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Daños y emergencias",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Riesgo de vida",
+      "data": {
+        "boton": "Riesgo de vida"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Ausencia del servicio",
+      "data": {
+        "boton": "Ausencia del servicio"
+      }
+    }
+  ]
+}
+```
+
+# ReturningEmergenciasSTG
+[Activity
+    Attachments = ${json(EmergenciasSTG())}
+]
+
+# EmergenciasSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Emergencias",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Incendio en el hogar",
+      "data": {
+        "boton": "Incendio en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Explosión en el hogar",
+      "data": {
+        "boton": "Explosion en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Ausencia de gas en el hogar",
+      "data": {
+        "boton": "Ausencia de gas en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Daño en la red",
+      "data": {
+        "boton": "Daño en la red"
+      }
+    }
+  ]
+}
+```
+
+# ReturningEmergenciasGDO
+[Activity
+    Attachments = ${json(EmergenciasGDO())}
+]
+
+# EmergenciasGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Emergencias",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Incendio en el hogar",
+      "data": {
+        "boton": "Incendio en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Explosión en el hogar",
+      "data": {
+        "boton": "Explosion en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Ausencia de gas en el hogar",
+      "data": {
+        "boton": "Ausencia de gas en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Daño en la red",
+      "data": {
+        "boton": "Daño en la red"
+      }
+    }
+  ]
+}
+```
+# ReturningEmergenciasQUAVII
+[Activity
+    Attachments = ${json(EmergenciasQUAVII())}
+]
+
+# EmergenciasQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Emergencias",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Fuga dentro del hogar",
+      "data": {
+        "boton": "Fuga dentro del hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Incendio en el hogar",
+      "data": {
+        "boton": "Incendio en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Explosión en el hogar",
+      "data": {
+        "boton": "Explosion en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Ausencia de gas en el hogar",
+      "data": {
+        "boton": "Ausencia de gas en el hogar"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Daño en la red",
+      "data": {
+        "boton": "Daño en la red"
+      }
+    }
+  ]
+}
+```
+
+# ReturningConectate
+[Activity
+    Attachments = ${json(Conectate())}
+]
+
+# Conectate
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Conectate al servicio",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud de servicio",
+      "data": {
+        "boton": "Solicitud de servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Factibilidad del servicio",
+      "data": {
+        "boton": "Factibilidad del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Viabilidad/ disponibilidad",
+      "data": {
+        "boton": "Viabilidad/ disponibilidad"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningConectateQUAVII
+[Activity
+    Attachments = ${json(ConectateQUAVII())}
+]
+
+# ConectateQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Conectate al servicio",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud de servicio",
+      "data": {
+        "boton": "Solicitud de servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Factibilidad del servicio",
+      "data": {
+        "boton": "Factibilidad del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Viabilidad/ disponibilidad",
+      "data": {
+        "boton": "Viabilidad/ disponibilidad"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningConectateSTG
+[Activity
+    Attachments = ${json(ConectateSTG())}
+]
+
+# ConectateSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Conectate al servicio",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud de servicio",
+      "data": {
+        "boton": "Solicitud de servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Factibilidad del servicio",
+      "data": {
+        "boton": "Factibilidad del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Viabilidad/ disponibilidad",
+      "data": {
+        "boton": "Viabilidad/ disponibilidad"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningConectateGDO
+[Activity
+    Attachments = ${json(ConectateGDO())}
+]
+
+# ConectateGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Conectate al servicio",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud de servicio",
+      "data": {
+        "boton": "Solicitud de servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Factibilidad del servicio",
+      "data": {
+        "boton": "Factibilidad del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Viabilidad/ disponibilidad",
+      "data": {
+        "boton": "Viabilidad/ disponibilidad"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningConectateCEO
+[Activity
+    Attachments = ${json(ConectateCEO())}
+]
+
+# ConectateCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Conectate al servicio",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud de servicio",
+      "data": {
+        "boton": "Solicitud de servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Factibilidad del servicio",
+      "data": {
+        "boton": "Factibilidad del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Viabilidad/ disponibilidad",
+      "data": {
+        "boton": "Viabilidad/ disponibilidad"
+      }
+    }
+  ]
+}
+```
+
+# ReturningBrilla_Seguro
+[Activity
+    Attachments = ${json(Brilla_Seguro())}
+]
+
+# Brilla_Seguro
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Brilla y seguros",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "¿Qué es Brilla?",
+      "data": {
+        "boton": "Que es Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cupo de brilla",
+      "data": {
+        "boton": "Cupo de brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Unión de cupos Brilla",
+      "data": {
+        "boton": "Une tu cupo Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Aliados Brilla",
+      "data": {
+        "boton": "Aliados Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Portafolio de productos y servicios",
+      "data": {
+        "boton": "Portafolio Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Bloqueo de cupo Brilla",
+      "data": {
+        "boton": "Bloqueo Brilla y seguros"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Garantía de productos Brilla",
+      "data": {
+        "boton": "Garantias Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Utiliza tu cupo",
+      "data": {
+        "boton": "Utiliza tu cupo"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Adquiere tu seguro",
+      "data": {
+        "boton": "Adquiere tu seguro"
+      }
+    }
+  ]
+}
+```
+
+# ReturningBrilla_SeguroGDO
+[Activity
+    Attachments = ${json(Brilla_SeguroGDO())}
+]
+
+# Brilla_SeguroGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Brilla y seguros",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "¿Qué es Brilla?",
+      "data": {
+        "boton": "Que es Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cupo de brilla",
+      "data": {
+        "boton": "Cupo de brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Une tu cupo Brilla",
+      "data": {
+        "boton": "Une tu cupo Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Aliados Brilla",
+      "data": {
+        "boton": "Aliados Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Portafolio de productos y servicios",
+      "data": {
+        "boton": "Portafolio Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Bloqueo de cupo Brilla",
+      "data": {
+        "boton": "Bloqueo Brilla y seguros"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Garantía de productos Brilla",
+      "data": {
+        "boton": "Garantias Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Utiliza tu cupo de Brilla",
+      "data": {
+        "boton": "Utiliza tu cupo"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Adquiere tu seguro",
+      "data": {
+        "boton": "Adquiere tu seguro"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningBrilla_SeguroSTG
+[Activity
+    Attachments = ${json(Brilla_SeguroSTG())}
+]
+
+# Brilla_SeguroSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Brilla y seguros",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Qué es Brilla",
+      "data": {
+        "boton": "Que es Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cupo de brilla",
+      "data": {
+        "boton": "Cupo de brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Unificar cupos brilla",
+      "data": {
+        "boton": "Une tu cupo Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Aliados Brilla",
+      "data": {
+        "boton": "Aliados Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Productos para financiar con brilla",
+      "data": {
+        "boton": "Portafolio Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Bloquear cupo brilla",
+      "data": {
+        "boton": "Bloqueo Brilla y seguros"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Garantias Brilla",
+      "data": {
+        "boton": "Garantias Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Como puedo obtener el credito brilla",
+      "data": {
+        "boton": "Adquiere tu seguro"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Como puedo utilizar el cupo brilla",
+      "data": {
+        "boton": "Utiliza tu cupo"
+      }
+    }
+  ]
+}
+```
+
+# ReturningBrilla_SeguroCEO
+[Activity
+    Attachments = ${json(Brilla_SeguroCEO())}
+]
+
+# Brilla_SeguroCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Brilla y seguros",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+   {
+      "type": "Action.Submit",
+      "title": "¿Qué es Brilla?",
+      "data": {
+        "boton": "Que es Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cupo de brilla",
+      "data": {
+        "boton": "Cupo de brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Une tu cupo Brilla",
+      "data": {
+        "boton": "Une tu cupo Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Aliados Brilla",
+      "data": {
+        "boton": "Aliados Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Portafolio de productos y servicios",
+      "data": {
+        "boton": "Portafolio Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Bloqueo de cupo Brilla",
+      "data": {
+        "boton": "Bloqueo Brilla y seguros"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Garantía de productos Brilla",
+      "data": {
+        "boton": "Garantias Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Utiliza tu cupo de Brilla",
+      "data": {
+        "boton": "Utiliza tu cupo"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Adquiere tu seguro",
+      "data": {
+        "boton": "Adquiere tu seguro"
+      }
+    }
+  ]
+}
+```
+
+# ReturningBrilla_SeguroQUAVII
+[Activity
+    Attachments = ${json(Brilla_SeguroQUAVII())}
+]
+
+# Brilla_SeguroQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Brilla y seguros",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Qué es Brilla",
+      "data": {
+        "boton": "Que es Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cupo de brilla",
+      "data": {
+        "boton": "Cupo de brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Unificar cupos brilla",
+      "data": {
+        "boton": "Une tu cupo Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Aliados Brilla",
+      "data": {
+        "boton": "Aliados Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Productos para financiar con brilla",
+      "data": {
+        "boton": "Portafolio Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Bloquear cupo brilla",
+      "data": {
+        "boton": "Bloqueo Brilla y seguros"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Garantias Brilla",
+      "data": {
+        "boton": "Garantias Brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Como puedo obtener el credito brilla",
+      "data": {
+        "boton": "Adquiere tu seguro"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Como puedo utilizar el cupo brilla",
+      "data": {
+        "boton": "Utiliza tu cupo"
+      }
+    }
+  ]
+}
+```
+
+
+
+
+
+
+
+# ReturningTu_Recibo
+[Activity
+    Attachments = ${json(Tu_Recibo())}
+]
+
+# Tu_Recibo
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Tu Recibo",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Valida tu consumo",
+      "data": {
+        "boton": "Consumo facturado"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Última lectura",
+      "data": {
+        "boton": "Ultima lectura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Genera tu recibo",
+      "data": {
+        "boton": "Consulta y generacion de factura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Valor, fecha límite y referencia pago",
+      "data": {
+        "boton": "Valor, fecha limite y referencia pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Consulta deuda total",
+      "data": {
+        "boton": "Deuda actual y diferida"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado de tu recibo",
+      "data": {
+        "boton": "Certificado de tus facturas"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado de deuda pendiente",
+      "data": {
+        "boton": "Certificado deuda diferida"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Conoce tu recibo",
+      "data": {
+        "boton": "Explicacion de la factura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Información tarifaria",
+      "data": {
+        "boton": "Informacion tarifas"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Exención de contribución",
+      "data": {
+        "boton": "Exencion de contribucion"
+      }
+    }
+  ]
+}
+```
+
+# ReturningTu_Factura
+[Activity
+    Attachments = ${json(Tu_Factura())}
+]
+
+# Tu_Factura
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Tu Factura",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Valida tu consumo",
+      "data": {
+        "boton": "Consumo facturado"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Última lectura",
+      "data": {
+        "boton": "Ultima lectura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Genera tu factura",
+      "data": {
+        "boton": "Consulta y generacion de factura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Valor, fecha límite y referencia pago",
+      "data": {
+        "boton": "Valor, fecha limite y referencia pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Consulta deuda total",
+      "data": {
+        "boton": "Deuda actual y diferida"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado de tu factura",
+      "data": {
+        "boton": "Certificado de tus facturas"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado de deuda pendiente",
+      "data": {
+        "boton": "Certificado deuda diferida"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Conoce tu factura",
+      "data": {
+        "boton": "Explicacion de la factura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Información tarifaria",
+      "data": {
+        "boton": "Informacion tarifas"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Exención de contribución",
+      "data": {
+        "boton": "Exencion de contribucion"
+      }
+    }
+  ]
+}
+```
+# ReturningTu_FacturaGDO
+[Activity
+    Attachments = ${json(Tu_FacturaGDO())}
+]
+
+# Tu_FacturaGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Tu Factura",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }        
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Valida tu consumo",
+      "data": {
+        "boton": "Consumo facturado"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Última lectura",
+      "data": {
+        "boton": "Ultima lectura"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Conoce tu factura",
+      "data": {
+        "boton": "Explicacion de la factura"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Información tarifaria",
+      "data": {
+        "boton": "Informacion tarifas"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Exención de contribución",
+      "data": {
+        "boton": "Exencion de contribucion"
+      }
+    }
+  ]
+}
+```
+
+# ReturningTu_FacturaCEO
+[Activity
+    Attachments = ${json(Tu_FacturaCEO())}
+]
+
+# Tu_FacturaCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Tu Factura",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }        
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Valida tu consumo",
+      "data": {
+        "boton": "Consumo facturado"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Última lectura",
+      "data": {
+        "boton": "Ultima lectura"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Conoce tu factura",
+      "data": {
+        "boton": "Explicacion de la factura"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Información tarifaria",
+      "data": {
+        "boton": "Informacion tarifas"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Exención de contribución",
+      "data": {
+        "boton": "Exencion de contribucion"
+      }
+    }
+  ]
+}
+```
+
+# ReturningTu_FacturaSTG
+[Activity
+    Attachments = ${json(Tu_FacturaSTG())}
+]
+
+# Tu_FacturaSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Tu Factura",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }        
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Valida tu consumo",
+      "data": {
+        "boton": "Consumo facturado"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Última lectura",
+      "data": {
+        "boton": "Ultima lectura"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Conoce tu factura",
+      "data": {
+        "boton": "Explicacion de la factura"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Información tarifaria",
+      "data": {
+        "boton": "Informacion tarifas"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Exención de contribución",
+      "data": {
+        "boton": "Exencion de contribucion"
+      }
+    }
+  ]
+}
+```
+
+# ReturningTu_FacturaQUAVII
+[Activity
+    Attachments = ${json(Tu_FacturaQUAVII())}
+]
+
+# Tu_FacturaQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Tu Factura",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }        
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Valida tu consumo",
+      "data": {
+        "boton": "Consumo facturado"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Última lectura",
+      "data": {
+        "boton": "Ultima lectura"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Conoce tu factura",
+      "data": {
+        "boton": "Explicacion de la factura"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Información tarifaria",
+      "data": {
+        "boton": "Informacion tarifas"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Exención de contribución",
+      "data": {
+        "boton": "Exencion de contribucion"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningPagos
+[Activity
+    Attachments = ${json(Pagos())}
+]
+
+# Pagos
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Pagos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicita tu cupón de pago anticipado",
+      "data": {
+        "boton": "Solicita tu cupon de pago anticipado"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Traslado de pago",
+      "data": {
+        "boton": "Traslado de pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado de pago",
+      "data": {
+        "boton": "Constancia de pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Reconexión del servicio",
+      "data": {
+        "boton": "Reconexion del servicio"
+      }
+      },{
+      "type": "Action.Submit",
+      "title": "Estado reconexión por pago",
+      "data": {
+        "boton": "Estado reconexión por pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Puntos de pagos",
+      "data": {
+        "boton": "Puntos de pagos"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Pago con tarjeta crédito",
+      "data": {
+        "boton": "Pago con tarjeta credito"
+      }
+    }
+  ]
+}
+```
+# ReturningPagosGDO
+[Activity
+    Attachments = ${json(PagosGDO())}
+]
+
+# PagosGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Pagos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de pago",
+      "data": {
+        "boton": "Traslado de pago"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Reconexión del servicio",
+      "data": {
+        "boton": "Reconexion del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado reconexión por pago",
+      "data": {
+        "boton": "Estado reconexión por pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Puntos de pagos",
+      "data": {
+        "boton": "Puntos de pagos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pago con tarjeta crédito",
+      "data": {
+        "boton": "Pago con tarjeta credito"
+      }
+    }
+  ]
+}
+```
+
+# ReturningPagosSTG
+[Activity
+    Attachments = ${json(PagosSTG())}
+]
+
+# PagosSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Pagos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de pago",
+      "data": {
+        "boton": "Traslado de pago"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Reconexión del servicio",
+      "data": {
+        "boton": "Reconexion del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado reconexión por pago",
+      "data": {
+        "boton": "Estado reconexión por pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Puntos de pagos",
+      "data": {
+        "boton": "Puntos de pagos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pago con tarjeta crédito",
+      "data": {
+        "boton": "Pago con tarjeta credito"
+      }
+    }
+  ]
+}
+```
+
+# ReturningPagosCEO
+[Activity
+    Attachments = ${json(PagosCEO())}
+]
+
+# PagosCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Pagos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de pago",
+      "data": {
+        "boton": "Traslado de pago"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Reconexión del servicio",
+      "data": {
+        "boton": "Reconexion del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado reconexión por pago",
+      "data": {
+        "boton": "Estado reconexión por pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Puntos de pagos",
+      "data": {
+        "boton": "Puntos de pagos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pago con tarjeta crédito",
+      "data": {
+        "boton": "Pago con tarjeta credito"
+      }
+    }
+  ]
+}
+```
+
+# ReturningPagosQUAVII
+[Activity
+    Attachments = ${json(PagosQUAVII())}
+]
+
+# PagosQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Pagos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de pago",
+      "data": {
+        "boton": "Traslado de pago"
+      }
+    },    
+    {
+      "type": "Action.Submit",
+      "title": "Reconexión del servicio",
+      "data": {
+        "boton": "Reconexion del servicio"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado reconexión por pago",
+      "data": {
+        "boton": "Estado reconexión por pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Puntos de pagos",
+      "data": {
+        "boton": "Puntos de pagos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Pago con tarjeta crédito",
+      "data": {
+        "boton": "Pago con tarjeta credito"
+      }
+    }
+  ]
+}
+```
+
+
+# ReturningPagosQuavii
+[Activity
+    Attachments = ${json(PagosQuavii())}
+]
+
+# PagosQuavii
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Pagos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Abona a tu recibo",
+      "data": {
+        "boton": "Abona a tu factura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Solicita tu cupón de pago anticipado",
+      "data": {
+        "boton": "Solicita tu cupon de pago anticipado"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Traslado de pago",
+      "data": {
+        "boton": "Traslado de pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado de pago",
+      "data": {
+        "boton": "Constancia de pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Reconexión del servicio",
+      "data": {
+        "boton": "Reconexion del servicio"
+      }
+      },{
+      "type": "Action.Submit",
+      "title": "Estado reconexión por pago",
+      "data": {
+        "boton": "Estado reconexión por pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Puntos de pagos",
+      "data": {
+        "boton": "Puntos de pagos"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Pago con tarjeta crédito",
+      "data": {
+        "boton": "Pago con tarjeta credito"
+      }
+    }
+  ]
+}
+```
+
+# ReturningRevision_periodica
+[Activity
+    Attachments = ${json(Revision_periodica())}
+]
+
+# Revision_periodica
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Revisión periódica",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicite su revisión periódica",
+      "data": {
+        "boton": "revision periodica"
+         }
+      },{
+      "type": "Action.Submit",
+      "title": "Fecha próxima revisión periódica",
+      "data": {
+        "boton": "Fecha proxima revision periodica"
+      }
+    }
+  ]
+}
+```
+
+# ReturningRevision_periodicaGDO
+[Activity
+    Attachments = ${json(Revision_periodicaGDO())}
+]
+
+# Revision_periodicaGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Revisión periódica",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicite su revisión periódica",
+      "data": {
+        "boton": "revision periodica"
+         }
+      }
+  ]
+}
+```
+
+# ReturningRevision_periodicaSTG
+[Activity
+    Attachments = ${json(Revision_periodicaSTG())}
+]
+
+# Revision_periodicaSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Revisión periódica",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicite su revisión periódica",
+      "data": {
+        "boton": "revision periodica"
+         }
+      }
+  ]
+}
+```
+
+# ReturningRevision_periodicaCEO
+[Activity
+    Attachments = ${json(Revision_periodicaCEO())}
+]
+
+# Revision_periodicaCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Revisión periódica",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicite su revisión periódica",
+      "data": {
+        "boton": "revision periodica"
+         }
+      }
+  ]
+}
+```
+
+# ReturningRevision_periodicaQUAVII
+[Activity
+    Attachments = ${json(Revision_periodicaQUAVII())}
+]
+
+# Revision_periodicaQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Revisión periódica",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicite su revisión periódica",
+      "data": {
+        "boton": "revision periodica"
+         }
+      }
+  ]
+}
+```
+
+
+
+# ReturningGestion_Deuda
+[Activity
+    Attachments = ${json(Gestion_Deuda())}
+]
+
+# Gestion_Deuda
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Gestión Deuda",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Acuerdo de Pago",
+      "data": {
+        "boton": "Acuerdo de Pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de deuda o desmonte",
+      "data": {
+        "boton": "Traslado de deuda o desmonte"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Devolución saldo a favor",
+      "data": {
+        "boton": "Devolucion saldo a favor"
+      }
+    }
+  ]
+}
+```
+# ReturningGestion_DeudaGDO
+[Activity
+    Attachments = ${json(Gestion_DeudaGDO())}
+]
+
+# Gestion_DeudaGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Gestión Deuda",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Acuerdo de Pago",
+      "data": {
+        "boton": "Acuerdo de Pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de deuda o desmonte",
+      "data": {
+        "boton": "Traslado de deuda o desmonte"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Devolución saldo a favor",
+      "data": {
+        "boton": "Devolucion saldo a favor"
+      }
+    }
+  ]
+}
+```
+# ReturningGestion_DeudaSTG
+[Activity
+    Attachments = ${json(Gestion_DeudaSTG())}
+]
+
+# Gestion_DeudaSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Gestión Deuda",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Acuerdo de Pago",
+      "data": {
+        "boton": "Acuerdo de Pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de deuda o desmonte",
+      "data": {
+        "boton": "Traslado de deuda o desmonte"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Devolución saldo a favor",
+      "data": {
+        "boton": "Devolucion saldo a favor"
+      }
+    }
+  ]
+}
+```
+# ReturningGestion_DeudaCEO
+[Activity
+    Attachments = ${json(Gestion_DeudaCEO())}
+]
+
+# Gestion_DeudaCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Gestión Deuda",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Acuerdo de Pago",
+      "data": {
+        "boton": "Acuerdo de Pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de deuda o desmonte",
+      "data": {
+        "boton": "Traslado de deuda o desmonte"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Devolución saldo a favor",
+      "data": {
+        "boton": "Devolucion saldo a favor"
+      }
+    }
+  ]
+}
+```
+# ReturningGestion_DeudaQUAVII
+[Activity
+    Attachments = ${json(Gestion_DeudaQUAVII())}
+]
+
+# Gestion_DeudaQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Gestión Deuda",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Acuerdo de Pago",
+      "data": {
+        "boton": "Acuerdo de Pago"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Traslado de deuda o desmonte",
+      "data": {
+        "boton": "Traslado de deuda o desmonte"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Devolución saldo a favor",
+      "data": {
+        "boton": "Devolucion saldo a favor"
+      }
+    }
+  ]
+}
+```
+# ReturningServicios_tecnicos
+[Activity
+    Attachments = ${json(Servicios_tecnicos())}
+]
+
+
+# Servicios_tecnicos
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Servicios técnicos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud servicio técnico",
+      "data": {
+        "boton": "Solicitud servicio tecnico"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempo de atención",
+      "data": {
+        "boton": "Tiempo de atencion"
+      }
+    }
+  ]
+}
+```
+# ReturningServicios_tecnicosGDO
+[Activity
+    Attachments = ${json(Servicios_tecnicosGDO())}
+]
+
+
+# Servicios_tecnicosGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Servicios técnicos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud servicio técnico",
+      "data": {
+        "boton": "Solicitud servicio tecnico"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempo de atención",
+      "data": {
+        "boton": "Tiempo de atencion"
+      }
+    }
+  ]
+}
+```
+# ReturningServicios_tecnicosSTG
+[Activity
+    Attachments = ${json(Servicios_tecnicosSTG())}
+]
+
+
+# Servicios_tecnicosSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Servicios técnicos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Adecuación, modificación y mantenimiento",
+      "data": {
+        "boton": "Solicitud servicio tecnico"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempo de atención",
+      "data": {
+        "boton": "Tiempo de atencion"
+      }
+    }
+  ]
+}
+```
+# ReturningServicios_tecnicosCEO
+[Activity
+    Attachments = ${json(Servicios_tecnicosCEO())}
+]
+
+
+# Servicios_tecnicosCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Servicios técnicos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud servicio técnico",
+      "data": {
+        "boton": "Solicitud servicio tecnico"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempo de atención",
+      "data": {
+        "boton": "Tiempo de atencion"
+      }
+    }
+  ]
+}
+```
+# ReturningServicios_tecnicosQUAVII
+[Activity
+    Attachments = ${json(Servicios_tecnicosQUAVII())}
+]
+
+
+# Servicios_tecnicosQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Servicios técnicos",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitud servicio técnico",
+      "data": {
+        "boton": "Solicitud servicio tecnico"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempo de atención",
+      "data": {
+        "boton": "Tiempo de atencion"
+      }
+    }
+  ]
+}
+```
+
+# ReturningInformacion_general
+[Activity
+    Attachments = ${json(Informacion_general())}
+]
+
+
+# Informacion_general
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Otras solicitudes",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Información de la empresa",
+      "data": {
+        "boton": "Informacion de la empresa"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Contrato de condiciones uniformes",
+      "data": {
+        "boton": "Contrato de condiciones uniformes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tratamiento de datos personales",
+      "data": {
+        "boton": "Tratamiento de datos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Oficinas y horarios de atención",
+      "data": {
+        "boton": "Oficinas y horarios de atencion"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempos de atención PQR'S",
+      "data": {
+        "boton": "Tiempos de atencion PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado de solicitud PQR´s",
+      "data": {
+        "boton": "Estado de solicitud PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Quejas y reclamos",
+      "data": {
+        "boton": "Quejas y reclamos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de nombre/titular",
+      "data": {
+        "boton": "Cambio de nombre"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de estrato",
+      "data": {
+        "boton": "Cambio de estrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio capacidad contratada",
+      "data": {
+        "boton": "Cambio capacidad contratada"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de uso",
+      "data": {
+        "boton": "Cambio de uso"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Terminación de contrato",
+      "data": {
+        "boton": "Terminacion de contrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Identidad de funcionario",
+      "data": {
+        "boton": "Identidad de funcionario"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Agendamiento",
+      "data": {
+        "boton": "Agendamiento"
+      }
+    }
+  ]
+}
+```
+# ReturningInformacion_generalGDO
+[Activity
+    Attachments = ${json(Informacion_generalGDO())}
+]
+
+
+# Informacion_generalGDO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Otras solicitudes",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Información de la empresa",
+      "data": {
+        "boton": "Informacion de la empresa"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Contrato de condiciones uniformes",
+      "data": {
+        "boton": "Contrato de condiciones uniformes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tratamiento de datos personales",
+      "data": {
+        "boton": "Tratamiento de datos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Oficinas y horarios de atención",
+      "data": {
+        "boton": "Oficinas y horarios de atencion"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempos de atención PQR'S",
+      "data": {
+        "boton": "Tiempos de atencion PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado de solicitud PQR´s",
+      "data": {
+        "boton": "Estado de solicitud PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Quejas y reclamos",
+      "data": {
+        "boton": "Quejas y reclamos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de nombre/titular",
+      "data": {
+        "boton": "Cambio de nombre"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de estrato",
+      "data": {
+        "boton": "Cambio de estrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio capacidad contratada",
+      "data": {
+        "boton": "Cambio capacidad contratada"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de uso",
+      "data": {
+        "boton": "Cambio de uso"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Terminación de contrato",
+      "data": {
+        "boton": "Terminacion de contrato"
+      }
+    },   
+    {
+      "type": "Action.Submit",
+      "title": "Agendamiento",
+      "data": {
+        "boton": "Agendamiento"
+      }
+    }
+  ]
+}
+```
+
+# ReturningInformacion_generalSTG
+[Activity
+    Attachments = ${json(Informacion_generalSTG())}
+]
+
+
+# Informacion_generalSTG
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Otras solicitudes",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Información de la empresa",
+      "data": {
+        "boton": "Informacion de la empresa"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Contrato de condiciones uniformes",
+      "data": {
+        "boton": "Contrato de condiciones uniformes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tratamiento de datos personales",
+      "data": {
+        "boton": "Tratamiento de datos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Oficinas y horarios de atención",
+      "data": {
+        "boton": "Oficinas y horarios de atencion"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempos de atención PQR'S",
+      "data": {
+        "boton": "Tiempos de atencion PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado de solicitud PQR´s",
+      "data": {
+        "boton": "Estado de solicitud PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Quejas y reclamos",
+      "data": {
+        "boton": "Quejas y reclamos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de nombre/titular",
+      "data": {
+        "boton": "Cambio de nombre"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de estrato",
+      "data": {
+        "boton": "Cambio de estrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio capacidad contratada",
+      "data": {
+        "boton": "Cambio capacidad contratada"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de uso",
+      "data": {
+        "boton": "Cambio de uso"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Terminación de contrato",
+      "data": {
+        "boton": "Terminacion de contrato"
+      }
+    },   
+    {
+      "type": "Action.Submit",
+      "title": "Agendamiento",
+      "data": {
+        "boton": "Agendamiento"
+      }
+    }
+  ]
+}
+```
+
+# ReturningInformacion_generalCEO
+[Activity
+    Attachments = ${json(Informacion_generalCEO())}
+]
+
+
+# Informacion_generalCEO
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Otras solicitudes",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Información de la empresa",
+      "data": {
+        "boton": "Informacion de la empresa"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Contrato de condiciones uniformes",
+      "data": {
+        "boton": "Contrato de condiciones uniformes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tratamiento de datos personales",
+      "data": {
+        "boton": "Tratamiento de datos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Oficinas y horarios de atención",
+      "data": {
+        "boton": "Oficinas y horarios de atencion"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempos de atención PQR'S",
+      "data": {
+        "boton": "Tiempos de atencion PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado de solicitud PQR´s",
+      "data": {
+        "boton": "Estado de solicitud PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Quejas y reclamos",
+      "data": {
+        "boton": "Quejas y reclamos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de nombre/titular",
+      "data": {
+        "boton": "Cambio de nombre"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de estrato",
+      "data": {
+        "boton": "Cambio de estrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio capacidad contratada",
+      "data": {
+        "boton": "Cambio capacidad contratada"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de uso",
+      "data": {
+        "boton": "Cambio de uso"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Terminación de contrato",
+      "data": {
+        "boton": "Terminacion de contrato"
+      }
+    },   
+    {
+      "type": "Action.Submit",
+      "title": "Agendamiento",
+      "data": {
+        "boton": "Agendamiento"
+      }
+    }
+  ]
+}
+```
+
+# ReturningInformacion_generalQUAVII
+[Activity
+    Attachments = ${json(Informacion_generalQUAVII())}
+]
+
+
+# Informacion_generalQUAVII
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Otras solicitudes",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Información de la empresa",
+      "data": {
+        "boton": "Informacion de la empresa"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Contrato de condiciones uniformes",
+      "data": {
+        "boton": "Contrato de condiciones uniformes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tratamiento de datos personales",
+      "data": {
+        "boton": "Tratamiento de datos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Oficinas y horarios de atención",
+      "data": {
+        "boton": "Oficinas y horarios de atencion"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempos de atención PQR'S",
+      "data": {
+        "boton": "Tiempos de atencion PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado de solicitud PQR´s",
+      "data": {
+        "boton": "Estado de solicitud PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Quejas y reclamos",
+      "data": {
+        "boton": "Quejas y reclamos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de nombre/titular",
+      "data": {
+        "boton": "Cambio de nombre"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de estrato",
+      "data": {
+        "boton": "Cambio de estrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio capacidad contratada",
+      "data": {
+        "boton": "Cambio capacidad contratada"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de uso",
+      "data": {
+        "boton": "Cambio de uso"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Terminación de contrato",
+      "data": {
+        "boton": "Terminacion de contrato"
+      }
+    },   
+    {
+      "type": "Action.Submit",
+      "title": "Agendamiento",
+      "data": {
+        "boton": "Agendamiento"
+      }
+    }
+  ]
+}
+```
+
+
+
+# ReturningInformacion_generalQuavii
+[Activity
+    Attachments = ${json(Informacion_generalQuavii())}
+]
+
+
+# Informacion_generalQuavii
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Otras solicitudes",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Información de la empresa",
+      "data": {
+        "boton": "Informacion de la empresa"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Contrato de concesión",
+      "data": {
+        "boton": "Contrato de condiciones uniformes"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tratamiento de datos personales",
+      "data": {
+        "boton": "Tratamiento de datos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Oficinas y horarios de atención",
+      "data": {
+        "boton": "Oficinas y horarios de atencion"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Tiempos de atención SQR",
+      "data": {
+        "boton": "Tiempos de atencion PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Estado de solicitud SQR",
+      "data": {
+        "boton": "Estado de solicitud PQRS"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Quejas y reclamos",
+      "data": {
+        "boton": "Quejas y reclamos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de nombre/titular",
+      "data": {
+        "boton": "Cambio de nombre"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de estrato",
+      "data": {
+        "boton": "Cambio de estrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio capacidad contratada",
+      "data": {
+        "boton": "Cambio capacidad contratada"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cambio de uso",
+      "data": {
+        "boton": "Cambio de uso"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Terminación de contrato",
+      "data": {
+        "boton": "Terminacion de contrato"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Identidad de funcionario",
+      "data": {
+        "boton": "Identidad de funcionario"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Agendamiento",
+      "data": {
+        "boton": "Agendamiento"
+      }
+    }
+  ]
+}
+```
+
+# WhatsappMenuQuavii
+- ``` 
+Disculpa sigo sin entender, pero pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Recibo  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes
+```
+
+# WhatsappMenuPrincipal
+- ```
+Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Factura  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes
+```
+# WhatsappMenuPrincipalSTG
+- ```
+Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Factura  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes
+```
+# WhatsappMenuPrincipalCEO
+- ```
+Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Factura  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes
+```
+# WhatsappMenuPrincipalGDO
+- ```
+Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Factura  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes
+```
+# WhatsappMenuPrincipalQUAVII
+- ```
+Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Recibo  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes 
+```
+# WhatsappMenuPrincipalQuavii
+- ``` 
+Pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Recibo  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes 
+```
+
+# WhatsappMenu
+- ```
+Disculpa sigo sin entender, pero pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta. 
+1) Emergencias \n 2) Contacte al servicio \n 3) Brilla y seguros \n 4) Tu Factura  \n 5) Pagos \n 6) Revisión periodica \n 7) Gestión deuda 
+8) Servicios técnicos \n 9) Otras solicitudes 
+```
+
+# WhatsappTu_Factura
+- ```
+\n 1) Valida tu consumo \n 2) Última lectura \n 3) Genera tu factura \n 4) Valor, fecha límite y referencia pago
+5) Deuda actual y diferida \n 6) Certificado de tus facturas \n 7) Certificado de deuda pendiente \n 8) Conoce tu factura
+9) Información tarifaria \n 10) Exencion de contribucion
+```
+
+# WhatsappTu_FacturaGDO
+- ```
+\n 1) Valida tu consumo \n 2) Última lectura \n 3) Genera tu factura \n 4) Valor, fecha límite y referencia pago
+5) Deuda actual y diferida \n 6) Certificado de tus facturas \n 7) Certificado de deuda pendiente \n 8) Conoce tu factura
+9) Información tarifaria \n 10) Exencion de contribucion
+```
+# WhatsappTu_FacturaSTG
+- ```
+\n 1) Valida tu consumo \n 2) Última lectura \n 3) Genera tu factura \n 4) Valor, fecha límite y referencia pago
+5) Deuda actual y diferida \n 6) Certificado de tus facturas \n 7) Certificado de deuda pendiente \n 8) Conoce tu factura
+9) Información tarifaria \n 10) Exencion de contribucion
+```
+# WhatsappTu_FacturaCEO
+- ```
+\n 1) Valida tu consumo \n 2) Última lectura \n 3) Genera tu factura \n 4) Valor, fecha límite y referencia pago
+5) Deuda actual y diferida \n 6) Certificado de tus facturas \n 7) Certificado de deuda pendiente \n 8) Conoce tu factura
+9) Información tarifaria \n 10) Exencion de contribucion
+```
+# WhatsappTu_FacturaQUAVII
+- ```
+\n 1) Valida tu consumo \n 2) Última lectura \n 3) Genera tu recibo \n 4) Valor, fecha límite y referencia pago
+5) Deuda actual y diferida \n 6) Certificado de tu recibo \n 7) Certificado de deuda pendiente \n 8) Conoce tu recibo
+9) Información tarifaria \n 10) Exencion de contribucion
+```
+
+# WhatsappTu_Recibo
+- ```
+\n 1) Valida tu consumo \n 2) Última lectura \n 3) Genera tu recibo \n 4) Valor, fecha límite y referencia pago
+5) Deuda actual y diferida \n 6) Certificado de tu recibo \n 7) Certificado de deuda pendiente \n 8) Conoce tu recibo
+9) Información tarifaria \n 10) Exencion de contribucion
+```
+
+# WhatsappBrilla_Seguro
+- ```
+\n 1) ¿Qué es Brilla? \n 2) Portafolio Brilla \n 3) Cupo de brilla \n 4) Utiliza tu cupo \n 5) Adquiere tu seguro \n 6) Aliados Brilla
+7) Une tu cupo Brilla \n 8) Bloqueo Brilla y seguros \n 9) Haz efectiva tu póliza \n 10) Línea aseguradora
+11) Garantías Brilla \n 12) Cancelación de seguro
+```
+
+# WhatsappBrilla_SeguroGDO
+- ```
+\n 1) ¿Qué es Brilla? \n 2) Portafolio Brilla \n 3) Cupo de brilla \n 4) Utiliza tu cupo \n 5) Adquiere tu seguro \n 6) Aliados Brilla
+7) Une tu cupo Brilla \n 8) Bloqueo Brilla y seguros \n 9) Haz efectiva tu póliza \n 10) Línea aseguradora
+11) Garantías Brilla \n 12) Cancelación de seguro
+```
+
+# WhatsappBrilla_SeguroSTG
+- ```
+\n 1) ¿Qué es Brilla? \n 2) Portafolio Brilla \n 3) Cupo de brilla \n 4) Utiliza tu cupo \n 5) Adquiere tu seguro \n 6) Aliados Brilla
+7) Une tu cupo Brilla \n 8) Bloqueo Brilla y seguros \n 9) Haz efectiva tu póliza \n 10) Línea aseguradora
+11) Garantías Brilla \n 12) Cancelación de seguro
+```
+
+# WhatsappBrilla_SeguroCEO
+- ```
+\n 1) ¿Qué es Brilla? \n 2) Portafolio Brilla \n 3) Cupo de brilla \n 4) Utiliza tu cupo \n 5) Aliados Brilla
+6) Une tu cupo Brilla \n 7) Bloqueo Brilla y seguros \n 8) Haz efectiva tu póliza \n 9) Línea aseguradora
+10) Garantías Brilla \n 11) Cancelación de seguro
+```
+
+# WhatsappBrilla_SeguroQUAVII
+- ```
+\n 1) ¿Qué es Brilla? \n 2) Portafolio Brilla \n 3) Cupo de brilla \n 4) Utiliza tu cupo \n 5) Aliados Brilla
+6) Une tu cupo Brilla \n 7) Bloqueo Brilla y seguros \n 8) Haz efectiva tu póliza \n 9) Línea aseguradora
+10) Garantías Brilla \n 11) Cancelación de seguro
+```
+
+# WhatsappInformacion_general
+- ```
+\n 1) Información de la empresa \n 2) Contrato de condiciones uniformes \n 3) Tratamiento de datos \n 4) Oficinas y horarios de atención
+5) Tiempos de atención PQR'S \n 6) Estado de solicitud PQR´s \n 7) Quejas y reclamos \n 8) Cambio de nombre/titular \n 9) Cambio de estrato \n 10) Cambio capacidad contratada
+11) Cambio de uso \n 12) Terminación de contrato \n 13) identidad de funcionario \n 14) Agendamiento
+```
+# WhatsappInformacion_generalGDO
+- ```
+\n 1) Información de la empresa \n 2) Contrato de condiciones uniformes \n 3) Tratamiento de datos \n 4) Oficinas y horarios de atención
+5) Tiempos de atención PQR'S \n 6) Estado de solicitud PQR´s \n 7) Quejas y reclamos \n 8) Cambio de nombre/titular \n 9) Cambio de estrato \n 10) Cambio capacidad contratada
+11) Cambio de uso \n 12) Terminación de contrato \n 13) identidad de funcionario \n 14) Agendamiento
+```
+# WhatsappInformacion_generalSTG
+- ```
+\n 1) Información de la empresa \n 2) Contrato de condiciones uniformes \n 3) Tratamiento de datos \n 4) Oficinas y horarios de atención
+5) Tiempos de atención PQR'S \n 6) Estado de solicitud PQR´s \n 7) Quejas y reclamos \n 8) Cambio de nombre/titular \n 9) Cambio de estrato \n 10) Cambio capacidad contratada
+11) Cambio de uso \n 12) Terminación de contrato \n 13) identidad de funcionario \n 14) Agendamiento
+```
+# WhatsappInformacion_generalCEO
+- ```
+\n 1) Información de la empresa \n 2) Contrato de condiciones uniformes \n 3) Tratamiento de datos \n 4) Oficinas y horarios de atención
+5) Tiempos de atención PQR'S \n 6) Estado de solicitud PQR´s \n 7) Quejas y reclamos \n 8) Cambio de nombre/titular \n 9) Cambio de estrato \n 10) Cambio capacidad contratada
+11) Cambio de uso \n 12) Terminación de contrato \n 13) identidad de funcionario \n 14) Agendamiento
+```
+# WhatsappInformacion_generalQUAVII
+- ```
+\n 1) Información de la empresa \n 2) Contrato de condiciones uniformes \n 3) Tratamiento de datos \n 4) Oficinas y horarios de atención
+5) Tiempos de atención SQR \n 6) Estado de solicitud SQR \n 7) Quejas y reclamos \n 8) Cambio de nombre/titular \n 9) Cambio de estrato \n 10) Cambio capacidad contratada
+11) Cambio de uso \n 12) Terminación de contrato \n 13) identidad de funcionario \n 14) Agendamiento
+```
+
+# WhatsappRevision_periodica
+- ```
+\n 1) Solicite su revisión periódica \n )2 Fecha proxima revision periodica
+```
+# WhatsappRevision_periodicaGDO
+- ```
+\n 1) Solicite su revisión periódica \n )2 Fecha proxima revision periodica
+```
+# WhatsappRevision_periodicaSTG
+- ```
+\n 1) Solicite su revisión periódica \n )2 Fecha proxima revision periodica
+```
+# WhatsappRevision_periodicaCEO
+- ```
+\n 1) Solicite su revisión periódica \n )2 Fecha proxima revision periodica
+```
+# WhatsappRevision_periodicaQUAVII
+- ```
+\n 1) Solicite su revisión periódica \n )2 Fecha proxima revision periodica
+```
+
+# WhatsappConectate
+- ```
+\n 1) Solicitud de servicio \n 2) Factibilidad del servicio \n 3) Viabilidad/ disponibilidad
+```
+
+# WhatsappConectateGDO
+- ```
+\n 1) Solicitud de servicio \n 2) Factibilidad del servicio \n 3) Viabilidad/ disponibilidad
+```
+
+# WhatsappConectateSTG
+- ```
+\n 1) Solicitud de servicio \n 2) Factibilidad del servicio \n 3) Viabilidad/ disponibilidad
+```
+
+# WhatsappConectateCEO
+- ```
+\n 1) Solicitud de servicio \n 2) Factibilidad del servicio \n 3) Viabilidad/ disponibilidad
+```
+
+# WhatsappConectateQUAVII
+- ```
+\n 1) Solicitud de servicio \n 2) Factibilidad del servicio \n 3) Viabilidad/ disponibilidad
+```
+
+# WhatsappPagos
+- ```
+\n 1) Abona a tu factura \n 2) Solicita tu cupón de pago anticipado \n 3) Traslado de pago \n 4) Certificado de pago
+5) Reconexión del servicio \n 6) Estado reconexion por pago \n 7) Puntos de pagos \n 8) Pago con tarjeta crédito
+```
+
+# WhatsappPagosGDO
+- ```
+\n 1) Abona a tu factura \n 2) Solicita tu cupón de pago anticipado \n 3) Traslado de pago \n 4) Certificado de pago
+5) Reconexión del servicio \n 6) Estado reconexion por pago \n 7) Puntos de pagos \n 8) Pago con tarjeta crédito
+```
+# WhatsappPagosCEO
+- ```
+\n 1) Abona a tu factura \n 2) Solicita tu cupón de pago anticipado \n 3) Traslado de pago \n 4) Certificado de pago
+5) Reconexión del servicio \n 6) Estado reconexion por pago \n 7) Puntos de pagos \n 8) Pago con tarjeta crédito
+```
+# WhatsappPagosSTG
+- ```
+\n 1) Abona a tu factura \n 2) Solicita tu cupón de pago anticipado \n 3) Traslado de pago \n 4) Certificado de pago
+5) Reconexión del servicio \n 6) Estado reconexion por pago \n 7) Puntos de pagos \n 8) Pago con tarjeta crédito
+```
+# WhatsappPagosQUAVII
+- ```
+\n 1) Abona a tu factura \n 2) Solicita tu cupón de pago anticipado \n 3) Traslado de pago \n 4) Certificado de pago
+5) Reconexión del servicio \n 6) Estado reconexion por pago \n 7) Puntos de pagos \n 8) Pago con tarjeta crédito
+```
+
+# WhatsappGestion_Deuda
+- ```
+\n 1) Acuerdo de Pago \n 2) Traslado de deuda o desmonte \n 3) Devolución saldo a favor
+```
+# WhatsappGestion_DeudaGDO
+- ```
+\n 1) Acuerdo de Pago \n 2) Traslado de deuda o desmonte \n 3) Devolución saldo a favor
+```
+# WhatsappGestion_DeudaSTG
+- ```
+\n 1) Acuerdo de Pago \n 2) Traslado de deuda o desmonte \n 3) Devolución saldo a favor
+```
+# WhatsappGestion_DeudaCEO
+- ```
+\n 1) Acuerdo de Pago \n 2) Traslado de deuda o desmonte \n 3) Devolución saldo a favor
+```
+# WhatsappGestion_DeudaQUAVII
+- ```
+\n 1) Acuerdo de Pago \n 2) Traslado de deuda o desmonte \n 3) Devolución saldo a favor
+```
+# WhatsappEmergencias
+- ```
+1) Incendio en el hogar \n 2) Explosión en el hogar \n 3) Ausencia de gas en el hogar \n 4) Daño en la red
+```
+
+# WhatsappEmergenciasGDO
+- ```
+1) Incendio en el hogar \n 2) Explosión en el hogar \n 3) Ausencia de gas en el hogar \n 4) Daño en la red
+```
+
+# WhatsappEmergenciasSTG
+- ```
+1) Incendio en el hogar \n 2) Explosión en el hogar \n 3) Ausencia de gas en el hogar \n 4) Daño en la red
+```
+
+# WhatsappEmergenciasCEO
+- ```
+1) Incendio en el hogar \n 2) Explosión en el hogar \n 3) Ausencia de gas en el hogar \n 4) Daño en la red
+```
+# WhatsappEmergenciasQUAVVI
+- ```
+\n 1) Fuga dentro del hogar \n 2) Incendio en el hogar \n 3) Explosión en el hogar \n 4) Ausencia de gas en el hogar
+5) Daño en la red
+```
+
+# WhatsappEmergenciasQuavii
+- ```
+\n 1) Fuga dentro del hogar \n 2) Incendio en el hogar \n 3) Explosión en el hogar \n 4) Ausencia de gas en el hogar
+5) Daño en la red
+```
+
+# WhatsappServicios_tecnicos
+- ```
+\n 1) Solicitud servicio técnico \n 2) Tiempo de atención
+```
+# WhatsappServicios_tecnicosGDO
+- ```
+\n 1) Solicitud servicio técnico \n 2) Tiempo de atención
+```
+# WhatsappServicios_tecnicosSTG
+- ```
+\n 1) Solicitud servicio técnico \n 2) Tiempo de atención
+```
+# WhatsappServicios_tecnicosCEO
+- ```
+\n 1) Solicitud servicio técnico \n 2) Tiempo de atención
+```
+# WhatsappServicios_tecnicosQUAVII
+- ```
+\n 1) Solicitud servicio técnico \n 2) Tiempo de atención
+```
+
+# WhatsappPagosQuavii
+- ```
+\n 1) Abona a tu recibo \n 2) Solicita tu cupón de pago anticipado \n 3) Traslado de pago \n 4) Certificado de pago
+5) Reconexión del servicio \n 6) Estado reconexion por pago \n 7) Puntos de pagos \n 8) Pago con tarjeta crédito
+```
+
+# WhatsappInformacion_generalQuavii
+- ```
+\n 1) Información de la empresa \n 2) Contrato de condiciones uniformes \n 3) Tratamiento de datos \n 4) Oficinas y horarios de atención
+5) Tiempos de atención SQR \n 6) Estado de solicitud SQR \n 7) Quejas y reclamos \n 8) Cambio de nombre/titular \n 9) Cambio de estrato \n 10) Cambio capacidad contratada
+11) Cambio de uso \n 12) Terminación de contrato \n 13) identidad de funcionario \n 14) Agendamiento
+```
+
+

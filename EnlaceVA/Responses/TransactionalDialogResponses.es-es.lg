@@ -1,0 +1,2647 @@
+﻿
+# ReturningTraslado_Deuda
+[Activity
+    Attachments = ${json(Traslado_Deuda())}
+]
+
+# Traslado_Deuda
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Traslado de deuda o desmonte",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Desmonte de deuda brilla",
+      "data": {
+        "boton": "Desmonte de deuda brilla"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Traslado deuda brilla",
+      "data": {
+        "boton": "Traslado deuda brilla"
+      }
+    }
+    ,
+    {
+      "type": "Action.Submit",
+      "title": "Traslado deuda ${service}",
+      "data": {
+        "boton": "Traslado deuda gas"
+      }
+      }
+  ]
+}
+
+```
+
+# ResponseDesmonte_de_deuda_brillaGdo
+- ```
+Si requiere realizar un desmonte de la deuda, debe presentar los siguientes documentos: 
+\n 1. Certificado de tradición completo y legibles, no mayor a 30 días calendario, debe contener la dirección real y que coincida con la de la factura. De lo contrario debe aportar certificado de nomenclatura.
+\n 2. Copia de la cédula del propietario del predio.
+\n 3. Carta firmada por el propietario del predio solicitando el desmonte.
+\n 4. Se requiere diligenciar y firmar formato en la oficina por el propietario del predio.
+```
+
+# ResponseTraslado_deuda_brillaGdo
+- ```
+Para realizar el traslado de tu deuda brilla a otro contrato requieres: 
+\n * Carta indicando los conceptos que desean trasladar, contrato de origen del crédito y contrato de destino, motivo del traslado y copia de cédula del titular del crédito. 
+Si el motivo del  traslado es por venta de predio, debe presentar certificado de tradición del predio no mayor a 30 días, donde está la deuda. 
+\n * Carta del propietario del predio que recibe la deuda autorizando el traslado, copia de la cédula y certificado de tradición no mayor a 30 días calendario (predio que recibe deuda).
+ En caso de que la dirección del certificado de tradición no coincida la factura, deberá aportar certificado de nomenclatura.
+```
+
+# ResponseTraslado_deuda_gasGdo
+- ```
+Para realizar el traslado de tu deuda de gas a otro contrato requieres: 
+\n 1. Carta indicando los conceptos que desean trasladar y copia de cédula del titular del predio que tiene la deuda informando a que predio desea trasladarla y los motivos del traslado.
+\n 2. Carta del propietario del predio que recibe la deuda autorizando el traslado, copia de cédula y certificado de tradición no mayor a 90 días calendario 
+\n Nota: En caso de que la dirección del certificado de tradición no coincida deberá aportar certificado de nomenclatura.
+\n 3. Para realizar el traslado los dos contratos deben estar al día en pagos.
+```
+
+# WhatsappReturningTraslado_Deuda
+- ```
+Por favor seleccione una opción:
+\n 1) Desmonte de deuda brilla
+\n 2) Traslado deuda brilla
+\n 3) Traslado deuda ${service}
+```
+
+
+# ResponseDesmonte_de_deuda_brillaCeo
+- ```
+Te invitamos a comunicarte con nuestros canales de atención  018000511234Para realizar el traslado de tu deuda brilla a otro contrato requieres: 
+1.	Fotocopia de cedula de titular de financiación, fotocopia de cédula del propietario suscriptor del predio donde se trasladará la deuda 
+2.	Formato de traslado de deuda entre productos brilla FR 935 (actualizar documento)
+3.	Último recibo cancelado del servicio de energía de cada predio.   
+4.	Certificado de tradición y libertad del predio donde se trasladará la deuda, no mayor a un (1) mes. 
+5.	Carta de autorización del propietario suscriptor del predio donde se trasladará la deuda.
+
+Nota: En el caso en que el propietario es el mismo suscriptor, se omite el punto 5.
+Ningún documento es válido en reemplazo del certificado de tradición. En caso de dudas o inquietudes te invitamos a comunicarte con nuestra linea  de atención  018000511234 o registrar tu solicitud en nuestra página Web  https://www.ceoesp.com.co/registros-pqrs
+```
+
+
+# ResponseTraslado_deuda_gasCeo
+- Por el momento no contamos con este servicio.  Tendremos en cuenta tu solicitud.
+
+# ResponseDesmonte_de_deuda_brillaStg
+- ```
+1. Carta de solicitud de traslado de deuda (Si los suscriptores del contrato son diferentes debe ser autenticada por ambos, tanto del contrato origen como de destino)
+2. Copia de Cédula de ciudadanía (Si los suscriptores del contrato son diferentes copias de cédula de los titulares de los dos contratos) 
+3. El contrato Origen debe estar al día en su facturación
+4. Copia del recibo de pago de ambos contratos
+```
+
+# ResponseTraslado_deuda_gasStg
+- ```
+1. Carta de solicitud de traslado de deuda (Si los suscriptores del contrato son diferentes debe ser autenticada por ambos, tanto del contrato origen como de destino)
+2. Copia de Cédula de ciudadanía (Si los suscriptores del contrato son diferentes copias de ambos)
+3. El contrato Origen debe estar al día en su facturación
+4. Copia del recibo de pago de ambos contratos
+```
+
+# ResponseDesmonte_de_deuda_brillaQuavii
+- Te invitamos a dirigir tu consulta al correo contectados@quavii.pe
+
+# ResponseTraslado_deuda_gasQuavii
+- Te invitamos a dirigir tu consulta al correo contectados@quavii.pe
+
+# ReturningExencion_Contribucion
+[Activity
+    Attachments = ${json(Exencion_Contribucion())}
+]
+
+
+# Exencion_Contribucion
+- ```
+
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Exención de contribución",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Por favor selecciona la opción que se ajusta a tu tipo de contrato de la factura de gas natural:",
+          "wrap": true,
+          "horizontalAlignment": "left"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Comercial e industria regulada",
+      "data": {
+        "boton": "Comercial e industria regulada"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Industria no regulada",
+      "data": {
+        "boton": "Industria no regulada"
+      }
+    }
+    ,
+    {
+      "type": "Action.Submit",
+      "title": "Zonas comunes",
+      "data": {
+        "boton": "Zonas comunes"
+      }
+      }
+  ]
+}
+```
+
+# ResponseComercial_e_industria_reguladaGdo
+- ```
+CLIENTES COMERCIALES E INDUSTRIALES REGULADAS:
+\n 1. Carta solicitando la exoneración de contribución firmada por el representante legal.
+\n 2. Copia de la cédula del representante legal.
+\n 3. Copia del Rut, no mayor a 30 días calendario a la fecha de la solicitud
+\n 4. Copia de la Cámara y Comercio de la empresa no mayor a 30 días calendario a la fecha de la solicitud.
+```
+
+# ResponseIndustria_no_reguladaGdo
+- ```
+CASOS CLIENTES  INDUSTRIAS NO REGULADAS:
+\n 1. Carta solicitando la exoneración de contribución firmada por el representante legal.
+\n 2. Copia de la cédula del representante legal.
+\n 3. Copia del Rut, no mayor a 30 días calendario a la fecha de la solicitud
+\n 4. Copia de la Cámara y Comercio de la empresa no mayor a 30 días calendario a la fecha de la solicitud.
+```
+
+# ResponseZonas_comunesGdo
+- ```
+CASOS ZONAS COMUNES:
+Para acceder a la exoneración de la contribución en las zonas comunes, éstas deberán estar constituidas como Personerías Jurídicas sin ánimo de lucro.
+\n 1. Carta solicitando la exoneración de la contribución aclarando que el contrato pertenece a una zona común.
+\n 2. Copia de la cédula del representante legal.
+\n 3. Copia de Rut (No importa la fecha de expedición de este documento)
+\n 4. Carta de la Secretaria de Gobierno, Convivencia y Seguridad, donde informe que la propiedad horizontal corresponde a una personería jurídica de naturaleza civil sin ánimo de lucro. ( No importa la fecha de expedición de este documento).
+\n 5. Copia de la factura de gas.
+```
+
+# ResponseExencion_de_contribucionCeo
+- ```
+Facturas de energía de los predios para los cuales realiza la solicitud. 
+Copia de la cédula de ciudadanía del representante legal. 
+Copia del certificado de existencia y representación legal. 
+Certificación en la que conste la relación de los NIU (productos) de las sedes en las que se desarrolla la actividad principal del usuario solicitante, la cual debe corresponder con los Códigos 011 a 360, 581 y 411 a 439 de la Resolución 000139 de 2012, expedida por la UAE - Dirección de Impuestos y Aduanas Nacionales (DIAN). 
+Registro Único Tributario RUT (Hoja Principal) *. 
+RUT (Hoja Establecimientos) *.
+*El RUT debe ser generado o expedido con una fecha de antelación no superior a 30 días, de la fecha de presentación de la solicitud.
+```
+
+# ResponseExencion_de_contribucionStg
+- ```
+\n 1. Carta solicitando la exoneración de contribución firmada por el Representante legal.
+\n 2. Copia de cédula del Representante legal.
+\n 3. Copia del Rut, no mayor a 30 días calendario a la fecha de la solicitud
+\n 4. Copia de Cámara y comercio de la empresa no mayor a 30 días calendario a la fecha de la solicitud.
+```
+# ResponseExencion_de_contribucionQuavii
+- Por el momento no contamos con este servicio.  Tendremos en cuenta tu solicitud.
+
+# WhatsappReturningExencion_Contribucion
+- ```
+Por favor seleccione una opción:
+\n 1) Comercial e industria regulada
+\n 2) Industria no regulada
+\n 3) Zonas comunes
+```
+
+# ReturningCambio_Nombre
+[Activity
+    Attachments = ${json(Cambio_Nombre())}
+]
+
+
+# Cambio_Nombre
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Cambio de nombre ",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "El cambio de nombre que requieres es para:",
+          "wrap": true,
+          "horizontalAlignment": "left"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Residencial",
+      "data": {
+        "boton": "Residencial"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Comercial  ",
+      "data": {
+        "boton": "Comercial"
+      }
+    }
+  ]
+}
+```
+# WhatsappReturningCambio_Nombre
+- ```
+Por favor seleccione una opción:
+\n 1) Residencial
+\n 2) Comercial
+```
+
+# ResponseCambio_Nombre_ResidencialGdo
+- ```
+Para realizar el cambio de nombre de tu factura debes presentar: 
+1. Certificado de tradición no mayor a 90 días calendario de vigencia. Pasado este tiempo no es válido el documento.
+2. Copia de la cédula del nuevo propietario
+3. En caso de no coincidir la dirección del certificado de tradición con la registrada en la factura, deberá presentar certificado de nomenclatura.
+4. Estar al día en su factura de gas natural
+```
+
+# ResponseCambio_Nombre_ComercialGdo
+- ```
+Para realizar el cambio de nombre de tu factura debes presentar: 
+1.Certificado de Cámara de Comercio no mayor a 60 días calendario de vigencia. Pasado este tiempo no es válido el documento.
+2. Certificado de tradición no mayor a 90 días calendario de vigencia. 
+3. Copia de la cédula del representante legal.  
+4. En caso de no coincidir la dirección del certificado de tradición y libertad con la registrada en la factura, deberá presentar certificado de nomenclatura.
+5. Estar al día en su factura de gas natural
+```
+
+# ResponseCambio_NombreStg
+- ```
+Para realizar el cambio de nombre, es necesario presentar el certificado de tradición y libertad del predio, copia de cédula de ciudadanía, carta solicitando el cambio de nombre y copia de la última factura del servicio de gas cancelada.
+```
+
+# ResponseCambio_Nombre_ResidencialCeo
+- ```
+•	Certificado de tradición y libertad del predio o una declaración de posesión ante Notaría o ante la Secretaría delegada por la Alcaldía para recibir estas declaraciones. 
+•	Certificado de propiedad en caso de tratarse de resguardos indígenas expedido por el Gobernador del Cabildo (Los documentos mencionados deben tener fecha de expedición inferior a cuatro (4) meses).
+•	Carta de Autorización para representar al dueño del inmueble (Si Aplica).
+*Para personas jurídicas debe entregar el certificado de existencia y representación legal junto con la cédula del representante legal de la empresa.
+Si el inmueble es objeto de contrato de leasing habitacional debe adjuntar copia del contrato y la carta de autorización de la entidad autorizada (propietario del inmueble).
+Diligenciar formato FR.280 de solicitud de actualización rectificación o supresión de datos.
+```
+
+# ResponseCambio_Nombre_ComercialCeo
+- ```
+•	Para realizar el cambio de suscriptor del servicio de energía se debe presentar la siguiente documentación:
+•	Fotocopia Cédula (Persona Natural)
+•	Certificado de tradición y libertad del predio o una declaración de posesión ante Notaría o ante la Secretaría delegada por la Alcaldía para recibir estas declaraciones. Certificado de propiedad en caso de tratarse de resguardos indígenas expedido por el Gobernador del Cabildo (Los documentos mencionados deben tener fecha de expedición inferior a cuatro (4) meses).
+•	Carta de Autorización para representar al dueño del inmueble (Si Aplica).
+*Para personas jurídicas debe entregar el certificado de existencia y representación legal junto con la cédula del representante legal de la empresa.
+Si el inmueble es objeto de contrato de leasing habitacional debe adjuntar copia del contrato y la carta de autorización de la entidad autorizada (propietario del inmueble).
+Diligenciar formato FR.280 de solicitud de actualización rectificación o supresión de datos, si una persona natural.
+```
+
+
+# ResponseCambio_NombreQuavii
+- Por el momento no contamos con este servicio.  Tendremos en cuenta tu solicitud.
+
+
+# ReturningTerminacion_contrato
+[Activity
+    Attachments = ${json(Terminacion_contrato())}
+]
+
+
+# Terminacion_contrato
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Terminación de contrato",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "La terminación del contrato que requieres es para:",
+          "wrap": true,
+          "horizontalAlignment": "left"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Residencial",
+      "data": {
+        "boton": "Residencial"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Comercial  ",
+      "data": {
+        "boton": "Comercial"
+      }
+    }
+  ]
+}
+```
+
+# WhatsappReturningTerminacion_contrato
+- ```
+Por favor seleccione una opción:
+\n 1) Residencial
+\n 2) Comercial
+```
+
+# ResponseTerminacion_contratoResidencialGdo
+- ```
+A continuación, se encuentran los requisitos para la terminación de contrato residencial:
+1.  La solicitud debe realizarla el titular o propietario del predio.
+2.  El predio debe encontrarse a paz y salvo, es decir ninguna factura pendiente por cancelar.
+3.  Debe enviar carta explicando el motivo por la cual cancela el contrato, debes especificar que no afectarás a terceros. 
+4.  En caso de que el propietario no se encuentre en la ciudad o el país, se requiere que envíe carta de autorización donde indique el motivo por el cual autoriza a un tercero, el nombre y número de cédula de esa persona, y que adicional indique que no afecta a terceros. 
+5.  Si quien solicita la cancelación es el propietario, pero no titular de la factura deber aportar Certificado de Tradición demostrando propiedad.
+La terminación de contrato tiene un costo que le será informado al momento de entregar la documentación. 
+```
+
+# ResponseTerminacion_contratoComercialGdo
+- ```
+A continuación, se encuentran los requisitos para la terminación de contrato comercial son:
+1.  El predio debe encontrarse a paz y salvo por todo concepto.
+2.  Carta explicando el motivo o razón por la cual cancela el contrato, debe especificar que no afecta a terceros. 
+3.  En caso de que el propietario no se encuentre en la ciudad, se requiere que envié carta de autorización donde indique el motivo por el cual autoriza a un tercero, el nombre y número de cédula de esa persona y que adicional indique la condición del punto número 4 (a qué se refiere con condición, no es muy claro).
+4.  Si eres un cliente comercial y la factura aparece a nombre de la razón social, debe anexar cámara de comercio y certificado de tradición no mayor a 90 días.
+5. Si no es propietario del predio y la factura está a nombre de una persona natural, deberá presentar Certificado de Tradición, Cámara y Comercio y carta del propietario del predio autorizando el retiro de la instalación.
+La terminación de contrato tiene un costo que le será informado al momento de entregar la documentación. 
+```
+
+# ResponseTerminacion_contratoComercialStg
+- Te invitamos a comunicarte con nuestras líneas de atención al cliente 164 y/o 018000910164 desde cualquier operador fijo o celular.
+
+# ResponseTerminacion_contratoComercialQuavii
+- Contactándote con un asesor (Habilitar opción live chat)
+
+# ResponseTerminacion_contratoComercialCeo
+- Te invitamos a registrar tu solicitud en el siguiente enlace https://www.ceoesp.com.co/registros-pqrs
+
+# ResponseEmergenciasGdo
+- ```
+Por tu seguridad, llama a la línea de atención de emergencias 164 de GdO, la cual funciona las 24 horas del día, en caso de:
+• Olor a gas constante o intermitente.
+• Ausencia en el suministro de gas de forma repentina.
+• Realizar obras o remodelaciones donde intervengan los andenes o el antejardín para identificar las tuberías existentes.
+```
+
+# ResponseEmergenciasStg
+- ```
+Por tu seguridad, llama a la línea de atención a usuarios 164 y/o 018000910164 desde cualquier operador fijo o celular que funcionan las 24 horas del día, en caso de:
+• Ausencia en el suministro de gas de forma repentina
+• Fuga de gas
+• Realizar obras o remodelaciones donde intervengan los andenes o para identificar las tuberías existentes.
+```
+
+# ReturningOpcionEmergencias
+[Activity
+    Attachments = ${json(OpcionEmergencias())}
+]
+
+
+# OpcionEmergencias
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Cambio de nombre ",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Seleccione la opción que corresponda a tu caso:",
+          "wrap": true,
+          "horizontalAlignment": "left"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Riesgo de vida",
+      "data": {
+        "boton": "Riesgo de vida"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Daños y emergencias",
+      "data": {
+        "boton": "daños y emergencias "
+      }
+    }
+  ]
+}
+```
+# WhatsappReturningEmergencias
+- ```
+Seleccione la opción que corresponda a tu caso:
+1) Riesgo de vida
+2) Daños y emergencias
+```
+
+# ResponseTemporalEmergenciasQuavii
+- Disculpa en el momento estamos trabajando en habilitar esta opción para prestarte un mejor servicio
+
+# ConceptoFacturaResult
+- ```
+Te comparto la información sobre tu factura:
+Contrato: ${contrato}
+Último pago realizado: ${ultimoPagoRealizado}
+Valor total a pagar: ${valorTotalPagar}
+Fecha límite de pago: ${fechaLimPago}
+Número de cupón para pago: ${cupon}
+Para realizar el pago puedes acceder al siguiente enlace:
+${url}
+```
+
+# ErrorServicesResult
+- ```
+En estos momentos no es posible entregarte la información que necesitas, por favor inténtalo más tarde, o comunicate con nuestros canales de atención.
+```
+
+# EstadoCuentaResult
+- ```
+Te comparto la información sobre tu factura:
+Contrato: ${contrato}
+Valor factura actual: ${valorFactura}
+Saldo financiación / diferido: ${saldoPendiente}
+El valor anterior está discriminado por:
+${saldo[0].servicio}  ${saldo[0].valor}
+${saldo[1].servicio}  ${saldo[1].valor}
+Para realizar el pago puedes acceder al siguiente enlace:
+${url}
+```
+# EstadoCuentaSinSaldoResult
+- ```
+Te comparto la información sobre tu factura:
+Contrato: ${contrato}
+Valor factura actual: ${valorFactura}
+Saldo financiación / diferido: ${saldoPendiente}
+```
+
+# Obtaincontract
+- Por favor ingresa el número de contrato del lugar donde realizarás tu solicitud. En la siguiente imagen podrás conocer la ubicación del número de tú contrato.
+
+# ErrorContratoNoEncontrado
+- ```
+\n Te informamos que, el contrato ingresado no registra en nuestra base de datos, te solicitamos validar la información suministrada. 
+\n Recuerda que, el número de contrato está ubicado en la parte superior de tu factura de gas natural.
+```
+
+# Startservice
+- Estoy validando la información, dame un momento por favor.
+
+# Introductorymessage
+- A partir de este momento te vamos a solicitar unos datos para poder consultar y entregarte la información que necesitas.
+
+# GetTypeIdGDOSTG
+- ```
+Digita 
+1 - Para cédula de ciudadanía 
+2 - Pasaporte
+3 - Para cédula de extranjería
+4 - Para Tarjeta de identidad
+5 - Para NIT / RUT
+```
+
+# GetId
+- Ingresa tu número de identificación
+
+# GetName
+- Ingresa tu nombre y apellido
+
+# GetEmail
+- Ingresa tu correo electrónico
+
+# GetPhone
+- Ingresa tu número telefónico de contacto
+
+#GetProducto
+- ```
+Seleccione el producto que desea adquirir:
+1- GASODOMESTICOS
+2- MATERIALES PARA LA CONSTRUCCIÓN
+3- HERRAMIENTAS
+4- EDUCACIÓN
+5- CDA Y SERVITECAS
+6- ELECTRODOMESTICOS MAYORES Y MENORES
+7- AUDIO, VIDEO Y COMPUTADORES
+8- TELEFONIA MOVIL
+9- MOTOS
+10- BICICLETAS
+11- ROPA Y CALZADO
+12- MUEBLES Y COLCHONES
+```
+
+# Error
+- Por favor ingrese una opción valida
+
+# UltimaLecturaResult
+- ```
+Tu ultima lectura fue: ${fechaDeLectura}
+Con una lectura ${valorDeLectura} m3
+```
+
+# UltimaLecturaNoResult
+- ```
+Te informamos que para el contrato registrado no se tiene información de la lectura facturada. 
+Te invitamos a ponerte en contacto con nuestros canales de atención
+```
+
+# UltimaLecturaNoResultNoActivoSuspendidoGDO
+- ```
+No es posible realizar la consulta para el contrato que ingresaste, te invitamos a comunicarte con nuestros canales de atención 4187333 (Cali) y 018000528888 (municipios) o al correo electrónico inquietudes@gdo.com.co.
+```
+
+# UltimaLecturaNoResultNoActivoSuspendidoSTG
+- ```
+No es posible registrar tu solicitud por este medio, te invitamos a comunicarte con nuestros canales de atención 164  ó 018000910164  o al  enlace https://www.surtigas.co/sistema-pqrs
+```
+
+# UltimaLecturaNoResultNoActivoSuspendidoCEO
+- ```
+No es posible realizar la consulta para el contrato que ingresaste,te invitamos a comunicarte con nuestros canales de atención  018000511234 o al correo pqrceo@ceoesp.com.
+```
+
+# UltimaLecturaNoResultNoActivoSuspendidoQUAVII
+- ```
+No es posible realizar la consulta para el contrato que ingresaste, te invitamos a comunicarte con nuestros canales de atención  0801 00001 (Linea de Atención),  948259147 (Mensajes de whatsapp) o al correo electrónico conectados@quavii.pe
+```
+
+#UltimaLecturaResultCEO
+- ```
+Tu ultima lectura fue: ${fechaDeLectura}
+Con una lectura ${valorDeLectura}  Kw/h
+```
+
+# UltimaLecturaPendienteResult
+- El contrato que registraste tiene cuentas pendientes con cancelar, te invitamos a ponerte al día con nosotros, para seguir disfrutando del servicio de gas natural.
+
+
+# ObtainRequest
+- Ingresa el número de la solicitud con la cual quedó radicada tu petición
+
+# ValidateContract
+- Tu numero de contrato es $(contrato)
+
+# ConsultaPQRResult
+- ```
+Número de la solicitud: ${solicitud}
+Tu solicitud se encuentra atendida 
+```
+
+# GetPay
+- Por favor ingrese el valor que desea pagar:
+
+# ValidarPago
+- ```
+El valor a pagar es:
+${pago} 
+Por favor pulsar:
+1. si es correcto 
+2. si debe ingresar nuevamente el valor a pagar.
+```
+
+# ErrorContrato
+- El contrato ingresado no registra en nuestra base de datos, te solicitamos validar la información suministrada.
+
+# GetNewPay
+- Por favor ingresa nuevamente el valor a pagar
+
+# ErrorResult
+- ```
+Te informamos que, por el momento no es posible registrar tu petición. Te invitamos a ponerte en contacto con nuestros canales de atención.
+```
+
+
+# ReturningBasicData
+[Activity
+    Attachments = ${json(BasicData())}
+]
+
+# BasicData
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "SOLICITUD DATOS",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "A partir de este momento te vamos a solicitar unos datos para poder consultar y entregarte la información que necesitas.",
+      "horizontalAlignment": "left"
+    }, 
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tipo de identificación",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "tipoIdentificacion",
+              "choices": [
+                ${Text}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Número de identificación",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "identificacion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Nombres y Apellidos",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "cliente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Correo electrónico",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "correo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Teléfono de contacto",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "telefono"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarBasicData"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",           
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+               
+              "actions": [                
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+
+# ReturningContrac
+[Activity
+    Attachments = ${json(ContracCard())}
+]
+
+# ContracCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "${service}",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "Por favor ingresa el número de contrato del lugar donde realizarás tu solicitud. En la siguiente imagen podrás conocer la ubicación del número de tú contrato.",
+      "horizontalAlignment": "left"
+    },
+    {
+      "type": "Image",
+      "url": "${company}",
+      "width": "500px",
+      "height": "80px",
+      "horizontalAlignment": "center",
+      "spacing": "medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Número de contrato",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "contrato"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarContract"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",           
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+               
+              "actions": [                
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```
+
+# ConceptoFacturaSinSaldoResult
+- ```
+Te comparto la información sobre tu factura:
+Contrato: ${contrato}
+Último pago realizado: ${ultimoPagoRealizado}
+Valor total a pagar: ${valorTotalPagar}
+Tu factura no presenta saldo pendiente por cancelar.
+```
+
+# GetTypeIdQUAVII
+- ```
+Digita 
+1 - DNI
+2 - Carné de extranjería
+3 - RUC
+4 - Pasaporte
+```
+
+# GetTypeIdCEO
+- ```
+Digita 
+1 - Para cédula de ciudadanía 
+2 - Pasaporte
+3 - Para cédula de extranjería
+4 - Tarjeta de identidad
+5 - R.U.T
+6 - N.I.T
+```
+
+# ReturningSolicitud
+[Activity
+    Attachments = ${json(SolicitudCard())}
+]
+
+# SolicitudCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "CONSULTA ESTADO DE PQR",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "Ingresa el número de la solicitud con la cual quedó radicada tu petición.",
+      "horizontalAlignment": "left"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Número de solicitud",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "solicitud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarRequest"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",           
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+               
+              "actions": [                
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+# ReturningGetPay
+[Activity
+    Attachments = ${json(GetPayCard())}
+]
+
+# GetPayCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "SOLICITUD DATOS",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "Por favor ingrese el valor que desea pagar.",
+      "horizontalAlignment": "left"
+    }, 
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Valor a pagar",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "pago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarPayData"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",           
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+               
+              "actions": [                
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+# ReturningConfirmPay
+[Activity
+    Attachments = ${json(ConfirmPayCard())}
+]
+
+# ConfirmPayCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "CONFIRMACIÓN DE PAGO",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "El valor a pagar es: ${pago}",
+      "horizontalAlignment": "left"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "Por favor confirma.",
+      "horizontalAlignment": "left"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "confirmarPago",
+              "style": "expanded",
+              "isMultiSelect": false,
+              "value": "2",
+              "choices": [
+                {
+                  "title": "Confirmo valor ingresado.",
+                  "value": "1"
+                },
+                {
+                  "title": "Deseo ingresar nuevamente el valor a pagar.",
+                  "value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarConfirmPay"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",           
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+               
+              "actions": [                
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+# ConsultaPQRSinAtenderResult
+- ```
+Número de la solicitud: ${solicitud}
+Te informamos que tu solicitud se encuentra en estado registrada 
+Tu respuesta se emitirá dentro de los tiempos de ley
+```
+
+# ConsultaPQRSinAtenderResultCEO
+- ```
+Tu solicitud  ${numero_solicitud} correspondiente a ${tipo_solicitud} se encuentra en estado ${estado_solicitud}
+
+```
+
+# ConsultaPQRSinAtenderResultGDO
+- ```
+Tu solicitud ${numero_solicitud} correspondiente a ${tipo_solicitud} se encuentra en estado ${estado_solicitud}
+```
+
+# ConsultaPQRSinAtenderResultSTG
+- ```
+
+Tu solicitud  ${numero_solicitud} correspondiente a ${tipo_solicitud} se encuentra en estado ${estado_solicitud}.
+```
+
+# ConsultaPQRSinAtenderResultQUAVII
+- ```
+Tu solicitud  ${numero_solicitud} correspondiente a ${tipo_solicitud} se encuentra en estado ${estado_solicitud}
+```
+
+
+# ConsultaPQRNoEncontradoCEO
+- ```
+Tu solicitud ${solicitud} no registra en nuestro sistema comercial, te solicitamos validar la información suministrada.
+```
+
+# ConsultaPQRNoEncontradoGDO
+- ```
+Tu solicitud ${solicitud} no registra en nuestra base de datos, te solicitamos validar la información suministrada.
+```
+
+# ConsultaPQRNoEncontradoSTG
+- ```
+Tu solicitud ${solicitud} no registra en nuestra base de datos, te solicitamos validar la información suministrada.
+```
+
+# ConsultaPQRNoEncontradoQUAVII
+- ```
+Tu solicitud ${solicitud} no registra en nuestra base de datos, te solicitamos validar la información suministrada.
+```
+
+# ConsultaPQRanuladoCEO
+- ```
+No es posible consultar tu solicitud ${numero_solicitud}, te invitamos a comunicarte con nuestros canales de atención 018000511234  o al correo pqrceo@ceoesp.com.
+
+```
+# ConsultaPQRanuladoGDO
+- ```
+No es posible consultar tu solicitud ${numero_solicitud}, te invitamos a comunicarte con nuestros canales de atención 4187333 (Cali) y 018000528888 (municipios) o al correo electrónico inquietudes@gdo.com.co.
+
+```
+# ConsultaPQRanuladoSTG
+- ```
+No es posible consultar tu solicitud ${numero_solicitud}, te invitamos a comunicarte con nuestros canales de atención 164  y 018000910164.
+```
+# ConsultaPQRanuladoQUAVII
+- ```
+No es posible consultar tu solicitud ${numero_solicitud}, te invitamos a comunicarte con nuestros canales de atención 0801 00001 (Linea de Atención),  948259147 (Mensajes de whatsapp) o al correo electrónico conectados@quavii.pe
+
+```
+
+# ConsultaPQRCodigoDesconocidoResult
+- ```
+Te invitamos a ponerte en contacto 
+con nuestros canales de atención
+```
+
+# BrillaSeguroContratoCupoGDO
+- ```
+Tu petición para adquirir un seguro se registró con el número de solicitud ${solicitud}, uno de nuestros asesores comerciales se comunicará contigo.
+```
+
+# BrillaSeguroContratoCupoSTG
+- ```
+Tu petición para uno de nuestros productos o servicios se registró con el número de solicitud ${solicitud}, uno de nuestros asesores comerciales se comunicará contigo.
+```
+
+# BrillaSeguroContratosinCupoCupoGDO
+- ```
+No es posible registrar tu solicitud por este medio, te invitamos a comunicarte con nuestros canales de atención 4187333 (Cali) y 018000528888 (municipios) o ingresando en el siguiente enlace https://www.brilladegasesdeoccidente.com/seguros.
+```
+
+# BrillaSeguroContratosinCupoCupoSTG
+- ```
+El contrato que ingresaste no cuenta con un cupo de brilla activo, no siendo posible registrar tu petición.
+```
+# BrillaSeguroCupoBloqueadoGDo
+- ```
+No es posible registrar tu solicitud por este medio, te invitamos a comunicarte con nuestros canales de atención 4187333 (Cali) y 018000528888 (municipios) o ingresando en el siguiente enlace https://www.brilladegasesdeoccidente.com/seguros.
+```
+# BrillaSeguroCupoBloqueadoSTG
+- ```
+No es posible registrar tu solicitud por este medio, te invitamos a comunicarte con nuestros canales de atención 164  ó 018000910164 o ingresando en el siguiente enlace https://www.brilladesurtigas.com/seguros
+```
+#brillaSeguroBloqueosolicitudclienteGDO
+- ```
+No es posible registrar tu solicitud por este medio, te invitamos a comunicarte con nuestros canales de atención 4187333 (Cali) y 018000528888 (municipios) o ingresando en el siguiente enlace https://www.brilladegasesdeoccidente.com/seguros.
+```
+#brillaSeguroBloqueosolicitudclienteSTG
+- ```
+No es posible registrar tu solicitud por este medio, te invitamos a comunicarte con nuestros canales de atención 164  ó 018000910164 o ingresando en el siguiente enlace https://www.brilladesurtigas.com/seguros
+```
+#BrillaSegurosolicitudvisitaGDO
+- ```
+El contrato que ingresaste ya cuenta con una solicitud en proceso de atención, próximamente uno de nuestros asesores se estará comunicando contigo.
+```
+#BrillaSegurosolicitudvisitaSTG
+- ```
+El contrato que ingresaste ya cuenta con una solicitud en proceso de atención, próximamente uno de nuestros asesores se estará comunicando contigo.
+```
+
+
+
+
+
+
+
+
+
+
+
+# ServerError
+- ```
+En estos momentos no es posible entregarte la información que necesitas, por favor inténtalo más tarde.
+```
+
+# ErrorAdaptiveCard
+- ```
+Por favor ingrese la información solicitada, en los campos del formulario anterior.
+```
+
+# AplicaDesviacionSTG
+- ```
+Si existe desviación:
+De acuerdo con validación en nuestro sistema, se evidencia un aumento en el consumo de gas con respecto a los últimos 6 meses, acorde a lo establecido en el contrato de condiciones uniformes (CCU).  Comunicate con nuestras líneas de atención al cliente 164 y/o 018000910164 desde cualquier operador fijo o celular, o visita una de las salas de atención a usuarios.
+```
+
+# NoAplicaDesviacionSTG
+- ```
+No existe desviación:
+De acuerdo con validación en nuestro sistema, no se evidencia una desviación significativa en tu consumo con respecto al histórico de los últimos 6 meses acorde a lo establecido en el contrato de condiciones uniformes (CCU).   Te invitamos a revisar el historial de consumo de tu factura y hacer un uso adecuado del servicio
+```
+
+# AplicaDesviacionGDO
+- ```
+Si existe desviación:
+De acuerdo con la validación en nuestro sistema, se evidencia un aumento en el consumo de gas con respecto a los últimos seis meses, acorde a lo establecido en el contrato de condiciones uniformes (CCU).
+Te invitamos a comunicarte con nuestros canales de atención 4187333 (Cali), 018000528888 (municipios) o nuestras oficinas de atención, que podrás consultar en la página web www.gdo.com.co, donde uno de nuestros asesores revisará la variación en el consumo de gas.
+```
+
+# NoAplicaDesviacionGDO
+- ```
+No aplica desviación:
+De acuerdo con la validación en nuestro sistema, no se evidencia una desviación significativa en tu consumo con respecto al histórico de los últimos seis meses, acorde a lo establecido en el contrato de condiciones uniformes (CCU)
+```
+
+# GetTypePolicySTG
+- ```
+Por favor selecciona del siguiente listado la opción que se ajusta a tu necesidad
+1 - Para Seguro Exequial / Funerario
+2 - Para Seguro de Vida
+3 - Para Seguro Salva Factura 
+4 - Para Señor Casas
+```
+
+# GetObservationText
+- Por favor cuéntanos qué tipo de seguro deseas adquirir o cuál es tu necesidad.
+
+# VentaSegurosResult
+- ```
+Tu petición se registró con número
+de solicitud ${solicitud} y uno de nuestros
+asesores comerciales se comunicará contigo
+```
+
+# PagoParcialResult
+- ```
+Tu cupón de pago parcial se registró
+con número de solicitud ${solicitud}
+Nombre del documento generado
+${nroDocumentoGenerado}
+Para realizar el pago puedes acceder al siguiente enlace:
+${url}
+```
+
+# ReturningDataVentaSeguros
+[Activity
+    Attachments = ${json(VentaSegurosCard())}
+]
+
+# VentaSegurosCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "SOLICITUD DATOS",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "A partir de este momento te vamos a solicitar unos datos para poder consultar y entregarte la información que necesitas.",
+      "horizontalAlignment": "left"
+    },
+    {
+      "type": "ColumnSet",
+      "isVisible": ${visible},
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tipo de póliza",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "TipoPoliza",
+              "style": "compact",
+              "choices": [
+                {
+                  "title": "Seguro Exequial / Funerario",
+                  "value": "975"
+                },
+                {
+                  "title": "Seguro de Vida",
+                  "value": "815"
+                },
+                {
+                  "title": "Seguro Salva Factura",
+                  "value": "637"
+                },
+                {
+                  "title": "Señor Casas",
+                  "value": "1055"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tipo de póliza que desea adquirir",
+              "size": "medium",
+              "wrap": true,
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+               "isMultiline": true,
+              "id": "observacionSeguro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tipo de identificación",
+              "size": "medium",
+              "wrap": true,
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "tipoIdentificacion",
+              "style": "compact",
+              "choices": [
+                ${Text}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Número de identificación",
+              "size": "medium",
+              "wrap": true,
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "maxLength": 20,
+              "id": "identificacion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Nombres y Apellidos",
+              "size": "medium",
+              "wrap": true,
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "cliente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Correo electrónico",
+              "size": "medium",
+              "wrap": true,
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "correo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Teléfono de contacto",
+              "size": "medium",
+              "wrap": true,
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "telefono"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarBasicData"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+# ReturningDataVisitaFinanciacion
+[Activity
+    Attachments = ${json(VisitaFinanciacionCard())}
+]
+
+# VisitaFinanciacionCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "SOLICITUD DATOS",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "A partir de este momento te vamos a solicitar unos datos para poder consultar y entregarte la información que necesitas.",
+      "horizontalAlignment": "left"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tipo de identificación",
+              "wrap": true,
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "tipoIdentificacion",
+              "style": "compact",
+              "choices": [
+                ${Text}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Número de identificación",
+              "wrap": true,
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "identificacion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Nombres y Apellidos",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "cliente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Correo electrónico",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "correo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Teléfono de contacto",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "telefono"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Producto interesado en financiar",
+              "wrap": true,
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+               "isMultiline": true,
+              "id": "observacionProducto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarBasicData"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+# ReturningProductosCard
+[Activity
+    Attachments = ${json(ProductosCard())}
+]
+
+
+# ProductosCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "PRODUCTO SOLICITADO",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "Seleccione el producto que desea adquirir:",
+      "horizontalAlignment": "left"
+    },
+{
+      "type": "ColumnSet",
+      "isVisible": ${visible},
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Producto",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "Producto",
+              "style": "compact",
+              "choices": [
+                {
+                  "title": "GASODOMESTICOS",
+                  "wrap": true,
+                  "value": "1"
+                },
+                {
+                  "title": "MATERIALES PARA LA CONSTRUCCIÓN",
+                  "wrap": true,
+                  "value": "2"
+                },
+                {
+                  "title": "HERRAMIENTAS",
+                  "wrap": true,
+                  "value": "3"
+                },
+                {
+                  "title": "EDUCACION",
+                  "wrap": true,
+                  "value": "4"
+                },
+                {
+                  "title": "CDA Y SERVITECAS",
+                  "wrap": true,
+                  "value": "5"
+                },
+                {
+                  "title": "ELECTRODOMESTICOS MAYORES Y MENORES",
+                  "wrap": true,
+                  "value": "6"
+                },
+                {
+                  "title": "AUDIO, VIDEO Y COMPUTADORES",
+                  "wrap": true,
+                  "value": "7"
+                },
+                {
+                  "title": "TELEFONIA MOVIL",
+                  "wrap": true,
+                  "value": "8"
+                },
+                {
+                  "title": "MOTOS",
+                  "wrap": true,
+                  "value": "9"
+                },
+                {
+                  "title": "BICICLETAS",
+                  "wrap": true,
+                  "value": "10"
+                },
+                {
+                  "title": "ROPA Y CALZADO",
+                  "wrap": true,
+                  "value": "11"
+                },
+                {
+                  "title": "MUEBLES Y COLCHONES",
+                  "wrap": true,
+                  "value": "12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarProducto"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+# GetObservationVisitaText
+- Por favor cuéntanos qué producto deseas adquirir
+
+# VisitaDeFinanciacionPaginaGDO
+- Para realizar la solicitud de dicho producto debe ingresar a https://www.brilladegasesdeoccidente.com/solicita-la-visita-de-un-asesor
+
+# VisitaDeFinanciacionPaginaSTG
+- Para realizar la solicitud de dicho producto debe ingresar a https://www.brilladesurtigas.com/que-puedo-financiar
+
+# VisitaFinanciacionResult
+- ```
+Tu petición se registró con número 
+de solicitud ${solicitud} y uno de nuestros 
+asesores comerciales se comunicará contigo
+```
+
+# mensajeContactoCEO
+- ```
+Te informamos que, por el momento no es posible registrar tu petición. Te invitamos a ponerte en contacto con nuestros canales de atención a la línea 0180005112345
+```
+
+# mensajeContactoGDO
+- ```
+Te informamos que, por el momento no es posible registrar tu solicitud. Te invitamos a comunicarte con nuestros canales de atención 4187333 (Cali) y 018000528888 (municipios).
+```
+
+# mensajeContactoSTG
+- ```
+Te informamos que, por el momento no es posible registrar tu solicitud. Te invitamos a comunicarte con nuestras líneas de atención al cliente 164 y/o 018000910164 desde cualquier operador fijo o celular
+```
+
+# mensajeContactoQuavii
+- ```
+Te informamos que, por el momento no es posible registrar tu petición. Te invitamos a comunicarte a: [Comparte en WhatsApp](https://api.whatsapp.com/send?phone=51948259147)
+```
+
+# ReconexionPorPagoResult
+- ```
+El contrato que ingresaste no cuenta con orden de reconexión por pago en estado registrado.
+```
+
+# ReconexionPorPagoTiempoE
+- ```
+El contrato que ingresaste tiene orden de reconexión por pago registrada, en las próximas ${tiempo_reconexion} horas hábiles tu servicio quedará activo.
+```
+
+
+# ReturningDataReconexionPago
+[Activity
+    Attachments = ${json(ReconexionPagoCard())}
+]
+
+# ReconexionPagoCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "weight": "Bolder",
+      "text": "SOLICITUD DATOS",
+      "horizontalAlignment": "center",
+      "color": "accent"
+    },
+    {
+      "type": "TextBlock",
+      "size": "medium",
+      "wrap": true,
+      "text": "A partir de este momento te vamos a solicitar unos datos para poder consultar y entregarte la información que necesitas.",
+      "horizontalAlignment": "left"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tipo de identificación",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.ChoiceSet",
+              "id": "tipoIdentificacion",
+              "style": "compact",
+              "choices": [
+                ${Text}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Número de identificación",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "identificacion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Nombres y Apellidos",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "cliente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Correo electrónico",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "correo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Teléfono de contacto",
+              "size": "medium",
+              "horizontalAlignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Input.Text",
+              "style": "text",
+              "id": "telefono"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "verticalContentAlignment": "center",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Enviar",
+                  "data": {
+                    "boton": "EnviarBasicData"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.Submit",
+                  "title": "Salir",
+                  "data": {
+                    "boton": "Salir"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+# SaldoPendienteResult
+- ```
+Tiene un saldo pendiente de: ${saldoPendiente} $
+```
+
+# SinSaldoPendiente
+- ```
+${mensajes.descMsj} $
+```
+
+# PagoMayorResult
+- ```
+El pago supera la deuda. Por favor ingrese un valor valido.
+```
+
+# VisitaFinanciacionSinCupoResult
+- ```
+El contrato que ingresaste no cuenta con un cupo de brilla activo, no siendo posible registrar tu petición.
+```
+
+# VisitaFinanciacionConSolResult
+- ```
+El contrato que ingresaste ya cuenta con una solicitud en proceso de atención, próximamente uno de nuestros asesores se estará comunicando contigo.
+```
+
+# ConsultaCupoBrilla
+- ```
+Tu Cupo Aprobado Brilla es de $ ${cupo_aprobado}
+Cupo utilizado:$ ${cupo_utilizado}
+Cupo disponible:$ ${cupo_disponible}
+```
+
+# ConsultaCupoBrillaError
+- ```
+El contrato que ingresaste no cuenta con un cupo de brilla activo.
+```
+
+# EmergenciaMessageGDO
+- ```
+Por tu seguridad, llama a la línea de atención de emergencias 164 de GdO, la cual funciona las 24 horas del día, en caso de:
+• Olor a gas constante o intermitente. 
+• Ausencia en el suministro de gas de forma repentina.
+```
+
+# EmergenciaMessageCEO
+- ```
+Lo siento, En este momento no contamos con este servicio.
+```
+
+# EmergenciaMessageSTG
+- ```
+Por tu seguridad, llama a la línea de atención a usuarios 164 y/o 018000910164 desde cualquier operador fijo o celular que funcionan las 24 horas del día, en caso de:
+• Ausencia en el suministro de gas de forma repentina 
+• Fuga de gas
+• Realizar obras o remodelaciones donde intervengan los andenes o para identificar las tuberías existentes.
+```
+
+# EmergenciaMessageQUAVII
+- ```
+Por tu seguridad, llama a la línea de atención de emergencias 1808  en la cual atendemos las 24 horas del día.
+```
+
+# ErrorContratoGDO
+- El contrato ingresado no registra en nuestra base de datos, te solicitamos validar la información suministrada.

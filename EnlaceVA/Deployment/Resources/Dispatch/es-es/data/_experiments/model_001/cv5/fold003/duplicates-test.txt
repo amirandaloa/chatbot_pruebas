@@ -1,0 +1,24 @@
+Utterance	Intents
+lista de servicios credito brilla	q_Chitchat, q_Faq
+en cuento tiempo esta la respuesta al reclamo de una pqr	q_Chitchat, q_Faq
+necesito imprimir mi recibo	l_General, q_Chitchat
+como hago para bloquear mi factura para que no financien	q_Chitchat, q_Faq
+cuando me reconectan	q_Chitchat, q_Faq
+tengo un incremento en mi factura	l_General, q_Chitchat
+porque tengo este item en mi factura	q_Chitchat, q_Faq
+quiero un certificado de los valores cobrados en mi recibo	l_General, q_Chitchat
+quiero validar si esta persona trabaja con ustedes	l_General, q_Chitchat
+que se debe hacer para una solicitud de mantenimiento	q_Chitchat, q_Faq
+es brilla	q_Chitchat, q_Faq
+proxima revision	l_General, q_Chitchat
+como puedo consultar mi cupo brilla	l_General, q_Chitchat
+certificado de pago de los meses	l_General, q_Chitchat
+debo reportar un siniestro para el seguro funerario	q_Chitchat, q_Faq
+mi factura ha subido	l_General, q_Chitchat
+aquí puedo imprmir mi factura	l_General, q_Chitchat
+listado de tiendas brilla	q_Chitchat, q_Faq
+donde puedo hacer un credito con brilla cuales son las direcciones de los almacenes	q_Chitchat, q_Faq
+como hago para financiar por brilla	q_Chitchat, q_Faq
+no quiero el cupo de brilla	q_Chitchat, q_Faq
+que paso con la facturacion del mes que llego con un valor muy alto	l_General, q_Chitchat
+deseo hacer un abono a mi recibo	l_General, q_Chitchat

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnlaceVA", "EnlaceVA\EnlaceVA.csproj", "{288F95BB-7546-44B3-9CF8-C4BBD213E525}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnlaceVA.Tests", "EnlaceVA.Tests\EnlaceVA.Tests.csproj", "{05C510FE-0870-47BE-A6D4-5B2F06521507}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwilioIntegrationFunction", "TwilioIntegrationFunction\TwilioIntegrationFunction.csproj", "{5602C830-03A7-4F19-926B-30ADD3148141}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebchatEnlace", "WebchatEnlace\WebchatEnlace.csproj", "{2D8D0862-3928-4940-87AC-7DAC498B3D0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288F95BB-7546-44B3-9CF8-C4BBD213E525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288F95BB-7546-44B3-9CF8-C4BBD213E525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288F95BB-7546-44B3-9CF8-C4BBD213E525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288F95BB-7546-44B3-9CF8-C4BBD213E525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C510FE-0870-47BE-A6D4-5B2F06521507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C510FE-0870-47BE-A6D4-5B2F06521507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C510FE-0870-47BE-A6D4-5B2F06521507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C510FE-0870-47BE-A6D4-5B2F06521507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5602C830-03A7-4F19-926B-30ADD3148141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5602C830-03A7-4F19-926B-30ADD3148141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5602C830-03A7-4F19-926B-30ADD3148141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5602C830-03A7-4F19-926B-30ADD3148141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8D0862-3928-4940-87AC-7DAC498B3D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8D0862-3928-4940-87AC-7DAC498B3D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8D0862-3928-4940-87AC-7DAC498B3D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8D0862-3928-4940-87AC-7DAC498B3D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1666D43-52A2-4EB7-AAD0-B2597CCC8301}
+	EndGlobalSection
+EndGlobal

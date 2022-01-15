@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Web Chat: GDO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script crossorigin="anonymous" src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <style>      
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #webchat {
+            height: 100%;
+            width: 100%;
+        }
+
+        .webchat__bubble:not(.webchat__bubble--from-user) .webchat__bubble__content {
+            margin-top: auto !important;
+            margin-bottom: auto !important;
+            border-radius: 10px !important;
+            background: transparent linear-gradient(80deg, #007ECF 0%, #00409A 100%) 0% 0% no-repeat padding-box !important;
+            color: #ffff !important;
+            padding: 10px !important;
+            position: relative !important;
+        }
+
+        .webchat__bubble--from-user .webchat__bubble__content {
+            margin-top: auto !important;
+            margin-bottom: auto !important;
+            border-radius: 10px !important;
+            background-color: #ffff !important;
+            color: #00498C !important;
+            padding: 0px !important;
+            position: relative !important;
+        }
+
+        .ac-adaptiveCard {
+            background: white !important;
+        }
+
+        a:link {
+            color: whitesmoke;
+        }
+
+        p {
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+
+        .webchat__icon-button svg {
+            fill: #00498C !important
+        }
+
+        ::-webkit-input-placeholder {
+            color: #00498C !important;
+        }
+
+        .webchat--css-rpcrc-17j40uk {
+            height: 50px !important;
+            width: 100% !important;
+        }
+
+        .ac-pushButton {
+            padding: 0px !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="webchat">
+        <iframe src='https://webchat.botframework.com/embed/VAEnlacePromDev-WepAppBot?s=hcxsRNHOldg.kc4mIjB-9QJC7zhAFu17A1z0pzwC4OxjIIfLPkrP5xo' style='min-width: 400px; width: 100%; min-height: 100%;' title="GDO"></iframe>
+    </div>
+    <script>
+        // "styleSet" is a set of CSS rules which are generated from "styleOptions"
+        const styleSet = window.WebChat.createStyleSet({
+            botAvatarImage: '<your bot avatar URL>',
+            botAvatarInitials: 'BF',
+            userAvatarImage: '<your user avatar URL>',
+            userAvatarInitials: 'WC'
+        });
+
+
+        function makeid(length) {
+            var result = '';
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var charactersLength = characters.length;
+            for (var i = 0; i < length; i++) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return result;
+        }
+
+        (async function () {
+            // Note, for the simplicity of this example, we are generating the Direct Line token on client side;
+            // however, this is not a recommended practice and you should create and manage your tokens from the server.
+            // You should never put the Direct Line secret in the browser or client app.
+            // https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication
+            const secret = 'hcxsRNHOldg.kc4mIjB-9QJC7zhAFu17A1z0pzwC4OxjIIfLPkrP5xo';
+            const res = await fetch('https://directline.botframework.com/v3/directline/tokens/generate', {
+                body: JSON.stringify({ user: { id: makeid(10), name: 'gdo' } }),
+                headers: {
+                    Authorization: `Bearer ${secret}`,
+                    'Content-type': 'application/json'
+                },
+                method: 'POST'
+            });
+            const { token } = await res.json();
+
+            window.WebChat.renderWebChat(
+                {
+                    directLine: window.WebChat.createDirectLine({ token }),
+                    styleOptions: {
+                        hideUploadButton: true
+                    }
+                },
+
+                document.getElementById('webchat')
+            );
+
+            document.querySelector('#webchat > *').focus();
+        })().catch(err => console.error(err));
+    </script>
+</body>
+</html>

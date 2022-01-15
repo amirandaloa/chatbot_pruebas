@@ -1,0 +1,276 @@
+﻿# ReturningMenuAdaptiveCard
+[Activity
+    Attachments = ${json(MenuAdaptiveCard())}
+]
+
+# MenuAdaptiveCard
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Menú",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Disculpa sigo sin entender, pero pensando en ti, diseñamos este menú donde podrás conocer las opciones que tenemos para tu consulta.",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Facturación y pagos",
+      "data": {
+        "boton": "Facturación y pagos"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Brilla y seguros",
+      "data": {
+        "boton": "Brilla y seguros"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Información general",
+      "data": {
+        "boton": "Información general"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Revisión periodica",
+      "data": {
+        "boton": "Revisión periodica"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicios Post - Venta (Servicios de mantenimiento y modificaciones)",
+      "data": {
+        "boton": "Servicios Post - Venta (Servicios de mantenimiento y modificaciones)"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Conexión de gas (CEO - Conexión de energia)",
+      "data": {
+        "boton": "Conexión de gas (CEO - Conexión de energia)"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Agendamiento",
+      "data": {
+        "boton": "Agendamiento"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Emergencias",
+      "data": {
+        "boton": "Emergencias"
+      }
+    }
+  ]
+}
+```
+
+# Facturacion_y_pagos
+[Activity
+    Attachments = ${json(PruebaFacturacion_y_pagos())}
+]
+
+# PruebaFacturacion_y_pagos
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "FirstContainer",
+      "isVisible": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "SubMenu",
+          "weight": "bolder",
+          "color": "accent",
+          "size": "medium",
+          "separator": true,
+          "spacing": "medium",
+          "horizontalAlignment": "center"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit lacinia non, fames etiam ante hendrerit nam leo sagittis vestibulum orci augue",
+          "wrap": true,
+          "horizontalAlignment": "center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Genera tu factura de pago anticipado o prepago",
+      "data": {
+        "boton": "Genera tu factura de pago anticipado o prepago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Genera tu factura de pago parcial",
+      "data": {
+        "boton": "Genera tu factura de pago parcial"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Constancia de pago",
+      "data": {
+        "boton": "Constancia de pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado estado de cuenta (resumen de facturas)",
+      "data": {
+        "boton": "Certificado estado de cuenta (resumen de facturas)"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Certificado deuda financiada o diferida",
+      "data": {
+        "boton": "Certificado deuda financiada o diferida"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Información valor de la factura, fecha límite de pago y referencia de pago (Dar opción de pago en línea)",
+      "data": {
+        "boton": "Información valor de la factura, fecha límite de pago y referencia de pago (Dar opción de pago en línea)"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Información estado deuda diferida y corriente (Dar opción de pago en línea)",
+      "data": {
+        "boton": "Información estado deuda diferida y corriente (Dar opción de pago en línea)"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Consulta y generación de factura",
+      "data": {
+        "boton": "Consulta y generación de factura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Consumo facturado",
+      "data": {
+        "boton": "Consumo facturado"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Toma de lectura",
+      "data": {
+        "boton": "Toma de lectura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Exención de contribución",
+      "data": {
+        "boton": "Exención de contribución"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Acuerdo de Pago",
+      "data": {
+        "boton": "Acuerdo de Pago"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "traslado deuda de brilla",
+      "data": {
+        "boton": "traslado deuda de brilla"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Requisitos traslado deuda",
+      "data": {
+        "boton": "Requisitos traslado deuda"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "GdO, Surti, Quavii (gas)",
+      "data": {
+        "boton": "GdO, Surti, Quavii (gas)"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "CEO (Energía)",
+      "data": {
+        "boton": "CEO (Energía)"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Devolución de saldo a favor",
+      "data": {
+        "boton": "Devolución de saldo a favor"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Traslado de pago a otro contrato",
+      "data": {
+        "boton": "Traslado de pago a otro contrato"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Explicación de la factura",
+      "data": {
+        "boton": "Explicación de la factura"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Reconexión desde centro de medición/tubo de conexión y/o acometida",
+      "data": {
+        "boton": "Reconexión desde centro de medición/tubo de conexión y/o acometida"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Puntos de pagos",
+      "data": {
+        "boton": "Puntos de pagos"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Pago en la empresa con tarjeta crédito",
+      "data": {
+        "boton": "Pago en la empresa con tarjeta crédito"
+      }
+    },{
+      "type": "Action.Submit",
+      "title": "Información Tarifas",
+      "data": {
+        "boton": "Información Tarifas"
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,26 @@
+Utterance	Intents
+que puedo financiar con brilla	q_Chitchat, q_Faq
+para reportar una queja reclamo	q_Chitchat, q_Faq
+necesito hacer efectivo el seguro de fallecido	q_Chitchat, q_Faq
+se me daño, requiero la garantia de brilla	q_Chitchat, q_Faq
+estoy inconforme con el servicio	q_Chitchat, q_Faq
+en la ciudad cuales proveedores	q_Chitchat, q_Faq
+como reclamar seguro de siniestro	q_Chitchat, q_Faq
+errores de consumo	l_General, q_Chitchat
+cuando me reconectan	l_General, q_Faq
+donde puedo imprimir mi factura	l_General, q_Chitchat
+cuando me reconectan mi servicio	l_General, q_Chitchat
+presento reclamo por el aumento desproporcionado en la factura	l_General, q_Chitchat
+cuando tendre mi revision periodica	l_General, q_Chitchat
+aquí me pueden dar un duplicado de la factura	l_General, q_Chitchat
+necesito saber si una persona trabaja en gases de occidente	l_General, q_Chitchat
+necesito que no compren con brilla	q_Chitchat, q_Faq
+quiero saber el historial de mi recibo	l_General, q_Chitchat
+necesito pagar mi factura y no la tengo	l_General, q_Chitchat
+en donde puedo sacar electrodomesticos con el cupo	q_Chitchat, q_Faq
+donde puedo conseguir informacion de mantenimiento, visitas, revisiones	q_Chitchat, q_Faq
+cuando vence mi factura	l_General, q_Chitchat
+tiempos de atencion pqrs	q_Chitchat, q_Faq
+deseo un certificado de pago	l_General, q_Chitchat
+si se me daño algo, brilla me cubre	q_Chitchat, q_Faq
+por aquí puedo conocer el valor de mi factura	l_General, q_Chitchat

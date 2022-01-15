@@ -1,0 +1,50 @@
+{
+  "authoringRegion": "westus",
+  "culture": "es-es",
+  "hierarchical": true,
+  "useAllTrainingData": true,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "88352817-9f8c-4755-8f9c-3cb1e6958f7d",
+      "authoringKey": "30f9ef35c9c345b6b24e5dfdaf7ffcb3",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "VAEnlacePromDeves-es_General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Faq",
+      "includePrompts": true,
+      "kbId": "cbbfb777-fc7e-4faa-8ee8-529c4bc1823a",
+      "subscriptionKey": "abfc6d97e0ef43d9a6f1e2abe88dbf21",
+      "type": "qna",
+      "name": "Faq",
+      "id": "2"
+    },
+    {
+      "intentName": "q_Chitchat",
+      "includePrompts": true,
+      "kbId": "f7959733-dd23-44e7-9ba2-69db32f6f1d9",
+      "subscriptionKey": "abfc6d97e0ef43d9a6f1e2abe88dbf21",
+      "type": "qna",
+      "name": "Chitchat",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "b2437c37-cf58-4035-b83f-be5507374fde",
+  "authoringKey": "30f9ef35c9c345b6b24e5dfdaf7ffcb3",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "VAEnlacePromDeves-es_Dispatch"
+}

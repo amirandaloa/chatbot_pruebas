@@ -1,0 +1,28 @@
+Utterance	Intents
+portafolio brilla	q_Chitchat, q_Faq
+puedo financiar la universidad	q_Chitchat, q_Faq
+tengo cupo y quiero comprar un producto con brilla	l_General, q_Chitchat
+a donde me dirijo para un crédito con brilla	l_General, q_Chitchat
+cuales son los proveedores que maneja brilla	q_Chitchat, q_Faq
+cuál es mi saldo pendiente por pagar	l_General, q_Chitchat
+ya pague el servicio, me reconectan la energia ya mismo	l_General, q_Chitchat
+donde puedo comprar con brilla	q_Chitchat, q_Faq
+exento de la contribucion	l_General, q_Chitchat
+deseo pagar anticipado mi recibo	l_General, q_Chitchat
+como hago reclamo por el servicio de energia	q_Chitchat, q_Faq
+reconexion del servicio	l_General, q_Chitchat
+quiero una certificación de mi recibo	l_General, q_Chitchat
+como hago para solicitar la garantia	q_Chitchat, q_Faq
+tiempos de reconexion	q_Chitchat, q_Faq
+cuando me reconectan el servicio, como hago para cambiar el cable de la acometida	q_Chitchat, q_Faq
+en la oficina se pueden hacer reclamo	q_Chitchat, q_Faq
+descargar constancia de pago	l_General, q_Chitchat
+cuando me realizan la reconexion del servicio	l_General, q_Chitchat
+adquirir un seguro con brilla	l_General, q_Chitchat
+tengo un a persona de quavii, para saber si es de la empresa	l_General, q_Chitchat
+donde puedo solicitar productos para pagarlos por medio de brilla	q_Chitchat, q_Faq
+cual es el telefono para el servicio funerario	q_Chitchat, q_Faq
+por que me cobran reconexion si no me han cortado	q_Chitchat, q_Faq
+imprimir certificado de factura	l_General, q_Chitchat
+solicite su revision periodica	l_General, q_Chitchat
+deseo abonar a brilla	l_General, q_Chitchat

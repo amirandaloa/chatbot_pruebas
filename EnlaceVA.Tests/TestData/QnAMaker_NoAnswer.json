@@ -1,0 +1,25 @@
+{
+  "answers": [
+    {
+      "questions": [
+        "Cupo Brilla"
+      ],
+      "answer": "Brilla es un cupo para comprar lo que quieras",
+      "score": 100,
+      "id": 1,
+      "source": "custom editorial",
+      "metadata": []
+    },
+    {
+      "questions": [
+        "Conectarme al agua"
+      ],
+      "answer": "243543",
+      "score": 100,
+      "id": 1,
+      "source": "custom editorial",
+      "metadata": []
+
+    }
+  ]
+}

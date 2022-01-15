@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConceptoFacturaGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDOCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=ConceptoFactura_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConceptoFacturaSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=STGCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=ConceptoFactura_Out&amp;interfaceNamespace=urn:gaseras.stg.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConceptoFacturaCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=ConceptoFactura_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConceptoFacturaQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=ConceptoFactura_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsultaPQRGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDOCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaEstado_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsultaPQRSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=STGCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaEstado_Out&amp;interfaceNamespace=urn:gaseras.stg.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsultaPQRCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaEstado_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsultaPQRQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaEstado_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsumoFacturadoGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDOCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=ConsumoFacturado_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsumoFacturadoSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=STGCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=ConsumoFacturado_Out&amp;interfaceNamespace=urn:gaseras.stg.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsumoFacturadoCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=ConsumoFacturado_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsumoFacturadoQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=ConsumoFacturado_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="CuponPagoParcialGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;amp;senderService=GDOCHATBOT_D&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=CuponPagoParcial_Out&amp;amp;interfaceNamespace=urn%3Agaseras.com%3Asrvemp%3Abss%3Achatbot</value>
+  </data>
+  <data name="CuponPagoParcialSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;amp;senderService=STGCHATBOT_D&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=CuponPagoParcial_Out&amp;amp;interfaceNamespace=urn%3Agaseras.stg.com%3Asrvemp%3Abss%3Achatbot</value>
+  </data>
+  <data name="CuponPagoParcialCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;amp;senderService=OSMFLEX_CEO&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=CuponPagoParcial_Out&amp;amp;interfaceNamespace=urn%3Agaseras.com%3Asrvemp%3Abss%3Achatbot</value>
+  </data>
+  <data name="CuponPagoParcialQAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;amp;senderService=OSMFLEX_GDP&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=CuponPagoParcial_Out&amp;amp;interfaceNamespace=urn%3Agaseras.com%3Asrvemp%3Abss%3Achatbot</value>
+  </data>
+  <data name="EstadoCuentaGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDOCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=EstadoCuenta_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="EstadoCuentaSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=STGCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=EstadoCuenta_Out&amp;interfaceNamespace=urn:gaseras.stg.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="EstadoCuentaCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=CEOCHATBOT_Q&amp;receiverParty=&amp;receiverService=&amp;interface=EstadoCuenta_Out&amp;interfaceNamespace=urn:gaseras.ceoc.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="EstadoCuentaQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDPCHATBOT_Q&amp;receiverParty=&amp;receiverService=&amp;interface=EstadoCuenta_Out&amp;interfaceNamespace=urn:gaseras.gdp.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TomaLecturaGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDOCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=TomaLectura_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TomaLecturaSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=STGCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=TomaLectura_Out&amp;interfaceNamespace=urn:gaseras.stg.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TomaLecturaCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=CEOCHATBOT_Q&amp;receiverParty=&amp;receiverService=&amp;interface=TomaLectura_Out&amp;interfaceNamespace=urn:gaseras.ceoc.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TomaLecturaQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDPCHATBOT_Q&amp;receiverParty=&amp;receiverService=&amp;interface=TomaLectura_Out&amp;interfaceNamespace=urn:gaseras.gdp.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TratamientoDatosCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=TratamientoDatos_CEO_QUAVII_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TratamientoDatosGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDO&amp;receiverParty=&amp;receiverService=&amp;interface=TratamientoDatos_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TratamientoDatosQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=TratamientoDatos_CEO_QUAVII_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="TratamientoDatosSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_STG&amp;receiverParty=&amp;receiverService=&amp;interface=TratamientoDatos_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="UrnGeneral" xml:space="preserve">
+    <value>urn:gaseras.com:srvemp:chatbot</value>
+  </data>
+  <data name="ValidarClienteGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDO&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarCliente_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ValidarClienteSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_STG&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarCliente_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ValidarClienteCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarCliente_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ValidarClienteQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarCliente_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ValidarContratoCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarContrato_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ValidarContratoGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDO&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarContrato_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ValidarContratoQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarContrato_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ValidarContratoSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_STG&amp;receiverParty=&amp;receiverService=&amp;interface=ValidarContrato_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="VentaSegurosGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDOCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=VentaSeguros_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="VentaSegurosSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=STGCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=VentaSeguros_Out&amp;interfaceNamespace=urn:gaseras.stg.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="VisitaFinNoBancaGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=GDOCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=VisitaFinNoBanca_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="VisitaFinNoBancaSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=STGCHATBOT_D&amp;receiverParty=&amp;receiverService=&amp;interface=VisitaFinNoBanca_Out&amp;interfaceNamespace=urn:gaseras.stg.com:srvemp:bss:chatbot</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UrlsCompanies_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>UrlsCompanies.Designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ReconexionPorPagoGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDO&amp;receiverParty=&amp;receiverService=&amp;interface=ReconexionServicioPago_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ReconexionPorPagoCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=ReconexionServicioPago_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ReconexionPorPagoQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=ReconexionServicioPago_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ReconexionPorPagoSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_STG&amp;receiverParty=&amp;receiverService=&amp;interface=ReconexionServicioPago_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="SaldoPendienteCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;amp;senderService=OSMFLEX_CEO&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=ConsultaSaldoPendiente_Out&amp;amp;interfaceNamespace=urn%3Agaseras.com%3Asrvemp%3Abss%3Achatbot</value>
+  </data>
+  <data name="SaldoPendienteGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDO&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaSaldoPendiente_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="SaldoPendienteQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;amp;senderService=OSMFLEX_GDP&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=ConsultaSaldoPendiente_Out&amp;amp;interfaceNamespace=urn%3Agaseras.com%3Asrvemp%3Abss%3Achatbot</value>
+  </data>
+  <data name="SaldoPendienteSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;amp;senderService=OSMFLEX_STG&amp;amp;receiverParty=&amp;amp;receiverService=&amp;amp;interface=ConsultaSaldoPendiente_Out&amp;amp;interfaceNamespace=urn%3Agaseras.com%3Asrvemp%3Abss%3Achatbot</value>
+  </data>
+  <data name="ConsultaCupoBrillaCEO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_CEO&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaCupoBrilla_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsultaCupoBrillaGDO" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDO&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaCupoBrilla_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsultaCupoBrillaQUAVII" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_GDP&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaCupoBrilla_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+  <data name="ConsultaCupoBrillaSTG" xml:space="preserve">
+    <value>https://servicios.enlacecsc.com/chatbotDEV/MessageServlet?senderParty=&amp;senderService=OSMFLEX_STG&amp;receiverParty=&amp;receiverService=&amp;interface=ConsultaCupoBrilla_Out&amp;interfaceNamespace=urn:gaseras.com:srvemp:bss:chatbot</value>
+  </data>
+</root>

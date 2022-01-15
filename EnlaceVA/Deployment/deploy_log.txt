@@ -1,0 +1,645 @@
+{
+  "error": null,
+  "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Resources/deployments/template",
+  "name": "template",
+  "properties": {
+    "correlationId": "2ef5fe51-7aa1-42a1-95d8-088df1db643d",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.DocumentDB/databaseAccounts/vaenlacepromdevcosmos",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "vaenlacepromdevcosmos",
+            "resourceType": "Microsoft.DocumentDB/databaseAccounts"
+          }
+        ],
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.DocumentDB/databaseAccounts/vaenlacepromdevcosmos/sqlDatabases/botstate-db",
+        "resourceGroup": "RG-VAEnlacePromDev",
+        "resourceName": "vaenlacepromdevcosmos/botstate-db",
+        "resourceType": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/serverfarms/VAEnlacePromDev-AppServicePlan",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-AppServicePlan",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/sites/VAEnlacePromDev-Bot",
+        "resourceGroup": "RG-VAEnlacePromDev",
+        "resourceName": "VAEnlacePromDev-Bot",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/sites/VAEnlacePromDev-Bot",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-Bot",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Insights/components/VAEnlacePromDev-Insights",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-Insights",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.BotService/botServices/VAEnlacePromDev-WepAppBot",
+        "resourceGroup": "RG-VAEnlacePromDev",
+        "resourceName": "VAEnlacePromDev-WepAppBot",
+        "resourceType": "Microsoft.BotService/botServices"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.CognitiveServices/accounts/VAEnlacePromDev-luisruntime",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-luisruntime",
+            "resourceType": "Microsoft.CognitiveServices/accounts"
+          }
+        ],
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.CognitiveServices/accounts/VAEnlacePromDev-luisauthoring",
+        "resourceGroup": "RG-VAEnlacePromDev",
+        "resourceName": "VAEnlacePromDev-luisauthoring",
+        "resourceType": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/Sites/VAEnlacePromDev-QnA-Host",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-QnA-Host",
+            "resourceType": "Microsoft.Web/Sites"
+          },
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Search/searchServices/vaenlacepromdev-search",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "vaenlacepromdev-search",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/microsoft.insights/components/VAEnlacePromDev-Insights",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-Insights",
+            "resourceType": "microsoft.insights/components"
+          }
+        ],
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.CognitiveServices/accounts/VAEnlacePromDev-QnA",
+        "resourceGroup": "RG-VAEnlacePromDev",
+        "resourceName": "VAEnlacePromDev-QnA",
+        "resourceType": "Microsoft.CognitiveServices/accounts"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/serverFarms/VAEnlacePromDev-AppServicePlan",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-AppServicePlan",
+            "resourceType": "Microsoft.Web/serverFarms"
+          }
+        ],
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/sites/VAEnlacePromDev-QnA-Host",
+        "resourceGroup": "RG-VAEnlacePromDev",
+        "resourceName": "VAEnlacePromDev-QnA-Host",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/Sites/VAEnlacePromDev-QnA-Host",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-QnA-Host",
+            "resourceType": "Microsoft.Web/Sites"
+          },
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Insights/components/VAEnlacePromDev-Insights",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-Insights",
+            "resourceType": "Microsoft.Insights/components"
+          },
+          {
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Search/searchServices/vaenlacepromdev-search",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "vaenlacepromdev-search",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "actionName": "listAdminKeys",
+            "apiVersion": "2015-08-19",
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Search/searchServices/vaenlacepromdev-search",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "vaenlacepromdev-search",
+            "resourceType": "Microsoft.Search/searchServices"
+          },
+          {
+            "apiVersion": "2015-05-01",
+            "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Insights/components/VAEnlacePromDev-Insights",
+            "resourceGroup": "RG-VAEnlacePromDev",
+            "resourceName": "VAEnlacePromDev-Insights",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/sites/VAEnlacePromDev-QnA-Host/config/appsettings",
+        "resourceGroup": "RG-VAEnlacePromDev",
+        "resourceName": "VAEnlacePromDev-QnA-Host/appsettings",
+        "resourceType": "Microsoft.Web/sites/config"
+      }
+    ],
+    "duration": "PT0S",
+    "error": null,
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": null,
+    "outputs": null,
+    "parameters": {
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "appInsightsName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-Insights"
+      },
+      "appServicePlanName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-AppServicePlan"
+      },
+      "appServicePlanSku": {
+        "type": "Object",
+        "value": {
+          "name": "F1",
+          "tier": "Free"
+        }
+      },
+      "botServiceName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-WepAppBot"
+      },
+      "botServiceSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "botWebAppName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-Bot"
+      },
+      "contentModeratorLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "contentModeratorName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-cm"
+      },
+      "contentModeratorSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "cosmosDbDatabaseName": {
+        "type": "String",
+        "value": "botstate-db"
+      },
+      "cosmosDbDatabaseThroughput": {
+        "type": "Int",
+        "value": 400
+      },
+      "cosmosDbName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-cosmos"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "luisAuthoringLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisAuthoringName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-luisauthoring"
+      },
+      "luisAuthoringSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "luisRuntimeLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "luisRuntimeName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-luisruntime"
+      },
+      "luisRuntimeSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "microsoftAppId": {
+        "type": "String",
+        "value": "4cc4795d-c304-448f-b8fa-ed851bc87a40"
+      },
+      "microsoftAppPassword": {
+        "type": "String",
+        "value": "qknjTX:v/IiGL3M9BC_7FE5hDafJs."
+      },
+      "name": {
+        "type": "String",
+        "value": "VAEnlacePromDev"
+      },
+      "qnaMakerSearchLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "qnaMakerSearchName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-search"
+      },
+      "qnaMakerSearchSku": {
+        "type": "String",
+        "value": "free"
+      },
+      "qnaMakerServiceLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "qnaMakerServiceName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-QnA"
+      },
+      "qnaMakerServiceSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "qnaMakerWebAppLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "qnaMakerWebAppName": {
+        "type": "String",
+        "value": "VAEnlacePromDev-QnA-Host"
+      },
+      "resourceTagName": {
+        "type": "String",
+        "value": "bot"
+      },
+      "resourceTagValue": {
+        "type": "String",
+        "value": "VAEnlacePromDev"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "VAEnlacePromDevstorage"
+      },
+      "suffix": {
+        "type": "String",
+        "value": ""
+      },
+      "useContentModerator": {
+        "type": "Bool",
+        "value": true
+      },
+      "useCosmosDb": {
+        "type": "Bool",
+        "value": true
+      },
+      "useLuisAuthoring": {
+        "type": "Bool",
+        "value": true
+      },
+      "useStorage": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.DocumentDB",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "databaseAccounts"
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "databaseAccounts/sqlDatabases"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "serverFarms"
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "sites"
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "sites/config"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "components"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.BotService",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "global"
+            ],
+            "properties": null,
+            "resourceType": "botServices"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.CognitiveServices",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "eastus",
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "accounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Search",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locations": [
+              "eastus"
+            ],
+            "properties": null,
+            "resourceType": "searchServices"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "1418502503122809126",
+    "templateLink": null,
+    "timestamp": "2021-01-08T21:18:55.548194+00:00",
+    "validatedResources": [
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Resources/deployments/3822b5f4-d098-4b57-9ee6-3bee686aec4c",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.DocumentDB/databaseAccounts/vaenlacepromdevcosmos",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.DocumentDB/databaseAccounts/vaenlacepromdevcosmos/sqlDatabases/botstate-db",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Storage/storageAccounts/vaenlacepromdevstorage",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/serverFarms/VAEnlacePromDev-AppServicePlan",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Insights/components/VAEnlacePromDev-Insights",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/sites/VAEnlacePromDev-Bot",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.BotService/botServices/VAEnlacePromDev-WepAppBot",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.CognitiveServices/accounts/VAEnlacePromDev-cm",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.CognitiveServices/accounts/VAEnlacePromDev-luisruntime",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.CognitiveServices/accounts/VAEnlacePromDev-luisauthoring",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.CognitiveServices/accounts/VAEnlacePromDev-QnA",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Search/searchServices/vaenlacepromdev-search",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/sites/VAEnlacePromDev-QnA-Host",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      },
+      {
+        "id": "/subscriptions/c03a516d-77df-4149-9c93-130a616e9ad9/resourceGroups/RG-VAEnlacePromDev/providers/Microsoft.Web/sites/VAEnlacePromDev-QnA-Host/config/appsettings",
+        "resourceGroup": "RG-VAEnlacePromDev"
+      }
+    ]
+  },
+  "resourceGroup": "RG-VAEnlacePromDev",
+  "type": "Microsoft.Resources/deployments"
+}
+{
+  "applicationInsights": {
+    "type": "Object",
+    "value": {
+      "InstrumentationKey": "6d4aa4e5-ccaf-4fd6-8dfd-de6d1a09aeaa"
+    }
+  },
+  "blobStorage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=vaenlacepromdevstorage;AccountKey=tLTYmfbKdfprljM7X5g7gu1DVd1qKAIZ4tqIx4vhds0QhjR3eAWVxUl8HVmYQMZqUVzfdfwFcFKqcu+6Cm4JtA==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  },
+  "botWebAppName": {
+    "type": "String",
+    "value": "VAEnlacePromDev-Bot"
+  },
+  "contentModerator": {
+    "type": "Object",
+    "value": {
+      "key": "69248cc2174d457c8cdd0d85a04270b8"
+    }
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authKey": "3aOSWv30e7z2ZGq9vNisTmo1r8on6C1sF9L7Y4LxT2C4O4aDENBfGv4fSARAU2rsxOT4csbT0fF0oClfzI3EsA==",
+      "containerId": "VAEnlacePromDev-state",
+      "cosmosDBEndpoint": "https://vaenlacepromdevcosmos.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "accountName": "VAEnlacePromDev-luisruntime",
+      "authoringKey": "30f9ef35c9c345b6b24e5dfdaf7ffcb3",
+      "authoringRegion": "westus",
+      "endpoint": "https://vaenlacepromdev-luisauthoring.cognitiveservices.azure.com/",
+      "key": "d7a1336fbbf04538974a01b6d2b611fb",
+      "region": "eastus"
+    }
+  },
+  "qnaMaker": {
+    "type": "Object",
+    "value": {
+      "endpoint": "https://vaenlacepromdev-qna-host.azurewebsites.net",
+      "key": "abfc6d97e0ef43d9a6f1e2abe88dbf21"
+    }
+  },
+  "resourceGroupName": {
+    "type": "String",
+    "value": "VAEnlacePromDev"
+  }
+}

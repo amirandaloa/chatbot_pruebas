@@ -1,0 +1,48 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "l_General"
+    },
+    {
+      "name": "q_Faq"
+    },
+    {
+      "name": "q_Chitchat"
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [],
+  "versionId": "Dispatch",
+  "name": "VAEnlacePromDeves-es_Dispatch",
+  "desc": "Dispatch model for VAEnlacePromDeves-es_Dispatch",
+  "culture": "es-es",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [
+    {
+      "name": "i_0",
+      "mode": true,
+      "words": "factura,cupon,facturas,facturacion,recibo",
+      "activated": true,
+      "enabledForAllModels": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    },
+    {
+      "name": "UseAllTrainingData",
+      "value": "true"
+    }
+  ]
+}

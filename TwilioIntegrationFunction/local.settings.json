@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=vaenlacepromdevstorage;AccountKey=tLTYmfbKdfprljM7X5g7gu1DVd1qKAIZ4tqIx4vhds0QhjR3eAWVxUl8HVmYQMZqUVzfdfwFcFKqcu+6Cm4JtA==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "BOT_NAME": "VAEnlacePromDev-WepAppBot",
+    "COSMOS_ACCOUNT": "https://vaenlacepromdevcosmos.documents.azure.com:443/",
+    "COSMOS_CONTAINERMAE": "UsersTwilio",
+    "COSMOS_DATABASENAME": "TwilioInformation",
+    "COSMOS_KEY": "3aOSWv30e7z2ZGq9vNisTmo1r8on6C1sF9L7Y4LxT2C4O4aDENBfGv4fSARAU2rsxOT4csbT0fF0oClfzI3EsA==",
+    "DIRECTLINE_SECRETKEY": "VoCocwgqU5k.uYv03jJtB_i25auxsrjW5DDMmBhSS9PcTd6Hck32FoY",
+    "TWILIO_ACCOUNTSID": "ACd299705f267ac391eaf15aeb6baf3921",
+    "TWILIO_AUTHTOKEN": "3628643fbf972d6c309ad120cf73b3ae"
+  }
+}

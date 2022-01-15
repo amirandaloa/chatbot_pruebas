@@ -1,0 +1,910 @@
+Label	Weight	Text
+l_General	1	cuánto falta pagar por obra civil
+l_General	1	cuál fue el último valor cancelado
+l_General	1	quiero solicitar mi revision periodica
+l_General	1	por aquí puedo generar un certificado de paz y salvo de mi deuda
+l_General	1	no está mal
+l_General	1	cerificado deuda diferida
+l_General	1	quiero saber que facturas cancele durante x fechas
+l_General	1	negativo
+l_General	1	exoneracion de pago de contribucion
+l_General	1	gran
+l_General	1	por aquí puedo imprimir una constancia de pago
+l_General	1	como puedo financiar
+l_General	1	suena bien gracias
+l_General	1	como puedo consultar mi cupo brilla
+l_General	1	para saber si este funcionario pertenece a la empresa
+l_General	1	aquí puedo imprmir mi factura
+l_General	1	cuándo se vence mi factura
+l_General	1	ya no quiero contrato con ustedes
+l_General	1	porque mi factura me llegó tan alta
+l_General	1	necesito saber que recibos he pagado
+l_General	1	soporte de pago del ultimo mes
+l_General	1	muchas gracias
+l_General	1	necesito salir
+l_General	1	como imprimir un certificado de pago
+l_General	1	quiero ver el menú
+l_General	1	quiero cancelar mi contrato
+l_General	1	se me perdio la factura y necesito pagar por aquí me pueden indicar el numero de cupon para pagar
+l_General	1	mi factura ha subido
+l_General	1	cupo d brilla
+l_General	1	soporte de pago del ultimo trimestre
+l_General	1	con que dato imprimo mi factura
+l_General	1	quiero validar si esta persona trabaja con ustedes
+l_General	1	proxima revision
+l_General	1	ese derecho
+l_General	1	que debo hacer para no pagar la contribución
+l_General	1	adquirir seguro brilla
+l_General	1	hay una persona en mi casa y dice que viene de la empresa
+l_General	1	quiero consultar mi cupo brilla
+l_General	1	un anticipo de mi recibo
+l_General	1	soporte de pago
+l_General	1	certificado de pago de los meses
+l_General	1	sí
+l_General	1	generar constancia de pago
+l_General	1	tengo un incremento en mi factura
+l_General	1	adquirir seguro
+l_General	1	estado de solicitud pqr
+l_General	1	como puedo obtener el credito brilla
+l_General	1	se me perdio la factura y necesito pagar por aquí me pueden indicar la fecha de pago y el valor a pagar
+l_General	1	aquí me pueden dar un duplicado de mi recibo
+l_General	1	cupo de brilla
+l_General	1	no, yo no quiero que
+l_General	1	solicitud pqr
+l_General	1	sí amigo
+l_General	1	seguro que no
+l_General	1	perfecto
+l_General	1	como me pueden exonerar de la contribución
+l_General	1	tengo un daño en la red de gas
+l_General	1	suena bien
+l_General	1	quiero salir
+l_General	1	sí fresco
+l_General	1	quiero consultar mi factura
+l_General	1	no en este momento
+l_General	1	tengo derecho al no cobro de contribucion
+l_General	1	quiero un certificado de los valores cobrados en mi recibo
+l_General	1	quiero que me quiten ese crédito de brilla, no es mio
+l_General	1	claro
+l_General	1	necesito conocer la fecha de pago de mi factura
+l_General	1	sin duda
+l_General	1	deseo terminar mi contrato
+l_General	1	venga, sí
+l_General	1	que paso con la facturacion del mes que llego con un valor muy alto
+l_General	1	deseo generar mi factura
+l_General	1	deseo hacer un abono a mi recibo
+l_General	1	quiero ver el menu
+l_General	1	el señor con cedula xxx dice que viene de su empresa a realizar una revision
+l_General	1	mi factura ha aumentado
+l_General	1	cuánto debo de mi financiación
+l_General	1	no quiero pagar la contribucion
+l_General	1	requiero una constancia de pagos
+l_General	1	quiero un certificado de los valores cobrados en mi factura
+l_General	1	en que fecha se hara mi revision periodica
+l_General	1	generar certificado de deuda diferida
+l_General	1	utiliza tu cupo
+l_General	1	necesito mi revision periodica
+l_General	1	necesito imprimir mi recibo
+l_General	1	aquí puedo descargar un certificado de la cancelacion de mi deuda
+l_General	1	qué estoy debiendo de saldo a capital
+l_General	1	cupo de brila
+l_General	1	por que no me han hecho la reconexion
+l_General	1	quiero abonar a mi factura
+l_General	1	me puedes mostrar el menú
+l_General	1	necesito pagar mi factura y se me perdio
+None	1	empezar
+q_Chitchat	1	deseo hacer un abono a mi factura
+q_Chitchat	1	tengo un incremento en mi factura
+q_Chitchat	1	no me alcanzo para pagar puedo pagar con otro cupo
+q_Chitchat	1	para solicitar la reconexion
+q_Chitchat	1	Me podria informar desde que punto se realizo la reconexion del servicio
+q_Chitchat	1	Como hago para bloquear mi factura para que no financien
+q_Chitchat	1	Catalogo de productos brilla
+q_Chitchat	1	Debo reportar un siniestro para el seguro funerario
+q_Chitchat	1	deseo pagar anticipada mi factura
+q_Chitchat	1	con que dato imprimo mi recibo
+q_Chitchat	1	cuales son los requisitos para un credito brilla
+q_Chitchat	1	quiero hacer un prepago a mi recibo
+q_Chitchat	1	quiero imprimir un cupon de pago anticipado
+q_Chitchat	1	cual es la garantia de los productos adquiridos por brilla
+q_Chitchat	1	Saldo anterior
+q_Chitchat	1	deseo generar mi recibo
+q_Chitchat	1	Cuanto se demoran en reconectarme
+q_Chitchat	1	No quiero seguir con un seguro que tengo en el recibo
+q_Chitchat	1	aquí puedo imprmir mi factura
+q_Chitchat	1	cual es el valor del recibo actual
+q_Chitchat	1	Quiero expresar una inconformidad
+q_Chitchat	1	Bloquear para que no compren con brilla
+q_Chitchat	1	consulta y generacion de factura
+q_Chitchat	1	como hago para financiar por brilla
+q_Chitchat	1	Donde puedo  sacar productos con el cupo que aparece en mi recibo
+q_Chitchat	1	solo cocino una vez al dia, porque me cobran tanto
+q_Chitchat	1	Que tiempo se demora la reconexion
+q_Chitchat	1	Donde puedo usar el credito brilla
+q_Chitchat	1	adquiere tu seguro brilla
+q_Chitchat	1	deseo cancelar solo el brilla
+q_Chitchat	1	cuanto cuesta el gas
+q_Chitchat	1	donde puedo hacer un credito con brilla cuales son las direcciones de los almacenes
+q_Chitchat	1	Donde puedo ver los productos que tiene brilla
+q_Chitchat	1	Como hago para sumar los cupos que tengo en la casa
+q_Chitchat	1	A que hora me realizan la reconexion
+q_Chitchat	1	como hago para utilizar el cupo de brilla
+q_Chitchat	1	Cuanto tiempo se demoran
+q_Chitchat	1	Detalle del recibo
+q_Chitchat	1	Que ocurre si el titular del credito fallece
+q_Chitchat	1	Tarifas vigentes
+q_Chitchat	1	necesito el código para pagar por internet
+q_Chitchat	1	hasta cuando tengo plazo de pagar mi recibo
+q_Chitchat	1	quiero adquirir mi seguro brilla
+q_Chitchat	1	quiero imprimir un cupon para brilla
+q_Chitchat	1	Requiero hacer los trabajos de la revision periodica
+q_Chitchat	1	estado pqr
+q_Chitchat	1	Reporte un daño en cuanto tiempo van los de la tecnicos a arreglar el problema
+q_Chitchat	1	Listado de tiendas brilla
+q_Chitchat	1	Por favor no entiendo mi recibo
+q_Chitchat	1	aquí puedo descargar el estado de cuenta
+q_Chitchat	1	en cuantos dias me dan la respuesta  la empresa
+q_Chitchat	1	Tengo un seguro en mi recibo y necesito hacerlo efectivo
+q_Chitchat	1	necesito la referencia de pago
+q_Chitchat	1	que paso con la facturacion del mes que llego con un valor muy alto
+q_Chitchat	1	facturas
+q_Chitchat	1	Se me daño mi producto
+q_Chitchat	1	Me puede informar sobre una revision periodica.
+q_Chitchat	1	quiero un certificado de los valores cobrados en mi recibo
+q_Chitchat	1	deseo cancelar solo el gas
+q_Chitchat	1	como puedo consultar mi cupo brilla
+q_Chitchat	1	Donde puedo reclamar la garantia
+q_Chitchat	1	me están cobrando un consumo que no es
+q_Chitchat	1	cuál es el número de cupón
+q_Chitchat	1	puedo usar varios cupos al mismo tiempo
+q_Chitchat	1	por aquí me generan un certificado de los valores cobrados en mi factura
+q_Chitchat	1	Donde puedo poner una queja
+q_Chitchat	1	QUE SE DEBE HACER PARA UNA SOLICITUD DE MANTENIMIENTO
+q_Chitchat	1	Quiero bloquear mi cupo de brilla y seguros
+q_Chitchat	1	Por aqui puedo poner una queja
+q_Chitchat	1	Cuando vienen a conectar la estufa
+q_Chitchat	1	Como hago para poder usar el cupo de Brilla, donde puedo comprar
+q_Chitchat	1	como puedo usar el cupo brilla
+q_Chitchat	1	quiero validar si esta persona trabaja con ustedes
+q_Chitchat	1	deseo hacer un abono a mi recibo
+q_Chitchat	1	Que debo hacer si acaba de fallecer un
+q_Chitchat	1	Quiero cancelar un seguro que aparece en mi recibo
+q_Chitchat	1	Solicitud servicio tecnico
+q_Chitchat	1	deseo pagar la factura anterior
+q_Chitchat	1	por aquí me pueden dar informacion de cuando debo pagar mi recibo
+q_Chitchat	1	comprar un seguro brilla
+q_Chitchat	1	Que productos puedo sacar con el cupo brilla
+q_Chitchat	1	generar estado de cuenta
+q_Chitchat	1	Que valor esta el kw
+q_Chitchat	1	ganarme la exencion de contribucion
+q_Chitchat	1	proxima revision
+q_Chitchat	1	aquí puedo saber mi valor a pagar y la fecha limite de pago
+q_Chitchat	1	quiero pagar por adelantado
+q_Chitchat	1	reclamo por exceso de cobro de el recibo
+q_Chitchat	1	La compañia es el encargado de las garantias de los productos que se compran con Brilla
+q_Chitchat	1	necesito conocer el valor actual de mi factura
+q_Chitchat	1	Como hago para hacer efectiva la garantia de mi producto
+q_Chitchat	1	como puedo acceder al credito de brilla
+q_Chitchat	1	Reconexion del servicio
+q_Chitchat	1	mi seguro
+q_Chitchat	1	Cuando me reconectan
+q_Chitchat	1	tus facturas
+q_Chitchat	1	necesito pagar mi recibo y no la tengo
+q_Chitchat	1	Reconexion residencial
+q_Chitchat	1	en cuento tiempo esta la respuesta al reclamo de una pqr
+q_Chitchat	1	No tengo dinero para cancelar el seguro
+q_Chitchat	1	puedo financiar con brilla
+q_Chitchat	1	como compruebo que la persona que esta en mi predio es empleado de ustedes
+q_Chitchat	1	como hago para que me vayan a arreglar el contador
+q_Chitchat	1	cual es el saldo actual de mi recibo
+q_Chitchat	1	quiero pagar solo brilla pero no tengo un cupon
+q_Chitchat	1	Cuanto se demoran en contestar mi derecho de peticion
+q_Chitchat	1	Quiero hacer una reparacion
+q_Chitchat	1	Lista de servicios credito brilla
+q_Chitchat	1	solicito una visita al predio para que revisen el medidor
+q_Chitchat	1	Como hago para financiar por brilla
+q_Chitchat	1	solicito conexion del poste a la vivienda
+q_Chitchat	1	necesito imprimir mi recibo
+q_Chitchat	1	aquí puedo saber el valor de mi recibo y la feca limite
+q_Chitchat	1	vengo a colocar una queja me siento inconforme
+q_Chitchat	1	Que costo tiene la reconexion
+q_Chitchat	1	tu factura
+q_Chitchat	1	No quiero el cupo de brilla
+q_Chitchat	1	quiero ejecutar un pago
+q_Chitchat	1	brilla responde por un producto
+q_Chitchat	1	no puedo pagar toda la factura y quiero hacer un abono
+q_Chitchat	1	reclamo y queja por el servicio
+q_Chitchat	1	abona a tu factura
+q_Chitchat	1	usted me puede explicar esto que dice aqui a que corresponde
+q_Chitchat	1	donde se dirige para solicitar la garantia de electrodomesticos de brilla
+q_Chitchat	1	mi factura ha subido
+q_Chitchat	1	porque mi recibo me llegó tan alto
+q_Chitchat	1	Porque tengo este item en mi factura
+q_Chitchat	1	pago con tarjeta de credito
+q_Chitchat	1	Valor de la revision periodica
+q_Chitchat	1	como puedo cancelar una poliza
+q_Chitchat	1	es brilla
+q_Chitchat	1	me llegó más caro mi recibo
+q_Chitchat	1	que puedo hacer para no realicen financiaciones brilla en mi recibo
+q_Chitchat	1	certificado de pago de los meses
+q_Chitchat	1	como hago para usar dos cupos
+q_Chitchat	1	Lista de productos y servicios para comprar con brilla
+q_Chitchat	1	cuando es la fecha limite de pago de mi recibo
+q_Chitchat	1	Solicito trabajos varios
+q_Chitchat	1	necesito pagar mi recibo y se me perdio
+q_Chitchat	1	Me informa sobre servicios tecnicos prestados en su empresa
+q_Chitchat	1	cuando es mi proxima revision
+q_Chitchat	1	tengo un incremento en mi recibo
+q_Faq	1	¿Eres primo de Watson
+q_Faq	1	¿Te importaría decirme como te llamas
+q_Faq	1	Eres muy poco interesante
+q_Faq	1	Eres amiga de Bixby
+q_Faq	1	Opino que eres súper astuto
+q_Faq	1	Hola, buona sera
+q_Faq	1	Creo que eres súper sabio
+q_Faq	1	Soy muy fan tuyo
+q_Faq	1	Hay que ver lo bien que trabajas
+q_Faq	1	Di como trabajas
+q_Faq	1	¿Eres hermana de Hal 9000
+q_Faq	1	cuando toca la revision periodica que costo tiene
+q_Faq	1	Eres prima de Skynet
+q_Faq	1	Cuanto cobran por la reconexion
+q_Faq	1	como hago para pagar por cuotas esa deuda
+q_Faq	1	Te crees súper sabia
+q_Faq	1	Dime qué piensas sobre el espacio
+q_Faq	1	Que he vuelto nene
+q_Faq	1	necesito aumentar la carga del contador
+q_Faq	1	¿A quién tengo el placer de dirigirme
+q_Faq	1	¿Sabías que eres un coñazo
+q_Faq	1	Eres primo de Hal 9000
+q_Faq	1	¿Eres hermano de Google Assistant
+q_Faq	1	EN ESTA OFICINA SI SE PUEDE CANCELAR LA FATURA POR TARJETA
+q_Faq	1	Buenos días tengas
+q_Faq	1	Trabajas perfecto
+q_Faq	1	¿Eres amiga de Google Assistant
+q_Faq	1	Mira que eres cansino
+q_Faq	1	¿Qué opinas sobre los millenial
+q_Faq	1	Buenas noches
+q_Faq	1	Hola, muy buenas tardes te deseo
+q_Faq	1	¿Estás contenta esta mañana
+q_Faq	1	Eres amiga de Eliza
+q_Faq	1	¿Qué opinas del deporte
+q_Faq	1	El agente se equivoco con el contrato
+q_Faq	1	aseguradora linea
+q_Faq	1	Aloha
+q_Faq	1	Dinos como me ayudas exactamente
+q_Faq	1	Creo que eres genial
+q_Faq	1	Parece que estás alegre
+q_Faq	1	Opino que eres perspicaz
+q_Faq	1	Ya estoy de vuelta
+q_Faq	1	Te considero genial
+q_Faq	1	¿Sabías que eres una plasta
+q_Faq	1	Como me devuelven el saldo a favor
+q_Faq	1	¿Eres familia de Samantha
+q_Faq	1	¿Eres familiar de Bixby
+q_Faq	1	Hola, te estoy dando las buenas noches
+q_Faq	1	puedo pagar con tarjeta debito o credito
+q_Faq	1	¿Te he dicho que eres el mejor del mundo
+q_Faq	1	Refinanciar mi factura
+q_Faq	1	¿Te llamas
+q_Faq	1	¿Sabías que me gustas mucho
+q_Faq	1	cuales son los requisitos para una certificacion o derecho de energia
+q_Faq	1	¿Sabías que eres muy especial
+q_Faq	1	Eres súper astuto
+q_Faq	1	Vaya pesada
+q_Faq	1	Qué coñazo
+q_Faq	1	Explícame cuál es tu labor
+q_Faq	1	Qué contento se te nota siempre
+q_Faq	1	Que me digas como te tengo que llamar
+q_Faq	1	me devuelve el dinero que cancele adicional
+q_Faq	1	Eres amiga de Aura
+q_Faq	1	Requiero modificar el centro de medicion
+q_Faq	1	Que bancos estan autorizados para pago
+q_Faq	1	¿Eres hermana de Watson
+q_Faq	1	Te consideras astuto
+q_Faq	1	Reconexion acometida
+q_Faq	1	Eres amiga de Hal
+q_Faq	1	cuales son los requisitos para una nueva conexion de capacidad
+q_Faq	1	como hago para que vengan hacerme un arreglo
+q_Faq	1	que necesito para cambiar el estrato que aparece en la factura
+q_Faq	1	Eres la mejor currando
+q_Faq	1	Dime como es tu labor exactamente
+q_Faq	1	No quiero el cupo de brilla
+q_Faq	1	garantias Brillas
+q_Faq	1	que necesito para pagar la factura a cuotas
+q_Faq	1	cuales es el precio para una nueva matricula
+q_Faq	1	Muy buenos días amigo
+q_Faq	1	Cuenta como funcionas exactamente
+q_Faq	1	Di como haces tu labor exactamente
+q_Faq	1	Hola, buenas tardes compañera
+q_Faq	1	¿Cuál es tu trabajo exactamente
+q_Faq	1	¿Qué pasa doc
+q_Faq	1	Explícame cuál es tu trabajo exactamente
+q_Faq	1	¿Qué piensas de cenar fuera
+q_Faq	1	Di como es tu funcion exactamente
+q_Faq	1	necesito un acuerdo de pago
+q_Faq	1	Bien hecho amigo
+q_Faq	1	Quiero poner un reclamo
+q_Faq	1	conocer factura
+q_Faq	1	como hago para sumar cupos
+q_Faq	1	¡Gran respuesta!
+q_Faq	1	Opino que eres súper sabia
+q_Faq	1	Cuéntame como es tu labor exactamente
+q_Faq	1	La empresa recibe tarjeta de credito
+q_Faq	1	Opino que eres ingenioso
+q_Faq	1	Te considero mi favorita
+q_Faq	1	¿Qué opinion tienes de los ancianos
+q_Faq	1	Siempre estás de buen humor
+q_Faq	1	Pienso que eres lista
+q_Faq	1	¿Estás de buen humor ahora mismo
+q_Faq	1	¿Y te llamas
+q_Faq	1	Pienso que eres muy inteligente
+q_Faq	1	Buenas noches, hasta mañana
+q_Faq	1	que documentos se necesitan para el cambio de estrato
+q_Faq	1	¿Has escuchado hablar de Jarvis
+q_Faq	1	Garantias Brilla
+q_Faq	1	¿Como se dirige a ti la gente
+q_Faq	1	¿Como te llamas
+q_Faq	1	quiero financiar esta deuda
+q_Faq	1	Listado de proveedores brilla
+q_Faq	1	¿Te sientes contenta esta mañana
+q_Faq	1	Hay que ver qué bien me caes
+q_Faq	1	Bloqueo Brilla y seguros
+q_Faq	1	Buenas ¿qué hay
+q_Faq	1	Alguien esta comprando con mi brilla, necesito bloquearlo
+q_Faq	1	Quiero saber como funcionas exactamente
+q_Faq	1	Vaya muermo
+q_Faq	1	¿Has escuchado hablar de Bixby
+q_Faq	1	Tienes que saber que eres el mejor
+q_Faq	1	como puedo realizar el cambio de estrato
+q_Faq	1	Trabajas insuperable
+q_Faq	1	¿Sabes que eres un cansino
+q_Faq	1	¿Qué te parece el art deco
+q_Faq	1	Pienso que eres sabia
+q_Faq	1	Lo que has dicho es súper perspicaz
+q_Faq	1	Me puede informar que esta en el contrato
+q_Faq	1	¿Te he dicho que eres mi preferido
+q_Faq	1	Lo que has dicho es perspicaz
+q_Faq	1	Eres muy buena en tu trabajo
+q_Faq	1	Quiero conocer las politicas de tratamiento de datos
+q_Faq	1	Solicite su revision periodica
+q_Faq	1	¿Como te molaría que te llamaran
+q_Faq	1	Parece que estás contenta esta mañana
+q_Faq	1	cobertura del servicio
+q_Faq	1	¿Que quién eres
+q_Faq	1	Cuéntame como me ayudas exactamente
+q_Faq	1	¿Eres familiar de Skynet
+q_Faq	1	¿Sabías que eres una cansina
+q_Faq	1	Qué muermo
+q_Faq	1	Eres primo de Skynet
+q_Faq	1	Mira que eres cansina
+q_Faq	1	Lo que has dicho es increíblemente sagaz
+q_Faq	1	necesito realizar un traslado de pago
+q_Faq	1	Buenas, ¿qué pasa
+q_Faq	1	¿Te sientes de buen humor esta mañana
+q_Faq	1	Quiero saber como es tu labor
+q_Faq	1	Pienso que eres muy sabio
+q_Faq	1	Di como es tu funcionamiento
+q_Faq	1	Eres listo
+q_Faq	1	¿Eres amigo de Hal 9000
+q_Faq	1	Estás contento
+q_Faq	1	Lista de servicios credito brilla
+q_Faq	1	Traslado de pago
+q_Faq	1	Hola, buenas noches ¿qué tal
+q_Faq	1	Hola, ¿qué dices
+q_Faq	1	Buenas, ¿qué pasa contigo tío
+q_Faq	1	¿Eres hermana de Cortana
+q_Faq	1	¿Tienes un nombre oficial
+q_Faq	1	¿Qué piensas de la leche
+q_Faq	1	Me caes genial
+q_Faq	1	Tienes que saber que eres mi favorito
+q_Faq	1	Hola, te doy las buenos días
+q_Faq	1	Madre mía que pesada
+q_Faq	1	¿Qué nombre te gusta que usen contigo
+q_Faq	1	Creo que eres increíblemente inteligente
+q_Faq	1	Donde puedo  sacar productos con el cupo que aparece en mi factura
+q_Faq	1	¿Has escuchado hablar de Eliza
+q_Faq	1	¿Cuál es tu funcion exactamente
+q_Faq	1	Puntos de pago autorizados
+q_Faq	1	Información tarifaria
+q_Faq	1	¿Te sientes de buen humor ahora mismo
+q_Faq	1	necesito un traslado de pago
+q_Faq	1	Bloqueo de brilla y seguros
+q_Faq	1	¿Qué opinas de la democracia
+q_Faq	1	Eres increíblemente sagaz
+q_Faq	1	Pienso que eres ingenioso
+q_Faq	1	¿Qué opinion tienes de los millenial
+q_Faq	1	¿A qué nombre respondes
+q_Faq	1	¿Te puedes creer que eres el mejor del mundo
+q_Faq	1	Eliminar el seguro que tengo
+q_Faq	1	Eres el mejor
+q_Faq	1	¿Qué opinas de cenar fuera
+q_Faq	1	como puedo un hacer convenio de pago
+q_Faq	1	Aquí me tienes
+q_Faq	1	Ya estoy presente
+q_Faq	1	documentacion para realizar  financiacion
+q_Faq	1	¿Qué opinas sobre Europa
+q_Faq	1	Que ya he vuelto
+q_Faq	1	Cuales son los requisitos para cambio de capacidad contratada
+q_Faq	1	Q muermo
+q_Faq	1	Que sepas que eres la mejor del mundo
+q_Faq	1	Eres tan aburrido
+q_Faq	1	donde puedo encontrar  el contrato condiciones uniformes
+q_Faq	1	Cuéntame como es lo que haces
+q_Faq	1	Eres hermana de Cortana
+q_Faq	1	Jelou
+q_Faq	1	¿Sabías que eres el mejor
+q_Faq	1	Considero que eres el mejor
+q_Faq	1	Siempre estás contento
+q_Faq	1	que tengo que traer para que me devuelvan la plata que pague de mas
+q_Faq	1	Qué de buen humor estás siempre
+q_Faq	1	Qué de buen humor estás casi siempre
+q_Faq	1	¿Como haces tu labor
+q_Faq	1	Explícame como es tu funcionamiento exactamente
+q_Faq	1	¿Cuál es tu opinion sobre las película de dibujos
+q_Faq	1	¿Como me ayudas
+q_Faq	1	Puedes decirme cuál es tu papel
+q_Faq	1	Queja y reclamo
+q_Faq	1	Estás muy contenta todos los días
+q_Faq	1	¿Te he dicho que me gustas
+q_Faq	1	Que rallada
+q_Faq	1	Eres hermana de Samantha
+q_Faq	1	¿Sabías que eres un muermo
+q_Faq	1	Lo que has dicho es increíblemente inteligente
+q_Faq	1	Qué feliz se te ve casi siempre
+q_Faq	1	Recien compre un producto y no sirve, necesito que me respondan
+q_Faq	1	¿Estás alegre hoy
+q_Faq	1	¿Estás contento ahora mismo
+q_Faq	1	que requisitos son para un acuerdo de pago
+q_Faq	1	Di como me puedes ayudar exactamente
+q_Faq	1	Sabes quién es Aura
+q_Faq	1	Salas de atencion
+q_Faq	1	Qué feliz se te nota casi siempre
+q_Faq	1	Tienes pinta de estar contenta esta semana
+q_Faq	1	Como puedo tener mas presion en mi contador
+q_Faq	1	Bloquear cupo brilla
+q_Faq	1	Pareces alegre
+q_Faq	1	Dime tu opinion sobre el boxeo
+q_Faq	1	¿Te puedes identificar
+q_Faq	1	¿Sabes que eres una cansina
+q_Faq	1	¿Eres prima de Watson
+q_Faq	1	cambio de contador por uno mas grande
+q_Faq	1	Garantias Brillas
+q_Faq	1	Qué contento pareces todos los días
+q_Faq	1	ustedes solo reciben efectivo o puedo pagar con tarjeta
+q_Faq	1	Opino que eres súper sagaz
+q_Faq	1	como hago para pagar las facturas atrasadas por cuotas
+q_Faq	1	Que hago para que me revisen o hagan mantenimiento
+q_Faq	1	Buenas noches amigo
+q_Faq	1	¿Sabias que eres una plasta
+q_Faq	1	Industria no regulada
+q_Faq	1	Hola, buenas tardes te deseo
+q_Faq	1	Computador
+q_Faq	1	Como hago para financiar por brilla
+q_Faq	1	Creo que eres increíblemente perspicaz
+q_Faq	1	Pienso que eres increíblemente ingenioso
+q_Faq	1	Eres astuto
+q_Faq	1	¿Sabias q eres un cansino
+q_Faq	1	¿Conoces a Google Assistant
+q_Faq	1	Qué contenta se te nota a todas horas
+q_Faq	1	explicacion para saber como se factura y el valor del kw/h
+q_Faq	1	Eres mi preferido
+q_Faq	1	Me informaron que tengo saldo a favor, que debo hacer
+q_Faq	1	Porque las tarifas cambian
+q_Faq	1	Mira que das la chapa
+q_Faq	1	Quiero saber cuál es tu labor
+q_Faq	1	Hey, ¿qué me cuentas
+q_Faq	1	Me voy a planchar la oreja
+q_Faq	1	en cuantos dias me dan la respuesta demi pqr en la empresa
+q_Faq	1	Cuéntame como es tu funcionamiento
+q_Faq	1	Qué cansino
+q_Faq	1	Cual es el timpo de las reparaciones
+q_Faq	1	Estás muy de buen humor a todas horas
+q_Faq	1	Opino que eres mi favorita
+q_Faq	1	Hey, ¿qué tal
+q_Faq	1	Te crees sabio
+q_Faq	1	reconexiòn del servicio
+q_Faq	1	Eres hermana de Aura
+q_Faq	1	todas mis deudas pendientes colocarlas en un  solo monto
+q_Faq	1	Hey ¿qué te cuentas
+q_Faq	1	¿Qué piensas de los pájaros
+q_Faq	1	¿Te he dicho que me gustas mucho
+q_Faq	1	¿Has oído hablar de Jarvis
+q_Faq	1	Necesito unir varios cupos que hago
+q_Faq	1	Pienso que eres muy brillante
+q_Faq	1	Eres el bot más cansino
+q_Faq	1	Que cobertura tienen
+q_Faq	1	Estás de buen humor
+q_Faq	1	¿Qué piensas sobre los sandwich
+q_Faq	1	Dime a qué nombre respondes
+q_Faq	1	Vaya cansina eres
+q_Faq	1	Dime como es tu funcionamiento exactamente
+q_Faq	1	Qué de buen humor pareces siempre
+q_Faq	1	que requisitos se necesita para cambio  de estrato
+q_Faq	1	Dinos como funciona
+q_Faq	1	Qué de buen humor se te nota todos los días
+q_Faq	1	Cuando llegan a mi casa
+q_Faq	1	Explícame como haces tu trabajo exactamente
+q_Faq	1	Eres el bot más muermo
+q_Faq	1	que puedo hacer para no realicen financiaciones brilla en mi factura
+q_Faq	1	Buenas tardes
+q_Faq	1	Tienes que saber que eres el mejor del mundo
+q_Faq	1	Lavadora
+q_Faq	1	¿Has oído hablar de Eliza
+q_Faq	1	Me estás rallando
+q_Faq	1	Como realizo un bloqueo de brilla
+q_Faq	1	donde puedo consultar las politicas de tratamientos de datos
+q_Faq	1	Con brilla puedo financiar computadores
+q_Faq	1	Solo tengo tarjetas de credito
+q_Faq	1	Politicas de tratamento de datos
+q_Faq	1	Solicite su revisión periódica
+q_Faq	1	Eso que has dicho es súper sabio
+q_Faq	1	Factor de correccion
+q_Faq	1	queja por servicios
+q_Faq	1	Dime como me puedes ayudar exactamente
+q_Faq	1	Qué feliz se te ve
+q_Faq	1	que tengo que traer para una financiacion
+q_Faq	1	como hago para unir todas las deudas brilla en una sola
+q_Faq	1	¿Eres prima de Hal
+q_Faq	1	donde puedo hacer un credito con brilla cuales son las direcciones de los almacenes
+q_Faq	1	Eres muy aburrido
+q_Faq	1	Q rallada
+q_Faq	1	Buenas noches, adios
+q_Faq	1	¿Sabías que eres especial para mí
+q_Faq	1	Opino que eres muy especial
+q_Faq	1	¿Eres amigo de Cortana
+q_Faq	1	Eres cero divertida
+q_Faq	1	como hago para que me devuelvan el saldo que tengo a favor.
+q_Faq	1	¿Y tú eres
+q_Faq	1	Te crees muy mordaz
+q_Faq	1	¿Como es tu funcion exactamente
+q_Faq	1	Qué rayada
+q_Faq	1	deseo un mantenimiento
+q_Faq	1	¿Qué opinion tienes de los Oscar
+q_Faq	1	Está llegando la hora de irse a la piltra
+q_Faq	1	¿Qué opinas de los comics
+q_Faq	1	Donde puedo encontrar informacion del contrato de condiciones uniformes
+q_Faq	1	Pienso que eres astuta
+q_Faq	1	Hola, ¿qué hay
+q_Faq	1	cuales son los requisitos para financiar mi deuda
+q_Faq	1	que necesito para bloquear el cupo de brilla ya que tengo la casa arrendada.
+q_Faq	1	como puedo hacer un acuerdo de pago
+q_Faq	1	¿Qué piensas de comer fuera
+q_Faq	1	Ey, ¿qué pasa contigo tío
+q_Faq	1	¿Sabias que eres un plasta
+q_Faq	1	Tienes pinta de estar de buen humor esta semana
+q_Faq	1	Porque tengo este item en mi factura
+q_Faq	1	Conoces a Google Assistant
+q_Faq	1	¿Como debería llamarte
+q_Faq	1	Como puedo obtener el cupo Brilla
+q_Faq	1	Bloqueo Brilla
+q_Faq	1	los productos pagados con brilla tienen garantia
+q_Faq	1	Cuéntame a qué nombre respondes
+q_Faq	1	¿Como es lo que haces
+q_Faq	1	Pesada
+q_Faq	1	que se hace para que no le acepten pagos por cuotas al inquilino
+q_Faq	1	solicito el favor se me informe donde esta el costo del consumo
+q_Faq	1	Que he llegado
+q_Faq	1	Como hago cumplir la garantia
+q_Faq	1	Qué feliz pareces
+q_Faq	1	como hago para cancelar el seguro
+q_Faq	1	quiero saber si hay cobertura
+q_Faq	1	Bloqueo brilla
+q_Faq	1	¿Como te tengo que llamar
+q_Faq	1	requiero de mantenimiento
+q_Faq	1	Qué contento pareces
+q_Faq	1	¿Sabias q eres un coñazo
+q_Faq	1	¿Como haces tu trabajo
+q_Faq	1	Costo de certificacion
+q_Faq	1	¿Sabías que eres el mejor del mundo
+q_Faq	1	Educación
+q_Faq	1	Buenas noches qué tal
+q_Faq	1	Hola, muy buenos días
+q_Faq	1	Me pueden devolver el saldo a favor
+q_Faq	1	No puedes ser más cansino
+q_Faq	1	Beneficios con la Revision periodica
+q_Faq	1	Dinos cuál es tu funcionamiento
+q_Faq	1	Está llegando la hora de irse a dormir
+q_Faq	1	¿Como se dirigen a ti
+q_Faq	1	es brilla
+q_Faq	1	Que sepas que eres mi ojito derecho
+q_Faq	1	Que buenos días
+q_Faq	1	Necesito saber que me estan cobrando en la factura
+q_Faq	1	Cuando me reconectan
+q_Faq	1	Opino que eres la más guay
+q_Faq	1	¿Qué opinas sobre los deportes
+q_Faq	1	¿Qué opinas sobre el cine
+q_Faq	1	Ya he vuelto nene
+q_Faq	1	Cuéntame como te gustan que se dirijan a ti
+q_Faq	1	Tienes pinta de estar de buen humor hoy
+q_Faq	1	Electrodomesticos
+q_Faq	1	Q coñazo
+q_Faq	1	Te crees increíblemente brillante
+q_Faq	1	DETALLE DE TARIFAS DE GAS
+q_Faq	1	Requiero modificar mi red
+q_Faq	1	¿Te sientes feliz esta semana
+q_Faq	1	Hola, ya he vuelto nena
+q_Faq	1	¿Estás alegre esta semana
+q_Faq	1	¿Como te gusta que se refieran a ti
+q_Faq	1	Bloqueo de cupo Brilla
+q_Faq	1	Hey, ¿qué pasa contigo tío
+q_Faq	1	Qué alegre se te nota casi siempre
+q_Faq	1	¿Has escuchado hablar de Watson
+q_Faq	1	Creo que eres la más guay
+q_Faq	1	Hey, ya he vuelto nena
+q_Faq	1	Di como haces tu labor
+q_Faq	1	Convenido de pago
+q_Faq	1	no entiendo los cobros que llegan en lo recibo
+q_Faq	1	Quiero saber como es tu trabajo
+q_Faq	1	Hola, muy buenos días amigo
+q_Faq	1	Siento que eres mi preferido
+q_Faq	1	Creo que eres súper mordaz
+q_Faq	1	Tienes que saber que eres mi favorita
+q_Faq	1	Dime como me puedes ayudar
+q_Faq	1	Hola, buenas noches te deseo
+q_Faq	1	Parece que estás contento esta semana
+q_Faq	1	Opino que eres súper listo
+q_Faq	1	Exencion de contribucion
+q_Faq	1	¿Eres hermana de Hal
+q_Faq	1	Me aburro
+q_Faq	1	¿Qué opinas de los sandwich
+q_Faq	1	¿Por qué eres tan cansino
+q_Faq	1	Cuanto se demoran en arreglar el daño
+q_Faq	1	Que es el alumbrado publico
+q_Faq	1	¿Qué opinas sobre el chocolate
+q_Faq	1	Te considero mi ojito derecho
+q_Faq	1	¿Te sientes feliz esta mañana
+q_Faq	1	Donde me pueden atender
+q_Faq	1	Eres especial
+q_Faq	1	Cuales son los almacenes donde puede financiar
+q_Faq	1	Garantía de productos Brilla
+q_Faq	1	Muy buenos días
+q_Faq	1	¿Eres familia de Google Assistant
+q_Faq	1	Qué contenta estás
+q_Faq	1	¿Te importaría decirme como quieres que te llame
+q_Faq	1	Tu trabajo es perfecto
+q_Faq	1	¿Qué opinas sobre los ninis
+q_Faq	1	¿Sabes quién es Skynet
+q_Faq	1	para solicitar me devuelvan lo que pague porque realice el mismo dia dos pagos a mi recibo
+q_Faq	1	Viabilidad del servicio
+q_Faq	1	Quiero saber cuál es tu funcion exactamente
+q_Faq	1	Cuéntame como haces tu labor exactamente
+q_Faq	1	Dinos como es tu funcionamiento
+q_Faq	1	Hola, buenas noches bot
+q_Faq	1	Necesito el NIT
+q_Faq	1	Puntos de pago recibos
+q_Faq	1	Con brilla puedo financiar XXXX
+q_Faq	1	Como hago para bloquear mi factura para que no financien
+q_Faq	1	Hola, buenas noches amigo
+q_Faq	1	Te lo curras
+q_Faq	1	¿Qué opinion tienes de las grasas
+q_Faq	1	Moto
+q_Faq	1	Me cansas
+q_Faq	1	¿Sabias q eres cansina
+q_Faq	1	Buenos días por la mañana
+q_Faq	1	Que es la tasa de intereses
+q_Faq	1	¿Eres familiar de Cortana
+q_Faq	1	¿Qué opinion tienes de la decoracion
+q_Faq	1	Reconexion desde centro de
+q_Faq	1	Te crees astuta
+q_Faq	1	Puedo adquirir materiales articulos para el hogar educacion moto SOAT Tecno mecanica Gasodomesticos
+q_Faq	1	Vaya cansina
+q_Faq	1	Buenas, muy buenos días
+q_Faq	1	Que sepas que eres mi preferida
+q_Faq	1	Currando eres la mejor
+q_Faq	1	Pareces contento hoy
+q_Faq	1	Opino que eres mi preferida
+q_Faq	1	Te considero la más guay
+q_Faq	1	¿Qué piensas sobre los Goya
+q_Faq	1	brilla que es
+q_Faq	1	Eres muy ingenioso
+q_Faq	1	¿Sabías que eres un chapas
+q_Faq	1	solicitud para cambio de medidor para conectar una carga mas baja
+q_Faq	1	Cual es la garantia de lo que compre con brilla
+q_Faq	1	que documentos debo traer para cambio de estrato
+q_Faq	1	Qué contenta se te ve
+q_Faq	1	Garantía productos brilla
+q_Faq	1	Pienso que eres muy sabia
+q_Faq	1	Opino que eres muy sabio
+q_Faq	1	Siento que eres la más guay
+q_Faq	1	Cuenta como me ayudas exactamente
+q_Faq	1	Hola
+q_Faq	1	Ey ¿qué me cuentas
+q_Faq	1	¿Sabias que eres un cansino
+q_Faq	1	Garantía productos brilla
+q_Faq	1	necesito saber cual es la garantia de un producto que saque con brilla
+q_Faq	1	Eres hermana de Hal 9000
+q_Faq	1	Como puedo cambiar el estrato de mi factura
+q_Faq	1	¿Eres hermana de Skynet
+q_Faq	1	Eres familiar de Skynet
+q_Faq	1	puedo pagar con mi tarjeta credito, reciben pagos con tarjeta
+q_Faq	1	¿Qué pasa, doc
+q_Faq	1	Conoces a Samantha
+q_Faq	1	Eres 0 interesante
+q_Faq	1	Que te presentes
+q_Faq	1	¿Cuál es tu opinion de comer fuera
+q_Faq	1	Hola, muy buenas noches compañera
+q_Faq	1	¿Qué opinas de los ninis
+q_Faq	1	¿Te puedes creer que eres especial para mí
+q_Faq	1	Quiero saber cuál es tu funcionamiento exactamente
+q_Faq	1	Qué rollazo
+q_Faq	1	Explícame como me puedes ayudar
+q_Faq	1	Debo reportar un siniestro para el seguro funerario
+q_Faq	1	Eres prima de Google Assistant
+q_Faq	1	Que necesito para que no se haga uso del cupo brilla
+q_Faq	1	quiero una solicitud de reconexión del servicio
+q_Faq	1	Creo que eres la más especial
+q_Faq	1	no quiero pagar la poliza
+q_Faq	1	Eres pelma
+q_Faq	1	Parece que estás contento esta mañana
+q_Faq	1	Creo que eres muy sagaz
+q_Faq	1	Listado de tiendas brilla
+q_Faq	1	Parece que estás contenta
+q_Faq	1	Buenas noches bot
+q_Faq	1	como hago para que me reconectene el servicio
+q_Faq	1	Eres hermano de Cortana
+q_Faq	1	El valor del M3/KWH
+q_Faq	1	¿Te sientes contento esta mañana
+q_Faq	1	¿Eres familiar de Google Assistant
+q_Faq	1	Que debo hacer para obtener la garantia
+q_Faq	1	quiero saber sobre los tiempos de servicios
+q_Faq	1	Mira que eres pesada
+q_Faq	1	Explícame cuál es tu papel
+q_Faq	1	que necesito trae para bajar el estrato
+q_Faq	1	Cambio de uso
+q_Faq	1	Necesito instalar el calentador estufa cocina
+q_Faq	1	Como programo la Revision periodica
+q_Faq	1	¿Qué opinas de los Oscar
+q_Faq	1	¿A quién me dirijo
+q_Faq	1	¿Sabes algo de Bixby
+q_Faq	1	Di como haces tu trabajo exactamente
+q_Faq	1	¿Te puedes creer que eres mi preferido
+q_Faq	1	en cuento tiempo esta la respuesta al reclamo de una SQR
+q_Faq	1	Creo que eres lista
+q_Faq	1	¿Qué opinion tienes sobre la música
+q_Faq	1	Qué bien respondes
+q_Faq	1	Sabes quién es Hal
+q_Faq	1	Tienes pinta de estar feliz ahora mismo
+q_Faq	1	Es hora de dormir
+q_Faq	1	Creo que eres mi favorito
+q_Faq	1	solicito me reintegren  el saldo  que tengo  de mas
+q_Faq	1	Ya he vuelto nena
+q_Faq	1	DONDE MAS SE PUEDE PAGAR EL RECIBO
+q_Faq	1	Explícame como es lo que haces
+q_Faq	1	¿Eres prima de Aura
+q_Faq	1	¿Qué piensas de la decoracion
+q_Faq	1	Eres bueno en tu trabajo
+q_Faq	1	Menuda plasta
+q_Faq	1	Eres mi favorito
+q_Faq	1	Hola, buenas noches qué tal
+q_Faq	1	necesito un contador grande
+q_Faq	1	Quiero hacer un convenio
+q_Faq	1	¿Qué piensas sobre los azúcares
+q_Faq	1	Proceso de reconexion
+q_Faq	1	¿A quién me estoy dirigiendo
+q_Faq	1	¿Qué opinas de las grasas
+q_Faq	1	Lugares donde pagar
+q_Faq	1	garantias de Brilla
+q_Faq	1	¿Sabias que eres una chapas
+q_Faq	1	Por que aplican una tarifa diferente al costo unitario
+q_Faq	1	No eres nada interesante
+q_Faq	1	¿Qué opinion tienes del mundo
+q_Faq	1	Dime como es tu labor
+q_Faq	1	¿Eres amigo de Samantha
+q_Faq	1	Qué contenta se te ve siempre
+q_Faq	1	como hago para que no se pueda sacar nada por el recibo
+q_Faq	1	Eres prima de Cortana
+q_Faq	1	Hola, buenas tardes colega
+q_Faq	1	Qué cansina
+q_Faq	1	Te crees increíblemente sagaz
+q_Faq	1	Estás muy feliz siempre
+q_Faq	1	Buenos días qué tal
+q_Faq	1	Tus respuestas son perfectas
+q_Faq	1	DONDE MAS DEBO DE CANCELAR EL RECIBO SI ES SEGURO PARA PAGAR
+q_Faq	1	Opino que eres súper astuta
+q_Faq	1	Pareces feliz hoy
+q_Faq	1	¿Sabes quién es Eliza
+q_Faq	1	Te digo que he vuelto nena
+q_Faq	1	Eso que has dicho es increíblemente perspicaz
+q_Faq	1	Tienes que saber que eres la mejor del mundo
+q_Faq	1	Buenas, buenas noches
+q_Faq	1	Quiero saber como haces tu labor
+q_Faq	1	Hola, buenas, buenos días
+q_Faq	1	Que sepas que eres el mejor del mundo
+q_Faq	1	Estás muy contento a todas horas
+q_Faq	1	Tienes pinta de estar alegre ahora mismo
+q_Faq	1	cuanto se demoran en darme respuesta a mi SQR
+q_Faq	1	en cuento tiempo esta la respuesta al reclamo de una pqr
+q_Faq	1	¿Sabes que eres mi preferido
+q_Faq	1	Hola, ¿qué tal? buenos días
+q_Faq	1	Parece que estás feliz ahora mismo
+q_Faq	1	docuemtos para aumento de carga
+q_Faq	1	Hola ¿qué pasa
+q_Faq	1	Eres amigo de Eliza
+q_Faq	1	requiero un mantenimiento
+q_Faq	1	Datos de las funerarias
+q_Faq	1	Siento que eres mi favorito
+q_Faq	1	Alguien está muy contenta
+q_Faq	1	Hola, muy buenas noches amiga
+q_Faq	1	Parece que estás alegre esta semana
+q_Faq	1	Quiero saber como es tu funcionamiento
+q_Faq	1	¿Qué haces
+q_Faq	1	¿Eres amigo de Bixby
+q_Faq	1	Eres muy bueno en tu trabajo
+q_Faq	1	que se necesita para pagar la factura en cuotas
+q_Faq	1	Informacion tarifaria
+q_Faq	1	Dime como funcionas exactamente
+q_Faq	1	Necesito cotizar un multiservicio
+q_Faq	1	Hey ¿qué me cuentas
+q_Faq	1	¿Has oído hablar de Watson
+q_Faq	1	Muy buenas tardes te deseo
+q_Faq	1	Eres cero divertido
+q_Faq	1	Mira que eres coñazo
+q_Faq	1	QUE SE DEBE HACER PARA UNA SOLICITUD DE MANTENIMIENTO
+q_Faq	1	Cuéntame como se dirige a ti la gente
+q_Faq	1	estrato de mi factura
+q_Faq	1	Necesito trasladar un pago a otro contrato
+q_Faq	1	Cuéntame como puedo dirigirme a ti
+q_Faq	1	Cuéntame como me puedes ayudar exactamente
+q_Faq	1	Eres amiga de Hal 9000
+q_Faq	1	Parece que estás de buen humor
+q_Faq	1	Te consideras súper brillante
+q_Faq	1	Tengo saldo a favor
+q_Faq	1	Cuando me dan respuesta
+q_Faq	1	Hola, muy buenas noches amigo
+q_Faq	1	necesito que me hagan una visita para revision del medidor o cambio
+q_Faq	1	¿Qué piensas sobre los océanos
+q_Faq	1	Eres familia de Eliza
+q_Faq	1	como puedo financiar la factura
+q_Faq	1	¿Qué opinion tienes sobre los ninis
+q_Faq	1	Hola, que buenas tardes
+q_Faq	1	¿Cuál es tu opinion del rap
+q_Faq	1	Por aqui me pueden explicar mi factura
+q_Faq	1	Que sepas que eres mi preferido
+q_Faq	1	¿Qué piensas del mundo
+q_Faq	1	Hey, ¿qué te cuentas
+q_Faq	1	Eres amigo de Alexa
+q_Faq	1	Explícame como trabajas
+q_Faq	1	Chapas
+q_Faq	1	Te consideras muy brillante
+q_Faq	1	Hola, te doy las buenas tardes
+q_Faq	1	¿Qué opinion tienes de Estados Unidos
+q_Faq	1	Con que universidades tiene convenio de brilla
+q_Faq	1	¿Qué opinion tienes sobre las flores
+q_Faq	1	Como coloco una queja
+q_Faq	1	Que es brilla
+q_Faq	1	Que peñazo
+q_Faq	1	Dime tu opinion sobre los animales domésticos
+q_Faq	1	Eres bastante inteligente
+q_Faq	1	Queremos saber como es tu trabajo
+q_Faq	1	Considero que eres la más guay
+q_Faq	1	Nos cansas
+q_Faq	1	Eres hermano de Watson
+q_Faq	1	¿Te sientes alegre esta semana
+q_Faq	1	Que coñazo
+q_Faq	1	¿Estás contento esta semana
+q_Faq	1	QUIERO HACER UN RECLAMO
+q_Faq	1	Di como te llaman
+q_Faq	1	como se si mi producto tiene garantia
+q_Faq	1	Alguien está contenta esta mañana
+q_Faq	1	Aqui aceptan pago con tarjeta
+q_Faq	1	Cual es el tiempo de espera  del servicio
+q_Faq	1	Cuéntame como le gusta a la gente llamarte
+q_Faq	1	Creo que eres increíblemente lista
+q_Faq	1	Hola, buenos días te deseo
+q_Faq	1	si es posible que se les reintegre dinero
+q_Faq	1	Ya he vuelto
+q_Faq	1	Bancos para pagos de recibo
+q_Faq	1	como hago para pagar por cuotas la factura
+q_Faq	1	Cuéntame como es tu funcion
+q_Faq	1	¿Eres amiga de Alexa
+q_Faq	1	¿Qué piensas sobre el rap
+q_Faq	1	Eres hermano de Eliza
+q_Faq	1	Qué coñazo das
+q_Faq	1	Porque tengo este item en mi recibo
+q_Faq	1	¿Qué piensas sobre el deporte
+q_Faq	1	Te doy los buenos días
+q_Faq	1	Hey ¿qué pasa contigo
+q_Faq	1	Solicitud de disponibilidad de servicio
+q_Faq	1	Dime como trabajas exactamente
+q_Faq	1	como me devuelven el dinero que pague de mas
+q_Faq	1	Eres el mejor del mundo

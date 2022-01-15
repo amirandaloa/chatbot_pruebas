@@ -1,0 +1,372 @@
+Utterance	Intents
+cuando me reconectan mi servicio	l_General, q_Chitchat
+necesito instalar el calentador estufa cocina	q_Chitchat, q_Faq
+quiero un certificado de los valores cobrados en mi factura	l_General, q_Chitchat
+que valor esta el kw	q_Chitchat, q_Faq
+quiero hacer una reclamacion.	q_Chitchat, q_Faq
+en que fecha se hara mi revision periodica	l_General, q_Chitchat
+deseo hacer un abono a mi recibo	l_General, q_Chitchat
+quiero pagar solo brilla pero no tengo un cupon	l_General, q_Chitchat
+reconexion desde centro de	q_Chitchat, q_Faq
+con que dato imprimo mi recibo	l_General, q_Chitchat
+porque mi factura me llegó tan alta	l_General, q_Chitchat
+no me alcanzo para pagar puedo pagar con otro cupo	q_Chitchat, q_Faq
+que debo de hacer para unificar cupo brilla	q_Chitchat, q_Faq
+como hago para bloquear mi factura para que no financien	q_Chitchat, q_Faq
+solicita tu pago anticipado	l_General, q_Chitchat
+necesito saber si una persona trabaja en gases de occidente	l_General, q_Chitchat
+donde puedo imprimir mi factura	l_General, q_Chitchat
+quiero detallado de las facturas	l_General, q_Chitchat
+cuanto cuesta el servicio	q_Chitchat, q_Faq
+por que me cobran reconexion si no me han cortado	q_Chitchat, q_Faq
+que tiempo se demora la reconexion	q_Chitchat, q_Faq
+donde puedo solicitar productos para pagarlos por medio de brilla	q_Chitchat, q_Faq
+cuales son los requisitos para un credito brilla	l_General, q_Chitchat
+cuanto se demoran en contestar mi derecho de peticion	q_Chitchat, q_Faq
+tengo un a persona de quavii, para saber si es de la empresa	l_General, q_Chitchat
+requiero la reconexion de mi servicio	l_General, q_Chitchat
+costo de certificacion	q_Chitchat, q_Faq
+quiero abonar solo a brilla	l_General, q_Chitchat
+quiero saber que facturas cancele durante x fechas	l_General, q_Chitchat
+como hago reclamo por el servicio de energia	q_Chitchat, q_Faq
+cual es el tiempo de espera del servicio	q_Chitchat, q_Faq
+hay una persona en mi casa y dice que viene de la empresa	l_General, q_Chitchat
+cuanto demora en que me respondan una queja	q_Chitchat, q_Faq
+se me daño, requiero la garantia de brilla	q_Chitchat, q_Faq
+donde puedo hacer un credito con brilla cuales son las direcciones de los almacenes	q_Chitchat, q_Faq
+por aquí puedo imprimir un certificado de pago	l_General, q_Chitchat
+no tengo dinero para cancelar el seguro	q_Chitchat, q_Faq
+como hago para que no se pueda sacar nada por el recibo	q_Chitchat, q_Faq
+que en cuanto tiempo se tiene respuesta de lo solicitado	q_Chitchat, q_Faq
+se me perdio mi factura como la puedo imprimir	l_General, q_Chitchat
+solicito me expliquen porque se me promedio para la facturación del mes	l_General, q_Chitchat
+cuando me vuelven a reconectar el servicio	l_General, q_Chitchat
+que ocurre si el titular del credito fallece	q_Chitchat, q_Faq
+en cuanto esta el kilovatio en este mes	q_Chitchat, q_Faq
+conectar el calentador estufa cocina	q_Chitchat, q_Faq
+en este mes en cuanto esta la tarifa	q_Chitchat, q_Faq
+financiacion brilla	q_Chitchat, q_Faq
+quiero un certificado de mi recibo	l_General, q_Chitchat
+valor de la revision periodica	q_Chitchat, q_Faq
+soporte de pago del ultimo mes	l_General, q_Chitchat
+deseo cancelar solo el gas	l_General, q_Chitchat
+si se me daño algo, brilla me cubre	q_Chitchat, q_Faq
+a que horas me reconectan el servicio	l_General, q_Chitchat
+reconexion residencial	q_Chitchat, q_Faq
+en cuanto tiempo los tecnicos atienden mi solicitud	q_Chitchat, q_Faq
+catalogo de productos brilla	q_Chitchat, q_Faq
+el señor xxx identificado con # si es de la empresa	l_General, q_Chitchat
+que puedo financiar con brilla	q_Chitchat, q_Faq
+deseo pagar la factura anterior	l_General, q_Chitchat
+revision obligatoria	q_Chitchat, q_Faq
+quiero saber el historial de mi factura	l_General, q_Chitchat
+dejar de pagar poliza de seguro	q_Chitchat, q_Faq
+reconexion desde el medidor	l_General, q_Chitchat, q_Faq
+cuando toca la revision periodica que costo tiene	q_Chitchat, q_Faq
+por aquí me generan un certificado de los valores cobrados en mi factura	l_General, q_Chitchat
+como hago para sumar los cupos que tengo en la casa	q_Chitchat, q_Faq
+necesito cotizar un multiservicio	q_Chitchat, q_Faq
+que se debe hacer para una solicitud de mantenimiento	q_Chitchat, q_Faq
+ya pague el servicio, me reconectan la energia ya mismo	l_General, q_Chitchat
+reclamar un seguro	q_Chitchat, q_Faq
+como hago para sumar cupos	q_Chitchat, q_Faq
+necesito imprimir mi factura	l_General, q_Chitchat
+deseo que me explique los montos que figuran en mi recibo	q_Chitchat, q_Faq
+necesito saber que me estan cobrando en la factura	q_Chitchat, q_Faq
+un anticipo de mi factura	l_General, q_Chitchat
+no estoy de acuerdo con	q_Chitchat, q_Faq
+donde se pueden buscar las tarifas de los servicios	q_Chitchat, q_Faq
+cual es el telefono de la aseguradora	q_Chitchat, q_Faq
+quiero hacer un reclamo	q_Chitchat, q_Faq
+se me perdio la factura y necesito pagar por aquí me pueden indicar el numero de cupon para pagar	l_General, q_Chitchat
+me llegó más caro mi recibo	l_General, q_Chitchat
+cuando me realizan la reconexion del servicio	l_General, q_Chitchat
+el tecnico que esta en mi casa si pertenece a la empresa	l_General, q_Chitchat
+donde puedo ver los productos que tiene brilla	q_Chitchat, q_Faq
+donde se dirige para solicitar la garantia de electrodomesticos de brilla	q_Chitchat, q_Faq
+para solicitar la reconexion	q_Chitchat, q_Faq
+cada cuanto van los tecnicos para mantenimiento	q_Chitchat, q_Faq
+como hago para solicitar la garantia	q_Chitchat, q_Faq
+resumen de estado de cuenta	l_General, q_Chitchat
+cuando me reconectan el servicio, como hago para cambiar el cable de la acometida	q_Chitchat, q_Faq
+se me perdio la factura y necesito pagar por aquí me pueden indicar la fecha de pago y el valor a pagar	l_General, q_Chitchat
+como hago para pedir la garantia	q_Chitchat, q_Faq
+me informa sobre servicios tecnicos prestados en su empresa	q_Chitchat, q_Faq
+quiero consultar mi factura	l_General, q_Chitchat
+cuanto se demoran en arreglar el daño	q_Chitchat, q_Faq
+tiempos de reconexion	q_Chitchat, q_Faq
+certificado de pago de los meses	l_General, q_Chitchat
+pueden mandar una visita para mantenimiento	q_Chitchat, q_Faq
+quiero quejarme	q_Chitchat, q_Faq
+donde puedo financiar con credito brilla	q_Chitchat, q_Faq
+como coloco una queja	q_Chitchat, q_Faq
+por aquí puedo imprimir un certificado de mi recibo	l_General, q_Chitchat
+listado de proveedores brilla	q_Chitchat, q_Faq
+no entiendo los cobros que llegan en la factura	q_Chitchat, q_Faq
+cual es la garantia de lo que compre con brilla	q_Chitchat, q_Faq
+duplicado de factura	l_General, q_Chitchat
+precios de tarifas	q_Chitchat, q_Faq
+brilla garantia	q_Chitchat, q_Faq
+ganarme la exencion de contribucion	l_General, q_Chitchat
+imprimir factura pagada de	l_General, q_Chitchat
+adquirir un seguro con brilla	l_General, q_Chitchat
+quiero pagar una parte de mi recibo	l_General, q_Chitchat
+reclama por el consumo alto facturado	q_Chitchat, q_Faq
+como puedo financiar	l_General, q_Chitchat
+donde puedo sacar un tv con mi cupo brilla	q_Chitchat, q_Faq
+no entiendo por que me facturar alumbrado publico	q_Chitchat, q_Faq
+detalle del recibo	q_Chitchat, q_Faq
+todas mis deudas pendientes colocarlas en un solo monto	q_Chitchat, q_Faq
+estado pqr	l_General, q_Chitchat
+cuál es mi saldo pendiente por pagar	l_General, q_Chitchat
+imprimir constancia de pago	l_General, q_Chitchat
+necesito reparar lo encontrado en la revision periodica	q_Chitchat, q_Faq
+que productos puedo sacar con el cupo brilla	q_Chitchat, q_Faq
+quiero consultar mi recibo	l_General, q_Chitchat
+solicito trabajos varios	q_Chitchat, q_Faq
+deseo abonar a brilla	l_General, q_Chitchat
+me puede informar sobre una revision periodica.	q_Chitchat, q_Faq
+por aquí me generan un certificado de los valores cobrados en mi recibo	l_General, q_Chitchat
+donde encuentro el precio del	q_Chitchat, q_Faq
+quiero saber que es lo que me cobran en las facturas	q_Chitchat, q_Faq
+puedo financiar con brilla	l_General, q_Chitchat
+como reclamar seguro de siniestro	q_Chitchat, q_Faq
+que debo hacer para obtener una certificación de lo facturado	l_General, q_Chitchat
+solo cocino una vez al dia, porque me cobran tanto	l_General, q_Chitchat
+cuando vence mi factura	l_General, q_Chitchat
+cuando me solucionan	q_Chitchat, q_Faq
+cuanto tiempo tiene de garantia el producto que se financio mediante brilla	q_Chitchat, q_Faq
+donde puedo poner una queja	q_Chitchat, q_Faq
+como hago para quejarme	q_Chitchat, q_Faq
+generar estado de cuenta	l_General, q_Chitchat
+errores de consumo	l_General, q_Chitchat
+beneficios con la revision periodica	q_Chitchat, q_Faq
+ya tengo otro seguro, necesito cancelar este	q_Chitchat, q_Faq
+proveedores brilla por ciudad	q_Chitchat, q_Faq
+donde o como puedo presentar una solicitud por la garantia de un electrodomestico	q_Chitchat, q_Faq
+puedo financiar credito de estudio	q_Chitchat, q_Faq
+en cuento tiempo esta la respuesta al reclamo de una pqr	q_Chitchat, q_Faq
+quiero expresar una inconformidad	q_Chitchat, q_Faq
+necesito un duplicado de la factura	l_General, q_Chitchat
+como hago para unir todas las deudas brilla en una sola	q_Chitchat, q_Faq
+como reclamar seguro fallecido	q_Chitchat, q_Faq
+es brilla	q_Chitchat, q_Faq
+solicito informacion contenido de la factura	q_Chitchat, q_Faq
+que se puede financiar con brilla	q_Chitchat, q_Faq
+usted me puede explicar esto que dice aqui a que corresponde	q_Chitchat, q_Faq
+cupon pago anticipado	l_General, q_Chitchat
+aquí puedo imprmir mi factura	l_General, q_Chitchat
+queja	q_Chitchat, q_Faq
+requiero modificar mi red	q_Chitchat, q_Faq
+adelantar pago de recibo	l_General, q_Chitchat
+sumar cupos brilla	q_Chitchat, q_Faq
+utiliza tu cupo	l_General, q_Chitchat
+cuanto se demoran en atender la solicitud	q_Chitchat, q_Faq
+el valor del cargo de conexion	q_Chitchat, q_Faq
+cual es la garantia de los productos adquiridos por brilla	q_Chitchat, q_Faq
+porque las tarifas cambian	q_Chitchat, q_Faq
+solicite su revision periodica	l_General, q_Chitchat, q_Faq
+cuanto me demora la pqr	q_Chitchat, q_Faq
+para saber si este funcionario pertenece a la empresa	l_General, q_Chitchat
+con brilla puedo financiar xxxx	q_Chitchat, q_Faq
+tiempo de atencion	q_Chitchat, q_Faq
+proxima revision	l_General, q_Chitchat
+que tarifa manejan	q_Chitchat, q_Faq
+solicito el favor se me informe donde esta el costo del consumo	q_Chitchat, q_Faq
+ya pague como hago para que me reconecten	l_General, q_Chitchat
+la compañia es el encargado de las garantias de los productos que se compran con brilla	q_Chitchat, q_Faq
+que tiempo debo esperar para que se atienda mi solicitud	q_Chitchat, q_Faq
+estado de solicitud sqr	l_General, q_Chitchat
+a que hora me realizan la reconexion	l_General, q_Chitchat, q_Faq
+cuanto tiempo se demoran en darme respuesta	q_Chitchat, q_Faq
+unificacion de cupos	q_Chitchat, q_Faq
+solicito colocar una queja o reclamo	q_Chitchat, q_Faq
+necesito el código para pagar por internet	l_General, q_Chitchat
+necesito hacer efectivo el seguro de fallecido	q_Chitchat, q_Faq
+necesito unir varios cupos que hago	q_Chitchat, q_Faq
+expliqueme donde aparece desde que fecha me estan cobrando el consumo de este mes	q_Chitchat, q_Faq
+detalle de tarifas de gas	q_Chitchat, q_Faq
+puedo financiar la universidad	q_Chitchat, q_Faq
+donde puedo ver el catalogo de productos brilla	q_Chitchat, q_Faq
+necesito que no compren con brilla	q_Chitchat, q_Faq
+cual es el tiempo de atencion de la reparacion	q_Chitchat, q_Faq
+por aqui puedo poner una queja	q_Chitchat, q_Faq
+necesito hacer la revision de cada 5 años	q_Chitchat, q_Faq
+cuales son los proveedores que maneja brilla	q_Chitchat, q_Faq
+donde puedo reclamar la garantia	q_Chitchat, q_Faq
+porque me están cobrando ese consumo	l_General, q_Chitchat
+imprimir certificado de factura	l_General, q_Chitchat
+cual es el precio que estan cobrando por	q_Chitchat, q_Faq
+me suspendieron, cuando me reconectan el servicio	l_General, q_Chitchat, q_Faq
+queja por servicios	q_Chitchat, q_Faq
+saldo a capital	q_Chitchat, q_Faq
+lista de productos y servicios para comprar con brilla	q_Chitchat, q_Faq
+lista de servicios credito brilla	q_Chitchat, q_Faq
+por que no me han hecho la reconexion	l_General, q_Faq
+el señor con cedula xxx dice que viene de su empresa a realizar una revision	l_General, q_Chitchat
+datos de las funerarias	q_Chitchat, q_Faq
+para validar si el señor con cedula xxx trabaja con ustedes	l_General, q_Chitchat
+necesito pagar mi factura y no la tengo	l_General, q_Chitchat
+donde puedo obtener informacion de servicio tecnicos	q_Chitchat, q_Faq
+para reportar una queja reclamo	q_Chitchat, q_Faq
+necesito el soporte de mi ultimo pago	l_General, q_Chitchat
+porque tengo este item en mi recibo	q_Chitchat, q_Faq
+fecha proxima revision periodica	l_General, q_Chitchat
+como puedo consultar mi cupo brilla	l_General, q_Chitchat
+quiero una certificación de mi recibo	l_General, q_Chitchat
+tarifas vigentes	q_Chitchat, q_Faq
+traslado de pago	q_Chitchat, q_Faq
+que debo hacer si acaba de fallecer un	q_Chitchat, q_Faq
+yo casi no cocino, porque me cobran tanto consumo	l_General, q_Chitchat
+saldo anterior	q_Chitchat, q_Faq
+como hago para poder usar el cupo de brilla, donde puedo comprar	q_Chitchat, q_Faq
+cuando es mi proxima revision	l_General, q_Chitchat
+como puedo saber que recibos pague	l_General, q_Chitchat
+cuándo se vence mi factura	l_General, q_Chitchat
+quiero una certificación de los pagos	l_General, q_Chitchat
+cuanto se demoran en reconectarme	l_General, q_Chitchat
+vengo a reclamar por la siguiente factura	q_Chitchat, q_Faq
+acuerdo de pago	q_Chitchat, q_Faq
+el titular del credito fallecio	q_Chitchat, q_Faq
+en cuantos dias dan respuesta a una solicitud	q_Chitchat, q_Faq
+requiero modificar el centro de medicion	q_Chitchat, q_Faq
+reportar fallecido	q_Chitchat, q_Faq
+puedo pagar con varios cupos brilla	q_Chitchat, q_Faq
+cuando vienen a conectar la estufa	q_Chitchat, q_Faq
+como puedo conocer mi recibo	q_Chitchat, q_Faq
+necesito imprimir mi recibo	l_General, q_Chitchat
+quiero un seguro	l_General, q_Chitchat
+por aquí puedo conocer el valor de mi factura	l_General, q_Chitchat
+quiero consultar mi cupo brilla	l_General, q_Chitchat
+reclamo por exceso de cobro de la factura	l_General, q_Chitchat
+seguro de fallecido	q_Chitchat, q_Faq
+que paso con la facturacion del mes que llego con un valor muy alto	l_General, q_Chitchat
+en la ciudad cuales proveedores	q_Chitchat, q_Faq
+en donde puedo sacar electrodomesticos con el cupo	q_Chitchat, q_Faq
+debo reportar un siniestro para el seguro funerario	q_Chitchat, q_Faq
+quiero pagar por adelantado	l_General, q_Chitchat
+necesito pagar mi factura y se me perdio	l_General, q_Chitchat
+por aquí puedo imprimir una constancia de pago	l_General, q_Chitchat
+puedo obtener un duplicado de la factura	l_General, q_Chitchat
+exento de la contribucion	l_General, q_Chitchat
+reconexion acometida	q_Chitchat, q_Faq
+quiero hacer un prepago a mi factura	l_General, q_Chitchat
+como hago para financiar por brilla	q_Chitchat, q_Faq
+cuando tendre mi revision periodica	l_General, q_Chitchat
+reconexion del servicio	l_General, q_Chitchat, q_Faq
+portafolio brilla	q_Chitchat, q_Faq
+en que tiendas puedo usar el credito brilla	q_Chitchat, q_Faq
+convenios almacenes brilla	q_Chitchat, q_Faq
+explicacion para saber como se factura y el valor del kw/h	q_Chitchat, q_Faq
+quiero imprimir un cupon para brilla	l_General, q_Chitchat
+cuando me reconectan	l_General, q_Chitchat, q_Faq
+adquirir seguro brilla	l_General, q_Chitchat
+estado de solicitud pqr	l_General, q_Chitchat
+existe la posiblidad de que en dos facturas se pueda acceder a un solo cupo brilla	q_Chitchat, q_Faq
+sacar a credito con brilla	l_General, q_Chitchat
+aquí me pueden dar un duplicado de mi recibo	l_General, q_Chitchat
+tengo un incremento en mi factura	l_General, q_Chitchat
+en cuantos dias dan respuesta a una solicitud de pqr	q_Chitchat, q_Faq
+soporte de pago	l_General, q_Chitchat
+estoy inconforme con el servicio	q_Chitchat, q_Faq
+donde puedo comprar con brilla	q_Chitchat, q_Faq
+deseo un certificado de pago	l_General, q_Chitchat
+horario de mi revision	l_General, q_Chitchat
+presento reclamo por el aumento desproporcionado en la factura	l_General, q_Chitchat
+acaba de morir mi	q_Chitchat, q_Faq
+tiempos de atencion pqrs	q_Chitchat, q_Faq
+solicitud pqr	l_General, q_Chitchat
+deseo hacer un abono a mi factura	l_General, q_Chitchat
+necesito adelantar el pago de mi recibo	l_General, q_Chitchat
+cuando me realizar la reconexion del servicio	l_General, q_Chitchat, q_Faq
+que se hace para que no le acepten pagos por cuotas al inquilino	q_Chitchat, q_Faq
+quiero saber el historial de mi recibo	l_General, q_Chitchat
+quiero adquirir un seguro brilla	l_General, q_Chitchat
+los productos pagados con brilla tienen garantia	q_Chitchat, q_Faq
+reparacion de intalacion del gas	q_Chitchat, q_Faq
+solicitud servicio tecnico	q_Chitchat, q_Faq
+a quien me le puedo dirigir para la informacion de tarifas si por medio de una solictud escrita ay otro medio	q_Chitchat, q_Faq
+cual es el saldo actual de mi recibo	l_General, q_Chitchat
+a donde me dirijo para un crédito con brilla	l_General, q_Chitchat
+no quiero el cupo de brilla	q_Chitchat, q_Faq
+quiero un certificado de los valores cobrados en mi recibo	l_General, q_Chitchat
+no quiero que usen mi cupo de brilla	q_Chitchat, q_Faq
+tengo cupo y quiero comprar un producto con brilla	l_General, q_Chitchat
+recien compre un producto y no sirve, necesito que me respondan	q_Chitchat, q_Faq
+consumo facturado	l_General, q_Chitchat
+requiero hacer los trabajos de la revision periodica	q_Chitchat, q_Faq
+descargar constancia de pago	l_General, q_Chitchat
+que hago para que me revisen o hagan mantenimiento	q_Chitchat, q_Faq
+que puedo hacer para no realicen financiaciones brilla en mi factura	q_Chitchat, q_Faq
+cuál es el número de cupón	l_General, q_Chitchat
+necesito el recibo de mi factura	l_General, q_Chitchat
+en la oficina se pueden hacer reclamo	q_Chitchat, q_Faq
+deseo generar mi recibo	l_General, q_Chitchat
+que debo hacer para obtener la garantia	q_Chitchat, q_Faq
+por aquí me pueden dar informacion de cuando debo pagar mi factura	l_General, q_Chitchat
+compra tu seguro brilla	l_General, q_Chitchat
+se me daño algo que compre con brilla	q_Chitchat, q_Faq
+quiero pagar una parte de mi factura	l_General, q_Chitchat
+donde veo lo que me estan cobrando en el recibo	q_Chitchat, q_Faq
+podria explicarme valores de mi recibo	q_Chitchat, q_Faq
+cupon anticipado	l_General, q_Chitchat
+donde puedo usar el credito brilla	q_Chitchat, q_Faq
+qué valor debo de mi factura	l_General, q_Chitchat
+deseo pagar anticipado mi recibo	l_General, q_Chitchat
+quiero adquirir mi seguro brilla	l_General, q_Chitchat
+aquí me pueden dar un duplicado de la factura	l_General, q_Chitchat
+como hago para hacer efectiva la garantia de mi producto	q_Chitchat, q_Faq
+mi factura ha aumentado	l_General, q_Chitchat
+me están cobrando un consumo que no es	l_General, q_Chitchat
+como hago para utilizar el cupo de brilla	l_General, q_Chitchat
+quiero imprimir un cupon de pago anticipado	l_General, q_Chitchat
+cuanto se demoran en revisar el calentador estufa horno	q_Chitchat, q_Faq
+quiero bloquear mi cupo de brilla y seguros	q_Chitchat, q_Faq
+para hacer un reclamo	q_Chitchat, q_Faq
+comprar un seguro brilla	l_General, q_Chitchat
+reclamo por servicios	q_Chitchat, q_Faq
+aliados de brilla	q_Chitchat, q_Faq
+con que dato imprimo mi factura	l_General, q_Chitchat
+con que universidades tiene convenio de brilla	q_Chitchat, q_Faq
+deseo colocar una queja	q_Chitchat, q_Faq
+que costo tiene la reconexion	q_Chitchat, q_Faq
+donde puedo conseguir informacion de mantenimiento, visitas, revisiones	q_Chitchat, q_Faq
+cual es el tiempo limite para reclamar por un producto	q_Chitchat, q_Faq
+necesito un seguro	l_General, q_Chitchat
+necesito conocer el valor actual de mi factura	l_General, q_Chitchat
+cual es el telefono para el servicio funerario	q_Chitchat, q_Faq
+puedo adquirir materiales articulos para el hogar educacion moto soat tecno mecanica gasodomesticos	q_Chitchat, q_Faq
+quiero validar si esta persona trabaja con ustedes	l_General, q_Chitchat
+mi factura ha subido	l_General, q_Chitchat
+adquirir seguro	l_General, q_Chitchat
+como hago para financiar con brilla	l_General, q_Chitchat
+prepago recibo	l_General, q_Chitchat
+adquirir seguro de vida brilla	l_General, q_Chitchat
+valor gas natural	q_Chitchat, q_Faq
+listado de tiendas brilla	q_Chitchat, q_Faq
+como puedo obtener el cupo brilla	q_Chitchat, q_Faq
+brilla responde por un producto	q_Chitchat, q_Faq
+como hago para que me vayan a arreglar el contador	q_Chitchat, q_Faq
+como hago para que me reconectene el servicio	l_General, q_Chitchat, q_Faq
+proceso de reconexion	q_Chitchat, q_Faq
+consulta y generacion de factura	l_General, q_Chitchat
+el cupo no me alcanza, tengo varios contratos, puedo unirlos	q_Chitchat, q_Faq
+deseo generar mi factura	l_General, q_Chitchat
+como programo la revision periodica	q_Chitchat, q_Faq
+adquiere tu seguro brilla	l_General, q_Chitchat
+reconexion comercial	q_Chitchat, q_Faq
+donde puedo sacar productos con el cupo que aparece en mi factura	q_Chitchat, q_Faq
+como puedo acceder al credito de brilla	l_General, q_Chitchat
+cada cuanto van los tecnicos para reparacion o mantenimiento	q_Chitchat, q_Faq
+cuales son los almacenes donde puede financiar	q_Chitchat, q_Faq
+necesito conocer la fecha de pago de mi factura	l_General, q_Chitchat
+en cuantos dias me dan la respuesta demi pqr en la empresa	q_Chitchat, q_Faq
+necesito el número de cupón para pagar	l_General, q_Chitchat
+que necesito para bloquear el cupo de brilla ya que tengo la casa arrendada.	q_Chitchat, q_Faq
+cual es el valor de factura actual	l_General, q_Chitchat
+como se si mi producto tiene garantia	q_Chitchat, q_Faq
+como puedo cancelar una poliza	q_Chitchat, q_Faq
+porque tengo este item en mi factura	q_Chitchat, q_Faq
+solicito conexion del poste a la vivienda	q_Chitchat, q_Faq
+servicio funerario	q_Chitchat, q_Faq
+quiero poner un reclamo	q_Chitchat, q_Faq

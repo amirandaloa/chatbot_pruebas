@@ -1,0 +1,29 @@
+Microsoft (R) Build Engine version 16.8.0+126527ff1 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+C:\Repos\Enlace\VAEnlace\EnlaceVA\Adapters\DefaultAdapter.cs(63,52): warning CS0618: 'AzureBlobTranscriptStore' is obsolete: 'This class is deprecated. Please use BlobsTranscriptStore from Microsoft.Bot.Builder.Azure.Blobs instead.' [C:\Repos\Enlace\VAEnlace\EnlaceVA\EnlaceVA.csproj]
+{
+  "active": true,
+  "author": "N/A",
+  "author_email": "N/A",
+  "complete": true,
+  "deployer": "ZipDeploy",
+  "end_time": "2021-01-08T21:25:37.252319Z",
+  "id": "30f8267e0e5d4fc4878429d2ebbd04b0",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2021-01-08T21:25:37.252319Z",
+  "log_url": "https://vaenlacepromdev-bot.scm.azurewebsites.net/api/deployments/latest/log",
+  "message": "Created via a push deployment",
+  "progress": "",
+  "provisioningState": null,
+  "received_time": "2021-01-08T21:25:30.6728793Z",
+  "site_name": "VAEnlacePromDev-Bot",
+  "start_time": "2021-01-08T21:25:32.3448882Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://vaenlacepromdev-bot.scm.azurewebsites.net/api/deployments/latest"
+}
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202

@@ -1,0 +1,21 @@
+Utterance	Intents
+ya pague como hago para que me reconecten	l_General, q_Chitchat
+el señor xxx identificado con # si es de la empresa	l_General, q_Chitchat
+duplicado de factura	l_General, q_Chitchat
+necesito un seguro	l_General, q_Chitchat
+yo casi no cocino, porque me cobran tanto consumo	l_General, q_Chitchat
+necesito imprimir mi factura	l_General, q_Chitchat
+que debo hacer para obtener una certificación de lo facturado	l_General, q_Chitchat
+quiero saber que es lo que me cobran en las facturas	q_Chitchat, q_Faq
+expliqueme donde aparece desde que fecha me estan cobrando el consumo de este mes	q_Chitchat, q_Faq
+reconexion desde el medidor	l_General, q_Chitchat
+cuando me realizar la reconexion del servicio	l_General, q_Chitchat
+el valor del cargo de conexion	q_Chitchat, q_Faq
+cada cuanto van los tecnicos para mantenimiento	q_Chitchat, q_Faq
+convenios almacenes brilla	q_Chitchat, q_Faq
+reportar fallecido	q_Chitchat, q_Faq
+me suspendieron, cuando me reconectan el servicio	l_General, q_Faq
+prepago recibo	l_General, q_Chitchat
+en cuanto esta el kilovatio en este mes	q_Chitchat, q_Faq
+quiero detallado de las facturas	l_General, q_Chitchat
+financiacion brilla	q_Chitchat, q_Faq

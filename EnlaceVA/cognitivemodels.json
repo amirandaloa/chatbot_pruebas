@@ -1,0 +1,47 @@
+{
+  "defaultLocale": "es-es",
+  "cognitiveModels": {
+    "es-es": {
+      "dispatchModel": {
+        "authoringRegion": "westus",
+        "name": "VAEnlacePromDeves-es_Dispatch",
+        "appid": "b2437c37-cf58-4035-b83f-be5507374fde",
+        "authoringkey": "30f9ef35c9c345b6b24e5dfdaf7ffcb3",
+        "region": "eastus",
+        "subscriptionkey": "d7a1336fbbf04538974a01b6d2b611fb",
+        "version": "Dispatch",
+        "type": "dispatch"
+      },
+      "languageModels": [
+        {
+          "endpoint": "https://vaenlacepromdev-luisauthoring.cognitiveservices.azure.com/",
+          "name": "VAEnlacePromDeves-es_General",
+          "id": "General",
+          "authoringkey": "30f9ef35c9c345b6b24e5dfdaf7ffcb3",
+          "region": "eastus",
+          "subscriptionkey": "d7a1336fbbf04538974a01b6d2b611fb",
+          "version": "0.1",
+          "appid": "88352817-9f8c-4755-8f9c-3cb1e6958f7d"
+        }
+      ],
+      "knowledgebases": [
+        {
+          "kbId": "f7959733-dd23-44e7-9ba2-69db32f6f1d9",
+          "subscriptionKey": "abfc6d97e0ef43d9a6f1e2abe88dbf21",
+          "endpointKey": "c67f50ad-61cc-43bc-8d55-c5417bc424f2",
+          "hostname": "https://vaenlacepromdev-qna-host.azurewebsites.net",
+          "name": "Chitchat",
+          "id": "Chitchat"
+        },
+        {
+          "kbId": "cbbfb777-fc7e-4faa-8ee8-529c4bc1823a",
+          "subscriptionKey": "abfc6d97e0ef43d9a6f1e2abe88dbf21",
+          "endpointKey": "c67f50ad-61cc-43bc-8d55-c5417bc424f2",
+          "hostname": "https://vaenlacepromdev-qna-host.azurewebsites.net",
+          "name": "Faq",
+          "id": "Faq"
+        }
+      ]
+    }
+  }
+}

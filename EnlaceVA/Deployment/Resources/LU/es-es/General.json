@@ -1,0 +1,2685 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Abona_a_tu_factura",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Adquiere_tu_seguro",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Cambio_de_nombre",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Certificado_de_tus_facturas",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Certificado_deuda_diferida",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Confirm",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Constancia_de_pago",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Consulta_y_generacion_de_factura",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Consumo_facturado",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Cupo_de_brilla",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Deuda_actual_y_diferida",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Emergencias",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Estado_de_solicitud_PQRs",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Estado_reconexion_por_pago",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Exencion_de_contribucion",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Fecha_proxima_revision_periodica",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Identidad_de_funcionario",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Menu",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "None",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Reject",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Salir",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Solicita_tu_cupon_de_pago_anticipado",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Solicite_su_revision_periodica",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Terminacion_de_contrato",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Traslado_de_deuda_o_desmonte",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Ultima_lectura",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Utiliza_tu_cupo",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Valor_fecha_limite_y_referencia_pago",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Visita_de_financiacion_no_bancaria",
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "DirectionalReference",
+      "children": [],
+      "roles": [],
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "name": "Facturacion",
+      "children": [],
+      "roles": [],
+      "features": [
+        {
+          "featureName": "Factura",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "FacturaciónYpagos",
+      "subLists": [],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "ordinal",
+      "roles": []
+    }
+  ],
+  "utterances": [
+    {
+      "text": "a donde me dirijo para un crédito con brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "a mi vecino la facturan por menor valor",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "a parte del certificado que otros documentos necesito para cambiar mi factura",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "a que hora me realizan la reconexion",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "a que horas me reconectan el servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "abona a tu factura",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "adelantar pago de factura",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "adelantar pago de recibo",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "adquiere tu seguro",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "adquiere tu seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "adquirir seguro",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "adquirir seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "adquirir seguro de vida brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "adquirir un seguro con brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "agradezco se sirvan revisar el estado de facturaciòn, ya que se viene presentando un incremento injustificado",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "ahora no",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "aquí me pueden dar un duplicado de la factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "aquí me pueden dar un duplicado de mi recibo",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "aquí puedo descargar el estado de cuenta",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "aquí puedo descargar un certificado de la cancelacion de mi deuda",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "aquí puedo imprmir mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "aquí puedo imprmir mi recibo",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "aquí puedo saber el valor de mi factura y la feca limite",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "aquí puedo saber mi valor a pagar y la fecha limite de pago",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "ausencia de gas en el hogar",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "bien",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "brilla de cupo",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "brilla me puede prestar para",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "cambiar de nombre",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "cambiar de titular",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "cambiar el nombre del titular",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "cambiar el recibo a otro nombre",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "cambiar la cuenta a otro nombre",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "cambio de nombre comercial",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "cambio de nombre residencial",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "cerificado deuda diferida",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "certificado de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "certificado de pago de los meses",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "certificado de tus facturas",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "certificado de tus recibos",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "certificado diferida",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "claro",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "como agendar mi solicitud periodica",
+      "intent": "Solicite_su_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "como compruebo que la persona que esta en mi predio es empleado de ustedes",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "como hago para acceder a un credito de brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "como hago para financiar con brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "como hago para ganarme al exencion de la contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "como hago para que me reconectene el servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "como hago para quitar la red de mi local",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "como hago para utilizar el cupo de brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "como imprimir un certificado de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "como me pueden exonerar de la contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "como me pueden exonerar de pagar la contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "como puedo acceder al credito de brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "como puedo consultar mi cupo brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "como puedo financiar",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "como puedo imprimir mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "como puedo obtener el credito brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "como puedo obtener el seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "como puedo saber que facturas pague",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "como puedo saber que recibos pague",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "como puedo saber si ya pagaron la factura del mes",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "como puedo saber si ya pague",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "como puedo solicitar mi revision periodica",
+      "intent": "Solicite_su_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "como puedo terminar mi contrato",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "como puedo usar el cupo brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "como puedo utilizar el cupo brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "como realizar cambio de nombre",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "como realizar cambio de titular",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "como retiro el gas de un local que ya no es mio",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "compra tu seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "comprar seguro de vida con brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "comprar un seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "compre el predio y no voy a pagar la deuda de brilla",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "con que dato imprimo mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "con que dato imprimo mi recibo",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "conocer mi ultima lectura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "constancia de pago de los meses",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "consulta tu deuda total",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "consulta y generacion de factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "consultar el estado de reconexión por pago",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "consultat estado reconexión por pago",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "consumo facturado",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "correcto",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "cual es el menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "cual es el menú",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "cuál es el número de cupón",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cual es el saldo actual de mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cual es el saldo actual de mi recibo",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cual es el valor de factura actual",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cuál es el valor de mi ultimo pago",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cual es la fecha de mi ultima lectura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "cuál es mi deuda en",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cual es mi saldo de brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "cuál es mi saldo pendiente por pagar",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cuál fue el último valor cancelado",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cuáles son los requisitos para la exención de contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "cuales son los requisitos para un credito brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "cuando es la fecha limite de pago de mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando es mi proxima revision",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "cuando fue mi ultima toma de lectura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "cuando me realizan la reconexion del servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando me realizar la reconexion del servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando me reconectan",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando me reconectan el servicio, como hago para cambiar el cable de la acometida",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando me reconectan mi servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando me reconectan?",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando me vuelven a reconectar el servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando se vence mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cuándo se vence mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando sera la revision periodica",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "cuando sera mi proxima revision",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "cuando tendre mi revision periodica",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "cuando vence mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "cuando vienen a tomar lectura a mi casa",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "cuánto debo cancelar para pagar toda la financiación",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuánto debo de brilla",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuánto debo de mi diferido",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuanto debo de mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "cuánto debo de mi financiación",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuanto debo de saldo a capital",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuánto falta pagar por instalación",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuánto falta pagar por margen de promoción",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuánto falta pagar por obra civil",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuánto falta pagar por servicios adicionales",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "cuanto se demoran en reconectarme",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "cupo d brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "cupo de brila",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "cupo de brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "cupon anticipado",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "cupon pago anticipado",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "cupon prepago",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "daño en la red",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "daño en la red de gas",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "debo varias facturas y quiero hacer un abono",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "derecho sí",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "descargar constancia de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "deseo abonar a brilla",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo abonar al consumo",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo adquirir un seguro",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "deseo cancelar solo el brilla",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo cancelar solo el gas",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo conocer el menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "deseo conocer el menú",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "deseo cononcer el menú",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "deseo generar mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo generar mi recibo",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": [
+        {
+          "entity": "Facturacion",
+          "startPos": 17,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "deseo hacer un abono a mi factura",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo hacer un abono a mi recibo",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo pagar anticipada mi factura",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "deseo pagar anticipado mi recibo",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "deseo pagar el recibo anterior",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo pagar la factura anterior",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "deseo terminar mi contrato",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "deseo un certificado de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "deseo un paz y salvo de mi financiación",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "deseo una constancia de no deuda",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "deseo una relación de los pagos realizados",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "deuda actual y diferida",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "deuda diferida",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "donde o como puedo realizar el cambio de nombre residencial",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "donde puedo adquirir un seguro con brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "donde puedo imprimir mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "duplicado de factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "el medidor registra una lectura diferente a la factura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "el señor con cedula xxx dice que viene de su empresa a realizar una revision",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "el señor xxx identificado con # si es de la empresa",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "el tecnico que esta en mi casa si pertenece a la empresa",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "emergencia",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "emergencias",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "empezar",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "en que fecha se hara mi revision periodica",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "en qué fecha tomaron la lectura en mi casa",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "errores de consumo",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "ese derecho",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "está bien",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "está bueno",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "esta una persona en mi casa y quiero saber si trabaja para ustedes",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "estado de solicitud pqr",
+      "intent": "Estado_de_solicitud_PQRs",
+      "entities": []
+    },
+    {
+      "text": "estado de solicitud pqrs",
+      "intent": "Estado_de_solicitud_PQRs",
+      "entities": []
+    },
+    {
+      "text": "estado de solicitud sqr",
+      "intent": "Estado_de_solicitud_PQRs",
+      "entities": []
+    },
+    {
+      "text": "estado pqr",
+      "intent": "Estado_de_solicitud_PQRs",
+      "entities": []
+    },
+    {
+      "text": "estado reconexión pago",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "estado reconexión por pago",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "estado sqr",
+      "intent": "Estado_de_solicitud_PQRs",
+      "entities": []
+    },
+    {
+      "text": "estoy en desacuerdo con mi factura",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "exencion de la contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "exento de la contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "exoneracion de pago de contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "explosion en el hogar",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "fecha proxima revision periodica",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "fecha proxima revisión periódica",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "fecha ultima lectura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "fuga dentro del hogar",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "ganarme la exencion de contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "generar certificado de deuda diferida",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "generar constancia de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "generar cupon para pago anticipado",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "generar estado de cuenta",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "generar recibo para un pago adelantado",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "gracias sí",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "gran",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "hasta cuando tengo plazo de pagar mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "hay una persona en mi casa y dice que viene de la empresa",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "horario de mi revision",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "identidad de funcionario",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "imprimir certificación de la cancelación de mi deuda",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "imprimir certificado de deuda diferida",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "imprimir certificado de factura",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "imprimir certificado de recibo",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "imprimir constancia de cancelación total de crédito de brilla",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "imprimir constancia de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "imprimir estado de cuenta",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "imprimir factura pagada de",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "imprimir paz y salvo de mi financiación",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "imprimir resumen de lo cobrado el año",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "imprimir resumen estado de cuenta",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "incendio en el hogar",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "informacion reconexion",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "inquilino se fue y dejo deuda brilla",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "la deuda no es mia",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "me están cobrando un consumo que no es",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "me llegó más cara mi factura",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "me llegó más caro mi recibo",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "me parece que me estan cobrando mas",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "me puedes mostrar el menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "me puedes mostrar el menú",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "me suena bien",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "me suspendieron, cuando me reconectan el servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "me voy de esta casa y quiero llevarme la deuda de brilla",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "menú",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "mi factura ha aumentado",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "mi factura ha subido",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "mi lectura es diferente a la factura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "mi recibo ha subido",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "mostrar menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "mostrar menú",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "muchas gracias",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "muy bien",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "nada del otro mundo",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "necesito adelantar el pago de mi factura",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "necesito adelantar el pago de mi recibo",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "necesito conocer cuanto es el saldo de mi deuda",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "necesito conocer el valor actual de mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito conocer la fecha de pago de mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito el código para pagar por internet",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito el número de cupón para pagar",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito el recibo de mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "necesito el soporte de mi ultimo pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito imprimir mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "necesito imprimir mi recibo",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "necesito la referencia de pago",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito mi revision periodica",
+      "intent": "Solicite_su_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "necesito pagar mi factura y no la tengo",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "necesito pagar mi factura y se me perdio",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "necesito pagar mi recibo y se me perdio",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "necesito reconectar el servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito saber cuanto debo hasta hoy",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "necesito saber que facturas he pagado",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito saber que recibos he pagado",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito saber si una persona trabaja en gases de occidente",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "necesito salir",
+      "intent": "Salir",
+      "entities": []
+    },
+    {
+      "text": "necesito un certificado de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "necesito un duplicado de la factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "necesito un seguro",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "negativo",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no dejarlo",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no deseo pagar contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "no en este momento",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no es posible",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no es que",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no está mal",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no estoy de acuerdo con mi consumo",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "no exactamente",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no he utilizado todo ese consumo o servicio",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "no más no",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no me gusta",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no muy",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no no",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no no gracias",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no no que uno",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no puedo pagar toda el recibo y quiero hacer un abono",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "no puedo pagar toda la factura y quiero hacer un abono",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "no quiero pagar la contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "no, gracias",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "no, yo no quiero que",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "obtener seguro",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "obtener seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "ok por ahora",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "pagar mi deuda en otra casa",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "pago de contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "para saber si este funcionario pertenece a la empresa",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "para validar si el señor con cedula xxx trabaja con ustedes",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "perfecto",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "por aquí me generan un certificado de los valores cobrados en mi factura",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "por aquí me generan un certificado de los valores cobrados en mi recibo",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "por aquí me pueden dar informacion de cuando debo pagar mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "por aqui puedo adquirir mi seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo conocer el saldo de mi diferido",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo conocer el saldo de mi financiacion",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo conocer el valor de mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo generar un certificado de paz y salvo de brilla",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo generar un certificado de paz y salvo de mi deuda",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo imprimir un certificado de mi factura",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo imprimir un certificado de mi recibo",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo imprimir un certificado de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo imprimir un paz y salvo de brilla",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo imprimir una constancia de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo imrimir un paz y salvo de mi deuda",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo saber cuánto debo de mi diferido",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo saber cuánto debo de mi financiación",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "por aquí puedo saber que me cobraron el mes de",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "por este medio peudo imprimir estado de cuenta",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "por este medio puedo imprimir un certificado de la cancelacion de mi deuda",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "por que no me han hecho la reconexion",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "porque me están cobrando ese consumo",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "porque mi factura me llegó tan alta",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "porque tan cara mi factura",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "prepago factura",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "prepago recibo",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "presento reclamo por el aumento desproporcionado en la factura",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "proxima revision",
+      "intent": "Fecha_proxima_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "puedo cambiar el nombre comercial",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "puedo financiar con brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "puedo obtener un duplicado de la factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "puedo pagar mi deuda de gas en otra casa",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "puedo pagar mi deuda de gas en otro predio",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "puedo salir",
+      "intent": "Salir",
+      "entities": []
+    },
+    {
+      "text": "puedo trasladar mi servicio",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "que debo hacer para financiar por brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "que debo hacer para no pagar la contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "que debo hacer para obtener una certificación de lo facturado",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "que debo hacer para trasladar la deuda de gas",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "que debo hacer para trasladar la deuda de mi red",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "que debo presentar para cambiar el nombre",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "que debo presentar para cambiar el nombre del local",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "que documentos necesito para actualizar mi factura",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "que es correcto",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "qué estoy debiendo de saldo a capital",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "que paso con la facturacion del mes que llego con un valor muy alto",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "que tengo que hacer para pagar mi credito en otra casa",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "qué valor debo de mi factura",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "quiero a todos ellos",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quiero abonar a mi factura",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero abonar a mi recibo",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero abonar solo a brilla",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero adelantar un pago",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "quiero adquirir mi seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "quiero adquirir un seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "quiero agendar mi revision periodica",
+      "intent": "Solicite_su_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "quiero cambiar el suscriptor",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "quiero cambiar el titular",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "quiero cancelar mi contrato",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "quiero consultar mi cupo brilla",
+      "intent": "Cupo_de_brilla",
+      "entities": []
+    },
+    {
+      "text": "quiero consultar mi factura",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero consultar mi recibo",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero detallado de las facturas",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero hacer un prepago a mi factura",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "quiero hacer un prepago a mi recibo",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "quiero imprimir un cupon de pago anticipado",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero imprimir un cupon para brilla",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero pagar por adelantado",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "quiero pagar solo brilla pero no tengo un cupon",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero pagar una parte de mi factura",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero pagar una parte de mi recibo",
+      "intent": "Abona_a_tu_factura",
+      "entities": []
+    },
+    {
+      "text": "quiero que me quiten ese crédito de brilla, no es mio",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "quiero que mi recibo llegue a otro nombre",
+      "intent": "Cambio_de_nombre",
+      "entities": []
+    },
+    {
+      "text": "quiero saber cual es el valor del saldo a capital",
+      "intent": "Deuda_actual_y_diferida",
+      "entities": []
+    },
+    {
+      "text": "quiero saber el historial de mi factura",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero saber el historial de mi recibo",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": [
+        {
+          "entity": "Facturacion",
+          "startPos": 32,
+          "endPos": 37,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "quiero saber mi lectura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "quiero saber que facturas cancele durante x fechas",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "quiero saber que recibos cancele durante x fechas",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "quiero salir",
+      "intent": "Salir",
+      "entities": []
+    },
+    {
+      "text": "quiero solicitar mi revision periodica",
+      "intent": "Solicite_su_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "quiero tener mi revision periodica",
+      "intent": "Solicite_su_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "quiero todos ellos",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quiero trasladar mi deuda a otra factura",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "quiero un certificación de la cancelación de mi deuda",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "quiero un certificado de los valores cobrados en mi factura",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero un certificado de los valores cobrados en mi recibo",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero un certificado de mi factura",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero un certificado de mi recibo",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero un crédito de brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "quiero un paz y salvo de mi servicio",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "quiero un seguro",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "quiero un seguro brilla",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "quiero un soporte de pago del ultimo año",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "quiero una certificación de los pagos",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "quiero una certificación de mi factura",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero una certificación de mi recibo",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "quiero una constancia de cancelación total de crédito de brilla",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "quiero validar si esta persona trabaja con ustedes",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "quiero ver el menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "quiero ver el menú",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "rechazar",
+      "intent": "Reject",
+      "entities": []
+    },
+    {
+      "text": "reclamo por exceso de cobro de la factura",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "reconexion del servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "reconexion desde el medidor",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "relacion de los pagos realizados",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "requiero la reconexion de mi servicio",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "requiero un certificado de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "requiero una constancia de pagos",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "requisitos para la exención de contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "resumen de estado de cuenta",
+      "intent": "Certificado_de_tus_facturas",
+      "entities": []
+    },
+    {
+      "text": "sacar a credito con brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "salir",
+      "intent": "Salir",
+      "entities": []
+    },
+    {
+      "text": "se me perdio la factura y necesito pagar por aquí me pueden indicar el numero de cupon para pagar",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "se me perdio la factura y necesito pagar por aquí me pueden indicar la fecha de pago y el valor a pagar",
+      "intent": "Valor_fecha_limite_y_referencia_pago",
+      "entities": []
+    },
+    {
+      "text": "se me perdio mi factura como la puedo imprimir",
+      "intent": "Consulta_y_generacion_de_factura",
+      "entities": []
+    },
+    {
+      "text": "seguro que no",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "si",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí adelante",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí amigo",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí bebé",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí bro",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí bueno",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí fresco",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sí ir a por ello",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "sin duda",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "solicita tu pago anticipado",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "solicite su revision periodica",
+      "intent": "Solicite_su_revision_periodica",
+      "entities": []
+    },
+    {
+      "text": "solicito me expliquen porque se me promedio para la facturación del mes",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "solicitud pqr",
+      "intent": "Estado_de_solicitud_PQRs",
+      "entities": []
+    },
+    {
+      "text": "solo cocino una vez al dia, porque me cobran tanto",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "soporte de pago",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "soporte de pago de enero",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "soporte de pago del ultimo mes",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "soporte de pago del ultimo trimestre",
+      "intent": "Constancia_de_pago",
+      "entities": []
+    },
+    {
+      "text": "soy una empresa que tiene derecho al no cobro de la contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "soy una industria que no paga contribución",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "suena bien",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "suena bien gracias",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "suena perfecto",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "tengo cupo y quiero comprar un producto con brilla",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "tengo derecho al no cobro de contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    },
+    {
+      "text": "tengo dudas con mi consumo",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "tengo un a persona de quavii, para saber si es de la empresa",
+      "intent": "Identidad_de_funcionario",
+      "entities": []
+    },
+    {
+      "text": "tengo un daño en la red de gas",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "tengo un daño en mi casa",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "tengo un incremento en mi factura",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "tengo una emergencia",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "tengo una fuga de gas",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "tengo una fuga dentro del hogar",
+      "intent": "Emergencias",
+      "entities": []
+    },
+    {
+      "text": "terminacion de contrato",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "tipos de seguros",
+      "intent": "Adquiere_tu_seguro",
+      "entities": []
+    },
+    {
+      "text": "todos ellos",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "toma de lectura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "traslado de deuda",
+      "intent": "Traslado_de_deuda_o_desmonte",
+      "entities": []
+    },
+    {
+      "text": "ultima lectura",
+      "intent": "Ultima_lectura",
+      "entities": []
+    },
+    {
+      "text": "un anticipo de mi factura",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "un anticipo de mi recibo",
+      "intent": "Solicita_tu_cupon_de_pago_anticipado",
+      "entities": []
+    },
+    {
+      "text": "utiliza tu cupo",
+      "intent": "Utiliza_tu_cupo",
+      "entities": []
+    },
+    {
+      "text": "valida tu consumo",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "venga, sí",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "visita de financiacion no bancaria",
+      "intent": "Visita_de_financiacion_no_bancaria",
+      "entities": []
+    },
+    {
+      "text": "ya",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "ya cancelé el crédito de brilla y requiero un paz y salvo",
+      "intent": "Certificado_deuda_diferida",
+      "entities": []
+    },
+    {
+      "text": "ya no quiero contrato con ustedes",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "ya no quiero el servicio",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "ya no quiero el servicio de energia",
+      "intent": "Terminacion_de_contrato",
+      "entities": []
+    },
+    {
+      "text": "ya pague como hago para que me reconecten",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "ya pague el servicio, me reconectan la energia ya mismo?",
+      "intent": "Estado_reconexion_por_pago",
+      "entities": []
+    },
+    {
+      "text": "yo casi no cocino, porque me cobran tanto consumo",
+      "intent": "Consumo_facturado",
+      "entities": []
+    },
+    {
+      "text": "yo no pago contribucion",
+      "intent": "Exencion_de_contribucion",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "VAEnlacePromDeves-es_General",
+  "desc": "App General",
+  "culture": "es-es",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [
+    {
+      "name": "PersonName.Any",
+      "roles": [],
+      "explicitList": []
+    }
+  ],
+  "regex_entities": [],
+  "phraselists": [
+    {
+      "name": "Factura",
+      "mode": true,
+      "words": "factura,cupon,facturas,facturacion,recibo",
+      "activated": true,
+      "enabledForAllModels": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}

@@ -1,0 +1,654 @@
+
+> LUIS application information
+> !# @app.name = VAEnlacePromDeves-es_General
+> !# @app.desc = App General
+> !# @app.versionId = 0.1
+> !# @app.culture = es-es
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# Abona_a_tu_factura
+- abona a tu factura
+- debo varias facturas y quiero hacer un abono
+- deseo abonar a brilla
+- deseo abonar al consumo
+- deseo cancelar solo el brilla
+- deseo cancelar solo el gas
+- deseo hacer un abono a mi factura
+- deseo hacer un abono a mi recibo
+- deseo pagar el recibo anterior
+- deseo pagar la factura anterior
+- no puedo pagar toda el recibo y quiero hacer un abono
+- no puedo pagar toda la factura y quiero hacer un abono
+- quiero abonar a mi factura
+- quiero abonar a mi recibo
+- quiero abonar solo a brilla
+- quiero imprimir un cupon de pago anticipado
+- quiero imprimir un cupon para brilla
+- quiero pagar solo brilla pero no tengo un cupon
+- quiero pagar una parte de mi factura
+- quiero pagar una parte de mi recibo
+
+
+@ intent Abona_a_tu_factura usesFeature Factura
+
+# Adquiere_tu_seguro
+- adquiere tu seguro
+- adquiere tu seguro brilla
+- adquirir seguro
+- adquirir seguro brilla
+- adquirir seguro de vida brilla
+- adquirir un seguro con brilla
+- como puedo obtener el seguro brilla
+- compra tu seguro brilla
+- comprar seguro de vida con brilla
+- comprar un seguro brilla
+- deseo adquirir un seguro
+- donde puedo adquirir un seguro con brilla
+- necesito un seguro
+- obtener seguro
+- obtener seguro brilla
+- por aqui puedo adquirir mi seguro brilla
+- quiero adquirir mi seguro brilla
+- quiero adquirir un seguro brilla
+- quiero un seguro
+- quiero un seguro brilla
+- tipos de seguros
+
+
+@ intent Adquiere_tu_seguro usesFeature Factura
+
+# Cambio_de_nombre
+- a parte del certificado que otros documentos necesito para cambiar mi factura
+- cambiar de nombre
+- cambiar de titular
+- cambiar el nombre del titular
+- cambiar el recibo a otro nombre
+- cambiar la cuenta a otro nombre
+- cambio de nombre comercial
+- cambio de nombre residencial
+- como realizar cambio de nombre
+- como realizar cambio de titular
+- donde o como puedo realizar el cambio de nombre residencial
+- puedo cambiar el nombre comercial
+- que debo presentar para cambiar el nombre
+- que debo presentar para cambiar el nombre del local
+- que documentos necesito para actualizar mi factura
+- quiero cambiar el suscriptor
+- quiero cambiar el titular
+- quiero que mi recibo llegue a otro nombre
+
+
+@ intent Cambio_de_nombre usesFeature Factura
+
+# Certificado_de_tus_facturas
+- aquí puedo descargar el estado de cuenta
+- certificado de tus facturas
+- certificado de tus recibos
+- generar estado de cuenta
+- imprimir certificado de factura
+- imprimir certificado de recibo
+- imprimir estado de cuenta
+- imprimir resumen de lo cobrado el año
+- imprimir resumen estado de cuenta
+- por aquí me generan un certificado de los valores cobrados en mi factura
+- por aquí me generan un certificado de los valores cobrados en mi recibo
+- por aquí puedo imprimir un certificado de mi factura
+- por aquí puedo imprimir un certificado de mi recibo
+- por aquí puedo saber que me cobraron el mes de
+- por este medio peudo imprimir estado de cuenta
+- que debo hacer para obtener una certificación de lo facturado
+- quiero detallado de las facturas
+- quiero saber el historial de mi factura
+- quiero saber el historial de mi {@Facturacion=recibo}
+- quiero un certificado de los valores cobrados en mi factura
+- quiero un certificado de los valores cobrados en mi recibo
+- quiero un certificado de mi factura
+- quiero un certificado de mi recibo
+- quiero una certificación de mi factura
+- quiero una certificación de mi recibo
+- resumen de estado de cuenta
+
+
+@ intent Certificado_de_tus_facturas usesFeature Factura
+
+# Certificado_deuda_diferida
+- aquí puedo descargar un certificado de la cancelacion de mi deuda
+- cerificado deuda diferida
+- certificado diferida
+- deseo un paz y salvo de mi financiación
+- deseo una constancia de no deuda
+- generar certificado de deuda diferida
+- imprimir certificación de la cancelación de mi deuda
+- imprimir certificado de deuda diferida
+- imprimir constancia de cancelación total de crédito de brilla
+- imprimir paz y salvo de mi financiación
+- por aquí puedo generar un certificado de paz y salvo de brilla
+- por aquí puedo generar un certificado de paz y salvo de mi deuda
+- por aquí puedo imprimir un paz y salvo de brilla
+- por aquí puedo imrimir un paz y salvo de mi deuda
+- por este medio puedo imprimir un certificado de la cancelacion de mi deuda
+- quiero un certificación de la cancelación de mi deuda
+- quiero un paz y salvo de mi servicio
+- quiero una constancia de cancelación total de crédito de brilla
+- ya cancelé el crédito de brilla y requiero un paz y salvo
+
+
+@ intent Certificado_deuda_diferida usesFeature Factura
+
+# Confirm
+- bien
+- claro
+- correcto
+- derecho sí
+- ese derecho
+- está bien
+- está bueno
+- gracias sí
+- gran
+- me suena bien
+- muchas gracias
+- muy bien
+- ok por ahora
+- perfecto
+- que es correcto
+- seguro que no
+- si
+- sí
+- sí adelante
+- sí amigo
+- sí bebé
+- sí bro
+- sí bueno
+- sí fresco
+- sí ir a por ello
+- sin duda
+- suena bien
+- suena bien gracias
+- suena perfecto
+- venga, sí
+- ya
+
+
+@ intent Confirm usesFeature Factura
+
+# Constancia_de_pago
+- certificado de pago
+- certificado de pago de los meses
+- como imprimir un certificado de pago
+- como puedo saber que facturas pague
+- como puedo saber que recibos pague
+- como puedo saber si ya pagaron la factura del mes
+- como puedo saber si ya pague
+- constancia de pago de los meses
+- descargar constancia de pago
+- deseo un certificado de pago
+- deseo una relación de los pagos realizados
+- generar constancia de pago
+- imprimir constancia de pago
+- imprimir factura pagada de
+- necesito el soporte de mi ultimo pago
+- necesito saber que facturas he pagado
+- necesito saber que recibos he pagado
+- necesito un certificado de pago
+- por aquí puedo imprimir un certificado de pago
+- por aquí puedo imprimir una constancia de pago
+- quiero saber que facturas cancele durante x fechas
+- quiero saber que recibos cancele durante x fechas
+- quiero un soporte de pago del ultimo año
+- quiero una certificación de los pagos
+- relacion de los pagos realizados
+- requiero un certificado de pago
+- requiero una constancia de pagos
+- soporte de pago
+- soporte de pago de enero
+- soporte de pago del ultimo mes
+- soporte de pago del ultimo trimestre
+
+
+@ intent Constancia_de_pago usesFeature Factura
+
+# Consulta_y_generacion_de_factura
+- aquí me pueden dar un duplicado de la factura
+- aquí me pueden dar un duplicado de mi recibo
+- aquí puedo imprmir mi factura
+- aquí puedo imprmir mi recibo
+- como puedo imprimir mi factura
+- con que dato imprimo mi factura
+- con que dato imprimo mi recibo
+- consulta y generacion de factura
+- cuanto debo de mi factura
+- deseo generar mi factura
+- deseo generar mi {@Facturacion=recibo}
+- donde puedo imprimir mi factura
+- duplicado de factura
+- necesito el recibo de mi factura
+- necesito imprimir mi factura
+- necesito imprimir mi recibo
+- necesito pagar mi factura y no la tengo
+- necesito pagar mi factura y se me perdio
+- necesito pagar mi recibo y se me perdio
+- necesito un duplicado de la factura
+- puedo obtener un duplicado de la factura
+- quiero consultar mi factura
+- quiero consultar mi recibo
+- se me perdio mi factura como la puedo imprimir
+
+
+@ intent Consulta_y_generacion_de_factura usesFeature Factura
+
+# Consumo_facturado
+- a mi vecino la facturan por menor valor
+- agradezco se sirvan revisar el estado de facturaciòn, ya que se viene presentando un incremento injustificado
+- consumo facturado
+- errores de consumo
+- estoy en desacuerdo con mi factura
+- me están cobrando un consumo que no es
+- me llegó más cara mi factura
+- me llegó más caro mi recibo
+- me parece que me estan cobrando mas
+- mi factura ha aumentado
+- mi factura ha subido
+- mi recibo ha subido
+- no estoy de acuerdo con mi consumo
+- no he utilizado todo ese consumo o servicio
+- porque me están cobrando ese consumo
+- porque mi factura me llegó tan alta
+- porque tan cara mi factura
+- presento reclamo por el aumento desproporcionado en la factura
+- que paso con la facturacion del mes que llego con un valor muy alto
+- reclamo por exceso de cobro de la factura
+- solicito me expliquen porque se me promedio para la facturación del mes
+- solo cocino una vez al dia, porque me cobran tanto
+- tengo dudas con mi consumo
+- tengo un incremento en mi factura
+- valida tu consumo
+- yo casi no cocino, porque me cobran tanto consumo
+
+
+@ intent Consumo_facturado usesFeature Factura
+
+# Cupo_de_brilla
+- a donde me dirijo para un crédito con brilla
+- brilla de cupo
+- como hago para acceder a un credito de brilla
+- como hago para financiar con brilla
+- como puedo acceder al credito de brilla
+- como puedo consultar mi cupo brilla
+- como puedo obtener el credito brilla
+- cual es mi saldo de brilla
+- cuales son los requisitos para un credito brilla
+- cupo d brilla
+- cupo de brila
+- cupo de brilla
+- quiero consultar mi cupo brilla
+
+
+@ intent Cupo_de_brilla usesFeature Factura
+
+# Deuda_actual_y_diferida
+- consulta tu deuda total
+- cuál es mi deuda en
+- cuánto debo cancelar para pagar toda la financiación
+- cuánto debo de brilla
+- cuánto debo de mi diferido
+- cuánto debo de mi financiación
+- cuanto debo de saldo a capital
+- cuánto falta pagar por instalación
+- cuánto falta pagar por margen de promoción
+- cuánto falta pagar por obra civil
+- cuánto falta pagar por servicios adicionales
+- deuda actual y diferida
+- deuda diferida
+- necesito conocer cuanto es el saldo de mi deuda
+- necesito saber cuanto debo hasta hoy
+- por aquí puedo conocer el saldo de mi diferido
+- por aquí puedo conocer el saldo de mi financiacion
+- por aquí puedo saber cuánto debo de mi diferido
+- por aquí puedo saber cuánto debo de mi financiación
+- qué estoy debiendo de saldo a capital
+- quiero saber cual es el valor del saldo a capital
+
+
+@ intent Deuda_actual_y_diferida usesFeature Factura
+
+# Emergencias
+- ausencia de gas en el hogar
+- daño en la red
+- daño en la red de gas
+- emergencia
+- emergencias
+- explosion en el hogar
+- fuga dentro del hogar
+- incendio en el hogar
+- tengo un daño en la red de gas
+- tengo un daño en mi casa
+- tengo una emergencia
+- tengo una fuga de gas
+- tengo una fuga dentro del hogar
+
+
+@ intent Emergencias usesFeature Factura
+
+# Estado_de_solicitud_PQRs
+- estado de solicitud pqr
+- estado de solicitud pqrs
+- estado de solicitud sqr
+- estado pqr
+- estado sqr
+- solicitud pqr
+
+
+@ intent Estado_de_solicitud_PQRs usesFeature Factura
+
+# Estado_reconexion_por_pago
+- a que hora me realizan la reconexion
+- a que horas me reconectan el servicio
+- como hago para que me reconectene el servicio
+- consultar el estado de reconexión por pago
+- consultat estado reconexión por pago
+- cuando me realizan la reconexion del servicio
+- cuando me realizar la reconexion del servicio
+- cuando me reconectan
+- cuando me reconectan el servicio, como hago para cambiar el cable de la acometida
+- cuando me reconectan mi servicio
+- cuando me reconectan?
+- cuando me vuelven a reconectar el servicio
+- cuanto se demoran en reconectarme
+- estado reconexión pago
+- estado reconexión por pago
+- informacion reconexion
+- me suspendieron, cuando me reconectan el servicio
+- necesito reconectar el servicio
+- por que no me han hecho la reconexion
+- reconexion del servicio
+- reconexion desde el medidor
+- requiero la reconexion de mi servicio
+- ya pague como hago para que me reconecten
+- ya pague el servicio, me reconectan la energia ya mismo?
+
+
+@ intent Estado_reconexion_por_pago usesFeature Factura
+
+# Exencion_de_contribucion
+- como hago para ganarme al exencion de la contribución
+- como me pueden exonerar de la contribución
+- como me pueden exonerar de pagar la contribución
+- cuáles son los requisitos para la exención de contribución
+- exencion de la contribución
+- exento de la contribucion
+- exoneracion de pago de contribucion
+- ganarme la exencion de contribucion
+- no deseo pagar contribucion
+- no quiero pagar la contribucion
+- pago de contribucion
+- que debo hacer para no pagar la contribución
+- requisitos para la exención de contribución
+- soy una empresa que tiene derecho al no cobro de la contribución
+- soy una industria que no paga contribución
+- tengo derecho al no cobro de contribucion
+- yo no pago contribucion
+
+
+@ intent Exencion_de_contribucion usesFeature Factura
+
+# Fecha_proxima_revision_periodica
+- cuando es mi proxima revision
+- cuando sera la revision periodica
+- cuando sera mi proxima revision
+- cuando tendre mi revision periodica
+- en que fecha se hara mi revision periodica
+- fecha proxima revision periodica
+- fecha proxima revisión periódica
+- horario de mi revision
+- proxima revision
+
+
+@ intent Fecha_proxima_revision_periodica usesFeature Factura
+
+# Identidad_de_funcionario
+- como compruebo que la persona que esta en mi predio es empleado de ustedes
+- el señor con cedula xxx dice que viene de su empresa a realizar una revision
+- el señor xxx identificado con # si es de la empresa
+- el tecnico que esta en mi casa si pertenece a la empresa
+- esta una persona en mi casa y quiero saber si trabaja para ustedes
+- hay una persona en mi casa y dice que viene de la empresa
+- identidad de funcionario
+- necesito saber si una persona trabaja en gases de occidente
+- para saber si este funcionario pertenece a la empresa
+- para validar si el señor con cedula xxx trabaja con ustedes
+- quiero validar si esta persona trabaja con ustedes
+- tengo un a persona de quavii, para saber si es de la empresa
+
+
+@ intent Identidad_de_funcionario usesFeature Factura
+
+# Menu
+- cual es el menu
+- cual es el menú
+- deseo conocer el menu
+- deseo conocer el menú
+- deseo cononcer el menú
+- me puedes mostrar el menu
+- me puedes mostrar el menú
+- menu
+- menú
+- mostrar menu
+- mostrar menú
+- quiero ver el menu
+- quiero ver el menú
+
+
+@ intent Menu usesFeature Factura
+
+# None
+- empezar
+- quiero a todos ellos
+- quiero todos ellos
+- todos ellos
+
+
+@ intent None usesFeature Factura
+
+# Reject
+- ahora no
+- nada del otro mundo
+- negativo
+- no dejarlo
+- no en este momento
+- no es posible
+- no es que
+- no está mal
+- no exactamente
+- no más no
+- no me gusta
+- no muy
+- no no
+- no no gracias
+- no no que uno
+- no, gracias
+- no, yo no quiero que
+- rechazar
+
+
+@ intent Reject usesFeature Factura
+
+# Salir
+- necesito salir
+- puedo salir
+- quiero salir
+- salir
+
+
+@ intent Salir usesFeature Factura
+
+# Solicita_tu_cupon_de_pago_anticipado
+- adelantar pago de factura
+- adelantar pago de recibo
+- cupon anticipado
+- cupon pago anticipado
+- cupon prepago
+- deseo pagar anticipada mi factura
+- deseo pagar anticipado mi recibo
+- generar cupon para pago anticipado
+- generar recibo para un pago adelantado
+- necesito adelantar el pago de mi factura
+- necesito adelantar el pago de mi recibo
+- prepago factura
+- prepago recibo
+- quiero adelantar un pago
+- quiero hacer un prepago a mi factura
+- quiero hacer un prepago a mi recibo
+- quiero pagar por adelantado
+- solicita tu pago anticipado
+- un anticipo de mi factura
+- un anticipo de mi recibo
+
+
+@ intent Solicita_tu_cupon_de_pago_anticipado usesFeature Factura
+
+# Solicite_su_revision_periodica
+- como agendar mi solicitud periodica
+- como puedo solicitar mi revision periodica
+- necesito mi revision periodica
+- quiero agendar mi revision periodica
+- quiero solicitar mi revision periodica
+- quiero tener mi revision periodica
+- solicite su revision periodica
+
+
+@ intent Solicite_su_revision_periodica usesFeature Factura
+
+# Terminacion_de_contrato
+- como hago para quitar la red de mi local
+- como puedo terminar mi contrato
+- como retiro el gas de un local que ya no es mio
+- deseo terminar mi contrato
+- quiero cancelar mi contrato
+- terminacion de contrato
+- ya no quiero contrato con ustedes
+- ya no quiero el servicio
+- ya no quiero el servicio de energia
+
+
+@ intent Terminacion_de_contrato usesFeature Factura
+
+# Traslado_de_deuda_o_desmonte
+- compre el predio y no voy a pagar la deuda de brilla
+- inquilino se fue y dejo deuda brilla
+- la deuda no es mia
+- me voy de esta casa y quiero llevarme la deuda de brilla
+- pagar mi deuda en otra casa
+- puedo pagar mi deuda de gas en otra casa
+- puedo pagar mi deuda de gas en otro predio
+- puedo trasladar mi servicio
+- que debo hacer para trasladar la deuda de gas
+- que debo hacer para trasladar la deuda de mi red
+- que tengo que hacer para pagar mi credito en otra casa
+- quiero que me quiten ese crédito de brilla, no es mio
+- quiero trasladar mi deuda a otra factura
+- traslado de deuda
+
+
+@ intent Traslado_de_deuda_o_desmonte usesFeature Factura
+
+# Ultima_lectura
+- conocer mi ultima lectura
+- cual es la fecha de mi ultima lectura
+- cuando fue mi ultima toma de lectura
+- cuando vienen a tomar lectura a mi casa
+- el medidor registra una lectura diferente a la factura
+- en qué fecha tomaron la lectura en mi casa
+- fecha ultima lectura
+- mi lectura es diferente a la factura
+- quiero saber mi lectura
+- toma de lectura
+- ultima lectura
+
+
+@ intent Ultima_lectura usesFeature Factura
+
+# Utiliza_tu_cupo
+- brilla me puede prestar para
+- como hago para utilizar el cupo de brilla
+- como puedo financiar
+- como puedo usar el cupo brilla
+- como puedo utilizar el cupo brilla
+- puedo financiar con brilla
+- que debo hacer para financiar por brilla
+- quiero un crédito de brilla
+- sacar a credito con brilla
+- tengo cupo y quiero comprar un producto con brilla
+- utiliza tu cupo
+
+
+@ intent Utiliza_tu_cupo usesFeature Factura
+
+# Valor_fecha_limite_y_referencia_pago
+- aquí puedo saber el valor de mi factura y la feca limite
+- aquí puedo saber mi valor a pagar y la fecha limite de pago
+- cuál es el número de cupón
+- cual es el saldo actual de mi factura
+- cual es el saldo actual de mi recibo
+- cual es el valor de factura actual
+- cuál es el valor de mi ultimo pago
+- cuál es mi saldo pendiente por pagar
+- cuál fue el último valor cancelado
+- cuando es la fecha limite de pago de mi factura
+- cuando se vence mi factura
+- cuándo se vence mi factura
+- cuando vence mi factura
+- hasta cuando tengo plazo de pagar mi factura
+- necesito conocer el valor actual de mi factura
+- necesito conocer la fecha de pago de mi factura
+- necesito el código para pagar por internet
+- necesito el número de cupón para pagar
+- necesito la referencia de pago
+- por aquí me pueden dar informacion de cuando debo pagar mi factura
+- por aquí puedo conocer el valor de mi factura
+- qué valor debo de mi factura
+- se me perdio la factura y necesito pagar por aquí me pueden indicar el numero de cupon para pagar
+- se me perdio la factura y necesito pagar por aquí me pueden indicar la fecha de pago y el valor a pagar
+
+
+@ intent Valor_fecha_limite_y_referencia_pago usesFeature Factura
+
+# Visita_de_financiacion_no_bancaria
+- visita de financiacion no bancaria
+
+
+@ intent Visita_de_financiacion_no_bancaria usesFeature Factura
+
+> # Entity definitions
+
+@ ml DirectionalReference usesFeature Factura
+
+@ ml Facturacion usesFeature Factura
+
+
+> # PREBUILT Entity definitions
+
+@ prebuilt number
+
+@ prebuilt ordinal
+
+
+> # Phrase list definitions
+
+@ phraselist Factura(interchangeable) enabledForAllModels = 
+	- factura,cupon,facturas,facturacion,recibo
+
+
+> # List entities
+
+@ list FacturaciónYpagos
+
+> # RegEx entities
+
+
+> # Pattern.Any entities
+
+@ patternany PersonName.Any

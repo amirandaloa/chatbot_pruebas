@@ -1,0 +1,28 @@
+Utterance	Intents
+prepago factura	l_General, q_Chitchat
+por que subio la tarifa de energia	q_Chitchat, q_Faq
+comprar seguro de vida con brilla	l_General, q_Chitchat
+deseo adquirir un seguro	l_General, q_Chitchat
+tengo un seguro en mi factura y necesito hacerlo efectivo	q_Chitchat, q_Faq
+a que lugar puedo ir para comprar un producto de brilla	q_Chitchat, q_Faq
+imprimir estado de cuenta	l_General, q_Chitchat
+me llegó más cara mi factura	l_General, q_Chitchat
+cuando se vence mi factura	l_General, q_Chitchat
+cuando vienen a realizar mi servicio	q_Chitchat, q_Faq
+catalogo de servicios brilla	q_Chitchat, q_Faq
+requieren realizar mantenimiento al medidor	q_Chitchat, q_Faq
+quien debe pagar la revision periodica	q_Chitchat, q_Faq
+que debo hacer para que no me llegue el cobro de seguro	q_Chitchat, q_Faq
+que productos y o electrodomesticos puedo sacar con el cupo brilla	q_Chitchat, q_Faq
+puntos de pago	q_Chitchat, q_Faq
+porque me cobran esto	q_Chitchat, q_Faq
+quiero un credito de brilla	q_Chitchat, q_Faq
+en cuanto tiempo me dan la respuesta al reclamo	q_Chitchat, q_Faq
+cual es el saldo actual de mi factura	l_General, q_Chitchat
+quiero que me explique el valor que aparece en los conceptos de mi recibo de energia	q_Chitchat, q_Faq
+cuando sera mi proxima revision	l_General, q_Chitchat
+los productos tienen garantia	q_Chitchat, q_Faq
+donde puedo adquirir un seguro con brilla	l_General, q_Chitchat
+que debo hacer para financiar por brilla	l_General, q_Chitchat, q_Faq
+quiero cancelar un seguro que aparece en mi factura	q_Chitchat, q_Faq
+que documentos debo traer para solicita cancelacion de poliza	q_Chitchat, q_Faq
